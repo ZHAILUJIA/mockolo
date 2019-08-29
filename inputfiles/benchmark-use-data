@@ -1,0 +1,15 @@
+Start...
+["Process input mock files..."]
+["Took", 7.215633034706116]
+["Process source files and generate an annotated/protocol map..."]
+["Took", 1.311911940574646]
+["Resolve inheritance and generate unique entity models..."]
+["Took", 0.33214807510375977]
+["Render models with templates..."]
+["Took", 0.045262932777404785]
+["Write the mock results and import lines to", "/Users/ellieshin/Developer/misc/mockolo/inputfiles/result.swift"]
+["Took", 0.8680590391159058]
+["TOTAL", 9.773015022277832]
+["#Protocols = 341, #Annotated protocols = 221, #Parent mock classes = 9251, #Final mock classes = 221, File LoC = 21083"]
+["Done. Exiting program."]
+Program ended with exit code: 0
