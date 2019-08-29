@@ -13,3 +13,44 @@ Start...
 ["#Protocols = 341, #Annotated protocols = 221, #Parent mock classes = 9251, #Final mock classes = 221, File LoC = 21083"]
 ["Done. Exiting program."]
 Program ended with exit code: 0
+
+
+Start...
+["Process input mock files..."]
+["Took", 7.36385190486908]
+["Process source files and generate an annotated/protocol map..."]
+["Took", 1.1810370683670044]
+["Resolve inheritance and generate unique entity models..."]
+["Took", 0.4817979335784912]
+["Render models with templates..."]
+["Took", 0.03738105297088623]
+["Write the mock results and import lines to", "/Users/ellieshin/Developer/misc/mockolo/inputfiles/result.swift"]
+["Took", 0.46954894065856934]
+["TOTAL", 9.53361690044403]
+["#Protocols = 341, #Annotated protocols = 221, #Parent mock classes = 9251, #Final mock classes = 221, File LoC = 21083"]
+["Done. Exiting program."]
+Program ended with exit code: 0
+
+
+[RELEASE]
+Start...
+["Process input mock files..."]
+["Took", 4.177887916564941]
+["Process source files and generate an annotated/protocol map..."]
+["Took", 0.8820480108261108]
+["Resolve inheritance and generate unique entity models..."]
+["Took", 0.1902329921722412]
+["Render models with templates..."]
+["Took", 0.033959031105041504]
+["Write the mock results and import lines to", "/Users/ellieshin/Developer/misc/mockolo/inputfiles/result.swift"]
+["Took", 0.626507043838501]
+["TOTAL", 5.910634994506836]
+["#Protocols = 341, #Annotated protocols = 221, #Parent mock classes = 9251, #Final mock classes = 221, File LoC = 21083"]
+["Done. Exiting program."]
+Program ended with exit code: 0
+
+
+Total 10.35s
+All the index/count call is gone now. 
+
+
