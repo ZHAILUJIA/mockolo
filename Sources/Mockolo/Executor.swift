@@ -181,14 +181,58 @@ class Executor {
         let output = "/Users/ellieshin/Developer/misc/mockolo/inputfiles/result.swift"
         let mockfile = "/Users/ellieshin/Developer/misc/mockolo/inputfiles/mockinputfile.txt"
         let text = try? String(contentsOfFile: mockfile, encoding: String.Encoding.utf8)
-        let mockpaths = text?.components(separatedBy: " ")
+        if let mockpaths = text?.components(separatedBy: " ") {
+            print(mockpaths.count)
+            var loc = 0
+            for m in mockpaths {
+                let x = try? String(contentsOfFile: m)
+                let y = x?.components(separatedBy: "\n").count ?? 0
+                loc += y
+            }
+            print(loc)
+                
+            
+            
+            cmp()
+            
+            
+            prop(mockpaths)
+            
+            regex(mockpaths)
+            
+            
+            use(mockpaths, split: false)
+            use(mockpaths, split: true)
+            /*
+             229
+             711882
 
-        
+             10K calls
+            Total: delta 0.22229266166687012 len 1398740 #Split calls 0 #Comp calls 254739
+            Ave: delta 8.726290896441853e-07 len 5
+            Total: delta 0.14774572849273682 len 1398740 #Split calls 115015 #Comp calls 1
+            Ave: delta 1.284577911513601e-06 len 12
+             
+             
+             
+             20K calls
+             Total: delta 4.499397039413452 len 26509700 #Split calls 0 #Comp calls 5330620
+             Ave: delta 8.440663636525305e-07 len 4
+             Total: delta 2.75741183757782 len 26509700 #Split calls 2411009 #Comp calls 1
+             Ave: delta 1.1436754643295897e-06 len 10
+
+             */
+
+            useData(mockpaths)
+
+            useString(mockpaths)
+        }
+
                do {
                    try generate(sourceDirs: srcdirs,
                                 sourceFiles: nil,
                                 exclusionSuffixes: exlist,
-                                mockFilePaths: mockpaths,
+                                mockFilePaths: nil,// mockpaths,
                                 annotatedOnly: false,
                                 annotation: "@CreateMock",
                                 header: "",

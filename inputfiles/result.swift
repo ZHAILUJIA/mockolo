@@ -4,287 +4,86 @@
 
 
 
-import ARKit
-import AVFoundation
-import AVKit
-import AbstractClassFoundation
-import Accelerators
-import AdSupport
 import AddressBook
-import Adyen3DS2
-import AlternativeTrip
 import AppSharedProtocols
-import AudioCore
-import AudioNonCore
-import AudioRecording
-import AudioToolbox
 import Audit
-import AuditRider
-import AugmentedReality
-import AugmentedRealityRider
 import Authentication
 import AuthenticationRider
-import Box
-import BraintreePayPal
-import BraintreeVenmo
 import BugReporter
 import BugReporterCore
 import BugReporterExperience
-import Camera
-import CardIO
-import CardScan
-import ChatWidget
-import CobrandCard
 import CommunicationBanner
 import Concurrency
 import ContactPicker
 import Contacts
-import ContactsObjc
-import ContactsUIObjc
-import ContextualImagery
-import ConversationalAiCore
-import ConversationalAiGRPC
-import CoreGraphics
-import CoreImage
 import CoreLocation
-import CoreMotion
-import CoreNFC
-import CoreServices
 import CoreShared
-import Credits
-import CryptoObjc
-import DashcamInformation
 import DefaultStoreRegistry
-import DeviceCheck
-import DeviceInspection
-import DeviceUtil
 import DifferenceKit
-import DirectedDispatch
-import Dispatch
-import Dispatching
-import DriverOnboarding
-import DriverOnboardingLegacyObjc
-import DriverOnboardingWeb
-import EMobility
-import EMobilityRider
-import EMobilityShared
-import EaterOnboarding
-import EatsTutorial
-import EmergencyAssistance
-import ExperimentOverrides
 import Experimentation
 import ExperimentsObjc
-import FacebookZero
-import Family
-import Favorites
-import FeatureHealth
 import FeatureMonitor
 import Feed
-import FeedCards
-import FlowFramework
-import FormsDeprecatedObjc
 import Foundation
 import FraudLegacyObjc
 import Freddy
-import Gift
-import GiveGet
-import GuestRequest
 import Healthline
 import HelixUI
-import Help
-import HelpChat
 import Home
 import HubMessaging
-import HubMessagingRider
-import IdentityConfig
-import Image
 import Intercom
-import KSCrash
-import LearningTopic
-import Legal
-import LocalNotifications
 import LocationEditor
-import LocationEditorNonCore
 import LocationObjc
 import LocationServicesCore
-import LocationServicesNonCore
-import Lottie
-import MXLCalendarManagerSwift
-import MainWorker
-import MapDisplayAPI
-import MapKit
-import MediaPlayer
 import Menu
-import MessageUI
-import MobileStudio
-import MobileStudioHelix
-import MobileStudioSharedPlugins
-import Mode
-import ModeSwitcher
-import MotionStash
-import MultipleDestination
 import NeedleFoundation
 import NetworkOrchestratorObjc
 import NetworkingObjc
-import OSAtomicObjcWrappers
 import Octopus
-import Pass
-import PassKit
-import PayPalDataCollector
-import PaymentFeature
 import PaymentFoundation
-import PaymentProviderApplePay
-import PaymentProviderBankAccount
-import PaymentProviderBraintree
-import PaymentProviderCash
-import PaymentProviderGiftCard
-import PaymentProviderPaypalVZero
-import PaymentProviderPaytm
-import PaymentProviderStoredValue
-import PaymentProviderVenmo
-import PaymentProviderZaakpay
-import PaymentRewardAmex
-import PaymentRewardCommuterBenefits
-import PaymentRewards
 import PerformanceConfigObjc
-import PerformanceMetricsObjc
 import PerformanceSDKObjc
 import PermissionManagerCamera
 import PermissionManagerContacts
 import PermissionManagerPhotoLibrary
-import Permissions
-import PhotoFlow
-import PhotoFlowObjc
-import Pickup
 import PlaceCache
 import PlaceCacheObjc
 import PlatformUI
-import PluginShared
-import PlusOne
-import Pool
-import Premium
 import Presidio
 import PresidioFoundation
-import PresidioMapsFoundation
 import PresidioUtilities
 import Pricing
 import PricingRider
-import Profile
-import ProfileApp
-import Promotion
-import QRScanner
-import QuartzCore
 import RamenObjc
-import Rating
 import ReachabilityObjc
 import Realtime
 import RealtimeAudit
 import RealtimeAuthentication
 import RealtimeCommunicationBanner
-import RealtimeConversationalAi
-import RealtimeEMobility
-import RealtimeHubMessaging
-import RealtimeIntercom
-import RealtimeLearning
 import RealtimePayment
-import RealtimePolaris
-import RealtimePremium
-import RealtimePresidio
-import RealtimeProfile
-import RealtimeReceipt
-import RealtimeRewards
 import RealtimeRider
-import RealtimeRiderFavorites
 import RealtimeSafety
-import RealtimeScreenflow
-import RealtimeServiceObjc
-import RealtimeSocialProfiles
-import RealtimeWallet
-import ReceiptFeature
 import RequestCore
-import RequestNonCore
 import Rewards
-import RewardsRider
-import RideAndSave
 import RiderAnimation
-import RiderContact
-import RiderCredits
-import RiderEducation
-import RiderHelp
-import RiderIdentityVerification
 import RiderIntegration
 import RiderMapKit
 import RiderMaps
-import RiderNetworking
-import RiderPayment
-import RiderRisk
-import RiderWallet
-import Risk
-import RootWorkflow
-import RxBlocking
 import RxCocoa
 import RxOptional
 import RxSwift
-import SafariServices
-import Safety
-import SafetyToolkitBase
-import SceneKit
-import ScheduledRides
 import Screenflow
-import ScreenflowSDK
-import SelfDriving
 import SessionManagerObjc
-import SharedMaps
 import SharedUI
-import SingleSignOn
 import SnapKit
-import SocialAuth
-import SocialProfiles
-import SocialProfilesRider
-import SocialProfilesUIObjc
 import StateManagement
 import Storage
-import StoreKit
-import Survey
 import Swift
-import SwiftProtobuf
-import TensorFlowWrapper
 import ThemesHelix
-import Tokenizer
-import TokenizerCoreObjc
-import TrainingWheels
-import TransactionHistory
-import Transit
-import TripDetailsCards
-import TripFareRow
-import TripInstructions
-import TripModal
-import TripShare
-import TripStatusTracker
-import TripTime
 import UIKit
-import USnap
-import UberAir
 import UberPreferences
-import Ultrasound
-import UltrasoundHelix
 import UnifiedReportingObjc
-import UpdateMobile
-import Upgrade
 import UserAccount
-import UserAccount //
-import UserIdentityFlow
-import UserNotifications
-import UtilitiesLegacyObjc
-import Venue
-import VisaRewards
-import VoIP
-import Wallet
-import Web
-import WebKit
-import WebLoginUIObjc
-import class PresidioFoundation.DispatchQueue
-import os.signpost
 
 
 class MutableSelectedProductLeadingButtonStreamingMock: MutableSelectedProductLeadingButtonStreaming {
@@ -345,10 +144,9 @@ class MutableSelectedProductLeadingButtonStreamingMock: MutableSelectedProductLe
 class ConfirmationAlertInteractableMock: ConfirmationAlertInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -362,80 +160,14 @@ class ConfirmationAlertInteractableMock: ConfirmationAlertInteractable {
             routerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
 }
 
 class OutOfCoverageInteractableMock: OutOfCoverageInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -449,79 +181,14 @@ class OutOfCoverageInteractableMock: OutOfCoverageInteractable {
             routerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
 }
 
 class BaseRequestErrorHandlerViewControllableMock: BaseRequestErrorHandlerViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -535,26 +202,14 @@ class BaseRequestErrorHandlerViewControllableMock: BaseRequestErrorHandlerViewCo
             listenerSetCallCount += 1
         }
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
 }
 
 class MutableProductSelectionStateStreamingMock: MutableProductSelectionStateStreaming {
 
     
     init() {}
-    init(currentState: ProductSelectionState, productSelectionState: Observable<ProductSelectionState> = PublishSubject()) {
+    init(currentState: ProductSelectionState) {
         self.currentState = currentState
-        self.productSelectionState = productSelectionState
     }
         
     var updateCallCount = 0
@@ -579,49 +234,14 @@ class MutableProductSelectionStateStreamingMock: MutableProductSelectionStateStr
             currentStateSetCallCount += 1
         }
     }
-private var productSelectionStateSubjectKind = 0
-var productSelectionStateSubjectSetCallCount = 0
-var productSelectionStateSubject = PublishSubject<ProductSelectionState>() { didSet { productSelectionStateSubjectSetCallCount += 1 } }
-var productSelectionStateReplaySubject = ReplaySubject<ProductSelectionState>.create(bufferSize: 1) { didSet { productSelectionStateSubjectSetCallCount += 1 } }
-var productSelectionStateBehaviorSubject: BehaviorSubject<ProductSelectionState>! { didSet { productSelectionStateSubjectSetCallCount += 1 } }
-var productSelectionStateRxSubject: Observable<ProductSelectionState>! { didSet { productSelectionStateSubjectSetCallCount += 1 } }
-public var productSelectionState: Observable<ProductSelectionState> {
-        get {
-            if productSelectionStateSubjectKind == 0 {
-                return productSelectionStateSubject
-            } else if productSelectionStateSubjectKind == 1 {
-                return productSelectionStateBehaviorSubject
-            } else if productSelectionStateSubjectKind == 2 {
-                return productSelectionStateReplaySubject
-            } else {
-                return productSelectionStateRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ProductSelectionState> {
-                productSelectionStateSubject = val
-                productSelectionStateSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ProductSelectionState> {
-                productSelectionStateBehaviorSubject = val
-                productSelectionStateSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ProductSelectionState> {
-                productSelectionStateReplaySubject = val
-                productSelectionStateSubjectKind = 2
-            } else {
-                productSelectionStateRxSubject = newValue
-                productSelectionStateSubjectKind = 3
-            }
-        }
-    }
 }
 
 class ProductSelectionInteractableMock: ProductSelectionInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -647,79 +267,14 @@ class ProductSelectionInteractableMock: ProductSelectionInteractable {
             productSelectionListenerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
 }
 
 public class MutableNoGPSExperienceCanShowCenterMeStreamingMock: MutableNoGPSExperienceCanShowCenterMeStreaming {
 
     
-    public init() {}
-    public init(canShow: Observable<Bool> = PublishSubject()) {
-        self.canShow = canShow
+
+    public init() {
+
     }
         
     var updateCallCount = 0
@@ -731,40 +286,6 @@ public class MutableNoGPSExperienceCanShowCenterMeStreamingMock: MutableNoGPSExp
             updateHandler(canShow)
         }
         
-    }
-private var canShowSubjectKind = 0
-var canShowSubjectSetCallCount = 0
-var canShowSubject = PublishSubject<Bool>() { didSet { canShowSubjectSetCallCount += 1 } }
-var canShowReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { canShowSubjectSetCallCount += 1 } }
-var canShowBehaviorSubject: BehaviorSubject<Bool>! { didSet { canShowSubjectSetCallCount += 1 } }
-var canShowRxSubject: Observable<Bool>! { didSet { canShowSubjectSetCallCount += 1 } }
-public var canShow: Observable<Bool> {
-        get {
-            if canShowSubjectKind == 0 {
-                return canShowSubject
-            } else if canShowSubjectKind == 1 {
-                return canShowBehaviorSubject
-            } else if canShowSubjectKind == 2 {
-                return canShowReplaySubject
-            } else {
-                return canShowRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                canShowSubject = val
-                canShowSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                canShowBehaviorSubject = val
-                canShowSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                canShowReplaySubject = val
-                canShowSubjectKind = 2
-            } else {
-                canShowRxSubject = newValue
-                canShowSubjectKind = 3
-            }
-        }
     }
 }
 
@@ -870,11 +391,9 @@ public class SelectedProductPackageStreamingMock: SelectedProductPackageStreamin
 class MutableCardCollectionViewStreamingMock: MutableCardCollectionViewStreaming {
 
     
-    init() {}
-    init(percentExpanded: Observable<CGFloat> = PublishSubject(), cardsAreVisibleInBottomNonSafeArea: Observable<Bool> = PublishSubject(), didScroll: Observable<()> = PublishSubject()) {
-        self.percentExpanded = percentExpanded
-        self.cardsAreVisibleInBottomNonSafeArea = cardsAreVisibleInBottomNonSafeArea
-        self.didScroll = didScroll
+
+    init() {
+
     }
         
     var updateCallCount = 0
@@ -909,117 +428,14 @@ class MutableCardCollectionViewStreamingMock: MutableCardCollectionViewStreaming
         }
         
     }
-private var percentExpandedSubjectKind = 0
-var percentExpandedSubjectSetCallCount = 0
-var percentExpandedSubject = PublishSubject<CGFloat>() { didSet { percentExpandedSubjectSetCallCount += 1 } }
-var percentExpandedReplaySubject = ReplaySubject<CGFloat>.create(bufferSize: 1) { didSet { percentExpandedSubjectSetCallCount += 1 } }
-var percentExpandedBehaviorSubject: BehaviorSubject<CGFloat>! { didSet { percentExpandedSubjectSetCallCount += 1 } }
-var percentExpandedRxSubject: Observable<CGFloat>! { didSet { percentExpandedSubjectSetCallCount += 1 } }
-public var percentExpanded: Observable<CGFloat> {
-        get {
-            if percentExpandedSubjectKind == 0 {
-                return percentExpandedSubject
-            } else if percentExpandedSubjectKind == 1 {
-                return percentExpandedBehaviorSubject
-            } else if percentExpandedSubjectKind == 2 {
-                return percentExpandedReplaySubject
-            } else {
-                return percentExpandedRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<CGFloat> {
-                percentExpandedSubject = val
-                percentExpandedSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<CGFloat> {
-                percentExpandedBehaviorSubject = val
-                percentExpandedSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<CGFloat> {
-                percentExpandedReplaySubject = val
-                percentExpandedSubjectKind = 2
-            } else {
-                percentExpandedRxSubject = newValue
-                percentExpandedSubjectKind = 3
-            }
-        }
-    }
-private var cardsAreVisibleInBottomNonSafeAreaSubjectKind = 0
-var cardsAreVisibleInBottomNonSafeAreaSubjectSetCallCount = 0
-var cardsAreVisibleInBottomNonSafeAreaSubject = PublishSubject<Bool>() { didSet { cardsAreVisibleInBottomNonSafeAreaSubjectSetCallCount += 1 } }
-var cardsAreVisibleInBottomNonSafeAreaReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { cardsAreVisibleInBottomNonSafeAreaSubjectSetCallCount += 1 } }
-var cardsAreVisibleInBottomNonSafeAreaBehaviorSubject: BehaviorSubject<Bool>! { didSet { cardsAreVisibleInBottomNonSafeAreaSubjectSetCallCount += 1 } }
-var cardsAreVisibleInBottomNonSafeAreaRxSubject: Observable<Bool>! { didSet { cardsAreVisibleInBottomNonSafeAreaSubjectSetCallCount += 1 } }
-public var cardsAreVisibleInBottomNonSafeArea: Observable<Bool> {
-        get {
-            if cardsAreVisibleInBottomNonSafeAreaSubjectKind == 0 {
-                return cardsAreVisibleInBottomNonSafeAreaSubject
-            } else if cardsAreVisibleInBottomNonSafeAreaSubjectKind == 1 {
-                return cardsAreVisibleInBottomNonSafeAreaBehaviorSubject
-            } else if cardsAreVisibleInBottomNonSafeAreaSubjectKind == 2 {
-                return cardsAreVisibleInBottomNonSafeAreaReplaySubject
-            } else {
-                return cardsAreVisibleInBottomNonSafeAreaRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                cardsAreVisibleInBottomNonSafeAreaSubject = val
-                cardsAreVisibleInBottomNonSafeAreaSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                cardsAreVisibleInBottomNonSafeAreaBehaviorSubject = val
-                cardsAreVisibleInBottomNonSafeAreaSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                cardsAreVisibleInBottomNonSafeAreaReplaySubject = val
-                cardsAreVisibleInBottomNonSafeAreaSubjectKind = 2
-            } else {
-                cardsAreVisibleInBottomNonSafeAreaRxSubject = newValue
-                cardsAreVisibleInBottomNonSafeAreaSubjectKind = 3
-            }
-        }
-    }
-private var didScrollSubjectKind = 0
-var didScrollSubjectSetCallCount = 0
-var didScrollSubject = PublishSubject<()>() { didSet { didScrollSubjectSetCallCount += 1 } }
-var didScrollReplaySubject = ReplaySubject<()>.create(bufferSize: 1) { didSet { didScrollSubjectSetCallCount += 1 } }
-var didScrollBehaviorSubject: BehaviorSubject<()>! { didSet { didScrollSubjectSetCallCount += 1 } }
-var didScrollRxSubject: Observable<()>! { didSet { didScrollSubjectSetCallCount += 1 } }
-public var didScroll: Observable<()> {
-        get {
-            if didScrollSubjectKind == 0 {
-                return didScrollSubject
-            } else if didScrollSubjectKind == 1 {
-                return didScrollBehaviorSubject
-            } else if didScrollSubjectKind == 2 {
-                return didScrollReplaySubject
-            } else {
-                return didScrollRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<()> {
-                didScrollSubject = val
-                didScrollSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<()> {
-                didScrollBehaviorSubject = val
-                didScrollSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<()> {
-                didScrollReplaySubject = val
-                didScrollSubjectKind = 2
-            } else {
-                didScrollRxSubject = newValue
-                didScrollSubjectKind = 3
-            }
-        }
-    }
 }
 
 class SelectedProductConfigurationInteractableMock: SelectedProductConfigurationInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -1045,113 +461,14 @@ class SelectedProductConfigurationInteractableMock: SelectedProductConfiguration
             listenerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var rowDidChangeCallCount = 0
-public var rowDidChangeHandler: ((ProductConfigurationRowData, ProductConfigurationRowChangeEvent) -> ())?
-public func rowDidChange(rowData: ProductConfigurationRowData, event: ProductConfigurationRowChangeEvent)  {
-        rowDidChangeCallCount += 1
-    
-        if let rowDidChangeHandler = rowDidChangeHandler {
-            rowDidChangeHandler(rowData, event)
-        }
-        
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var attachConfigurationChildCallCount = 0
-public var attachConfigurationChildHandler: ((ViewableRouting) -> ())?
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func attachConfigurationChild(router: ViewableRouting)  {
-        attachConfigurationChildCallCount += 1
-    
-        if let attachConfigurationChildHandler = attachConfigurationChildHandler {
-            attachConfigurationChildHandler(router)
-        }
-        
-    }
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var detachConfigurationChildCallCount = 0
-public var detachConfigurationChildHandler: (() -> ())?
-public func detachConfigurationChild()  {
-        detachConfigurationChildCallCount += 1
-    
-        if let detachConfigurationChildHandler = detachConfigurationChildHandler {
-            detachConfigurationChildHandler()
-        }
-        
-    }
 }
 
 class OutOfCoverageRoutingMock: OutOfCoverageRouting {
 
     
     init() {}
-    init(viewController: OutOfCoverageViewControllable = OutOfCoverageViewControllableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(viewController: OutOfCoverageViewControllable = OutOfCoverageViewControllableMock()) {
         self.viewController = viewController
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var viewControllerSetCallCount = 0
@@ -1165,112 +482,14 @@ class OutOfCoverageRoutingMock: OutOfCoverageRouting {
             viewControllerSetCallCount += 1
         }
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class ProductSelectionInteractableV2Mock: ProductSelectionInteractableV2 {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -1295,71 +514,6 @@ class ProductSelectionInteractableV2Mock: ProductSelectionInteractableV2 {
             underlyingListener = newValue
             listenerSetCallCount += 1
         }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
     }
 }
 
@@ -1411,9 +565,8 @@ class MutableConfirmationStateStreamingMock: MutableConfirmationStateStreaming {
 
     
     init() {}
-    init(currentState: ConfirmationState, confirmationState: Observable<ConfirmationState> = PublishSubject()) {
+    init(currentState: ConfirmationState) {
         self.currentState = currentState
-        self.confirmationState = confirmationState
     }
         
     var updateCallCount = 0
@@ -1438,49 +591,14 @@ class MutableConfirmationStateStreamingMock: MutableConfirmationStateStreaming {
             currentStateSetCallCount += 1
         }
     }
-private var confirmationStateSubjectKind = 0
-var confirmationStateSubjectSetCallCount = 0
-var confirmationStateSubject = PublishSubject<ConfirmationState>() { didSet { confirmationStateSubjectSetCallCount += 1 } }
-var confirmationStateReplaySubject = ReplaySubject<ConfirmationState>.create(bufferSize: 1) { didSet { confirmationStateSubjectSetCallCount += 1 } }
-var confirmationStateBehaviorSubject: BehaviorSubject<ConfirmationState>! { didSet { confirmationStateSubjectSetCallCount += 1 } }
-var confirmationStateRxSubject: Observable<ConfirmationState>! { didSet { confirmationStateSubjectSetCallCount += 1 } }
-public var confirmationState: Observable<ConfirmationState> {
-        get {
-            if confirmationStateSubjectKind == 0 {
-                return confirmationStateSubject
-            } else if confirmationStateSubjectKind == 1 {
-                return confirmationStateBehaviorSubject
-            } else if confirmationStateSubjectKind == 2 {
-                return confirmationStateReplaySubject
-            } else {
-                return confirmationStateRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ConfirmationState> {
-                confirmationStateSubject = val
-                confirmationStateSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ConfirmationState> {
-                confirmationStateBehaviorSubject = val
-                confirmationStateSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ConfirmationState> {
-                confirmationStateReplaySubject = val
-                confirmationStateSubjectKind = 2
-            } else {
-                confirmationStateRxSubject = newValue
-                confirmationStateSubjectKind = 3
-            }
-        }
-    }
 }
 
 class ModeInteractableMock: ModeInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -1506,139 +624,14 @@ class ModeInteractableMock: ModeInteractable {
             listenerSetCallCount += 1
         }
     }
-var willAttachCallCount = 0
-public var willAttachHandler: ((Routing) -> ())?
-public func willAttach(router: Routing)  {
-        willAttachCallCount += 1
-    
-        if let willAttachHandler = willAttachHandler {
-            willAttachHandler(router)
-        }
-        
-    }
-var didAttachCallCount = 0
-public var didAttachHandler: ((Routing) -> ())?
-public func didAttach(router: Routing)  {
-        didAttachCallCount += 1
-    
-        if let didAttachHandler = didAttachHandler {
-            didAttachHandler(router)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var showModeNavigationCallCount = 0
-public var showModeNavigationHandler: (() -> ())?
-public func showModeNavigation()  {
-        showModeNavigationCallCount += 1
-    
-        if let showModeNavigationHandler = showModeNavigationHandler {
-            showModeNavigationHandler()
-        }
-        
-    }
-var hideModeNavigationCallCount = 0
-public var hideModeNavigationHandler: (() -> ())?
-public func hideModeNavigation()  {
-        hideModeNavigationCallCount += 1
-    
-        if let hideModeNavigationHandler = hideModeNavigationHandler {
-            hideModeNavigationHandler()
-        }
-        
-    }
-var didInitiateMenuOpenCallCount = 0
-public var didInitiateMenuOpenHandler: (() -> ())?
-public func didInitiateMenuOpen()  {
-        didInitiateMenuOpenCallCount += 1
-    
-        if let didInitiateMenuOpenHandler = didInitiateMenuOpenHandler {
-            didInitiateMenuOpenHandler()
-        }
-        
-    }
-var didInitiateMenuItemCloseCallCount = 0
-public var didInitiateMenuItemCloseHandler: (() -> ())?
-public func didInitiateMenuItemClose()  {
-        didInitiateMenuItemCloseCallCount += 1
-    
-        if let didInitiateMenuItemCloseHandler = didInitiateMenuItemCloseHandler {
-            didInitiateMenuItemCloseHandler()
-        }
-        
-    }
 }
 
 public class MutableConfirmationNextStepStreamingMock: MutableConfirmationNextStepStreaming {
 
     
-    public init() {}
-    public init(nextStep: Observable<ConfirmationNextStep> = PublishSubject()) {
-        self.nextStep = nextStep
+
+    public init() {
+
     }
         
     var updateCallCount = 0
@@ -1651,49 +644,14 @@ public class MutableConfirmationNextStepStreamingMock: MutableConfirmationNextSt
         }
         
     }
-private var nextStepSubjectKind = 0
-var nextStepSubjectSetCallCount = 0
-var nextStepSubject = PublishSubject<ConfirmationNextStep>() { didSet { nextStepSubjectSetCallCount += 1 } }
-var nextStepReplaySubject = ReplaySubject<ConfirmationNextStep>.create(bufferSize: 1) { didSet { nextStepSubjectSetCallCount += 1 } }
-var nextStepBehaviorSubject: BehaviorSubject<ConfirmationNextStep>! { didSet { nextStepSubjectSetCallCount += 1 } }
-var nextStepRxSubject: Observable<ConfirmationNextStep>! { didSet { nextStepSubjectSetCallCount += 1 } }
-public var nextStep: Observable<ConfirmationNextStep> {
-        get {
-            if nextStepSubjectKind == 0 {
-                return nextStepSubject
-            } else if nextStepSubjectKind == 1 {
-                return nextStepBehaviorSubject
-            } else if nextStepSubjectKind == 2 {
-                return nextStepReplaySubject
-            } else {
-                return nextStepRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ConfirmationNextStep> {
-                nextStepSubject = val
-                nextStepSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ConfirmationNextStep> {
-                nextStepBehaviorSubject = val
-                nextStepSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ConfirmationNextStep> {
-                nextStepReplaySubject = val
-                nextStepSubjectKind = 2
-            } else {
-                nextStepRxSubject = newValue
-                nextStepSubjectKind = 3
-            }
-        }
-    }
 }
 
 class BaseRequestErrorHandlerInteractableMock: BaseRequestErrorHandlerInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -1706,82 +664,6 @@ class BaseRequestErrorHandlerInteractableMock: BaseRequestErrorHandlerInteractab
             underlyingRouter = newValue
             routerSetCallCount += 1
         }
-    }
-var requestErrorHandlerListenerSetCallCount = 0
-var underlyingRequestErrorHandlerListener: RequestErrorHandlerListener? = nil
-public var requestErrorHandlerListener: RequestErrorHandlerListener? {
-        get {
-            return underlyingRequestErrorHandlerListener
-        }
-        set {
-            underlyingRequestErrorHandlerListener = newValue
-            requestErrorHandlerListenerSetCallCount += 1
-        }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
     }
 }
 
@@ -1817,35 +699,14 @@ class MenuCellBadgingMock: MenuCellBadging {
             badgeViewSetCallCount += 1
         }
     }
-var registerCustomEventCallCount = 0
-public var registerCustomEventHandler: ((AnalyticsID, AnalyticsMetadata?) -> ())?
-public func registerCustomEvent(_ name: AnalyticsID, value: AnalyticsMetadata?)  {
-        registerCustomEventCallCount += 1
-    
-        if let registerCustomEventHandler = registerCustomEventHandler {
-            registerCustomEventHandler(name, value)
-        }
-        
-    }
-var registerEventCallCount = 0
-public var registerEventHandler: ((AnalyticsID, EventType, AnalyticsMetadata?) -> ())?
-public func registerEvent(_ name: AnalyticsID, type: EventType, value: AnalyticsMetadata?)  {
-        registerEventCallCount += 1
-    
-        if let registerEventHandler = registerEventHandler {
-            registerEventHandler(name, type, value)
-        }
-        
-    }
 }
 
 class DestinationPromptInteractableMock: DestinationPromptInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -1871,100 +732,14 @@ class DestinationPromptInteractableMock: DestinationPromptInteractable {
             listenerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var wantDestinationCallCount = 0
-public var wantDestinationHandler: (() -> ())?
-public func wantDestination()  {
-        wantDestinationCallCount += 1
-    
-        if let wantDestinationHandler = wantDestinationHandler {
-            wantDestinationHandler()
-        }
-        
-    }
-var waitForScheduledRidesCallCount = 0
-public var waitForScheduledRidesHandler: (() -> (Observable<(ScheduledRidesDestinationEntryAccessoryActionableItem, ())>))?
-public func waitForScheduledRides() -> Observable<(ScheduledRidesDestinationEntryAccessoryActionableItem, ())> {
-        waitForScheduledRidesCallCount += 1
-    
-        if let waitForScheduledRidesHandler = waitForScheduledRidesHandler {
-            return waitForScheduledRidesHandler()
-        }
-        return Observable.empty()
-    }
 }
 
 class DualLocationEditorEntryInteractableMock: DualLocationEditorEntryInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -1990,101 +765,14 @@ class DualLocationEditorEntryInteractableMock: DualLocationEditorEntryInteractab
             listenerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var wantDestinationCallCount = 0
-public var wantDestinationHandler: (() -> ())?
-public func wantDestination()  {
-        wantDestinationCallCount += 1
-    
-        if let wantDestinationHandler = wantDestinationHandler {
-            wantDestinationHandler()
-        }
-        
-    }
-var waitForScheduledRidesCallCount = 0
-public var waitForScheduledRidesHandler: (() -> (Observable<(ScheduledRidesDestinationEntryAccessoryActionableItem, ())>))?
-public func waitForScheduledRides() -> Observable<(ScheduledRidesDestinationEntryAccessoryActionableItem, ())> {
-        waitForScheduledRidesCallCount += 1
-    
-        if let waitForScheduledRidesHandler = waitForScheduledRidesHandler {
-            return waitForScheduledRidesHandler()
-        }
-        return Observable.empty()
-    }
 }
 
 class RequestFilterProductExclusionWorkingMock: RequestFilterProductExclusionWorking {
 
     
-    init() {}
-    init(vehicleViewUUIDsExcludedFromFiltering: Observable<[String]> = PublishSubject(), isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
-        self.vehicleViewUUIDsExcludedFromFiltering = vehicleViewUUIDsExcludedFromFiltering
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
+
+    init() {
+
     }
         
     var setVehicleViewUUIDsExcludedFromFilteringCallCount = 0
@@ -2097,114 +785,14 @@ class RequestFilterProductExclusionWorkingMock: RequestFilterProductExclusionWor
         }
         
     }
-private var vehicleViewUUIDsExcludedFromFilteringSubjectKind = 0
-var vehicleViewUUIDsExcludedFromFilteringSubjectSetCallCount = 0
-var vehicleViewUUIDsExcludedFromFilteringSubject = PublishSubject<[String]>() { didSet { vehicleViewUUIDsExcludedFromFilteringSubjectSetCallCount += 1 } }
-var vehicleViewUUIDsExcludedFromFilteringReplaySubject = ReplaySubject<[String]>.create(bufferSize: 1) { didSet { vehicleViewUUIDsExcludedFromFilteringSubjectSetCallCount += 1 } }
-var vehicleViewUUIDsExcludedFromFilteringBehaviorSubject: BehaviorSubject<[String]>! { didSet { vehicleViewUUIDsExcludedFromFilteringSubjectSetCallCount += 1 } }
-var vehicleViewUUIDsExcludedFromFilteringRxSubject: Observable<[String]>! { didSet { vehicleViewUUIDsExcludedFromFilteringSubjectSetCallCount += 1 } }
-public var vehicleViewUUIDsExcludedFromFiltering: Observable<[String]> {
-        get {
-            if vehicleViewUUIDsExcludedFromFilteringSubjectKind == 0 {
-                return vehicleViewUUIDsExcludedFromFilteringSubject
-            } else if vehicleViewUUIDsExcludedFromFilteringSubjectKind == 1 {
-                return vehicleViewUUIDsExcludedFromFilteringBehaviorSubject
-            } else if vehicleViewUUIDsExcludedFromFilteringSubjectKind == 2 {
-                return vehicleViewUUIDsExcludedFromFilteringReplaySubject
-            } else {
-                return vehicleViewUUIDsExcludedFromFilteringRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<[String]> {
-                vehicleViewUUIDsExcludedFromFilteringSubject = val
-                vehicleViewUUIDsExcludedFromFilteringSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<[String]> {
-                vehicleViewUUIDsExcludedFromFilteringBehaviorSubject = val
-                vehicleViewUUIDsExcludedFromFilteringSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<[String]> {
-                vehicleViewUUIDsExcludedFromFilteringReplaySubject = val
-                vehicleViewUUIDsExcludedFromFilteringSubjectKind = 2
-            } else {
-                vehicleViewUUIDsExcludedFromFilteringRxSubject = newValue
-                vehicleViewUUIDsExcludedFromFilteringSubjectKind = 3
-            }
-        }
-    }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
 }
 
 class SelectedProductInteractableMock: SelectedProductInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -2253,80 +841,14 @@ class SelectedProductInteractableMock: SelectedProductInteractable {
         }
         
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
 }
 
 class TripDetailsInteractableMock: TripDetailsInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -2351,111 +873,6 @@ class TripDetailsInteractableMock: TripDetailsInteractable {
             underlyingListener = newValue
             listenerSetCallCount += 1
         }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var cancelTripButtonTappedCallCount = 0
-public var cancelTripButtonTappedHandler: (() -> ())?
-public func cancelTripButtonTapped()  {
-        cancelTripButtonTappedCallCount += 1
-    
-        if let cancelTripButtonTappedHandler = cancelTripButtonTappedHandler {
-            cancelTripButtonTappedHandler()
-        }
-        
-    }
-var cancelTripWithoutConfirmingCallCount = 0
-public var cancelTripWithoutConfirmingHandler: (() -> ())?
-public func cancelTripWithoutConfirming()  {
-        cancelTripWithoutConfirmingCallCount += 1
-    
-        if let cancelTripWithoutConfirmingHandler = cancelTripWithoutConfirmingHandler {
-            cancelTripWithoutConfirmingHandler()
-        }
-        
-    }
-var willPresentEmergencyModalCallCount = 0
-public var willPresentEmergencyModalHandler: (() -> ())?
-public func willPresentEmergencyModal()  {
-        willPresentEmergencyModalCallCount += 1
-    
-        if let willPresentEmergencyModalHandler = willPresentEmergencyModalHandler {
-            willPresentEmergencyModalHandler()
-        }
-        
-    }
-var willDismissEmergencyModalCallCount = 0
-public var willDismissEmergencyModalHandler: ((Bool) -> ())?
-public func willDismissEmergencyModal(userDismissed: Bool)  {
-        willDismissEmergencyModalCallCount += 1
-    
-        if let willDismissEmergencyModalHandler = willDismissEmergencyModalHandler {
-            willDismissEmergencyModalHandler(userDismissed)
-        }
-        
     }
 }
 
@@ -2484,10 +901,8 @@ class RequestFilterWorkingMock: RequestFilterWorking {
 
     
     init() {}
-    init(filters: Observable<[ProductFiltering]> = PublishSubject(), isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
+    init(filters: Observable<[ProductFiltering]> = PublishSubject()) {
         self.filters = filters
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
     }
         
     private var filtersSubjectKind = 0
@@ -2557,83 +972,14 @@ class RequestFilterWorkingMock: RequestFilterWorking {
         }
         
     }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
 }
 
 class ConfirmationAlertRoutingMock: ConfirmationAlertRouting {
 
     
     init() {}
-    init(viewController: ConfirmationAlertViewControllable = ConfirmationAlertViewControllableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(viewController: ConfirmationAlertViewControllable = ConfirmationAlertViewControllableMock()) {
         self.viewController = viewController
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var viewControllerSetCallCount = 0
@@ -2647,111 +993,14 @@ class ConfirmationAlertRoutingMock: ConfirmationAlertRouting {
             viewControllerSetCallCount += 1
         }
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class ProductOptionsViewControllableMock: ProductOptionsViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -2775,17 +1024,6 @@ class ProductOptionsViewControllableMock: ProductOptionsViewControllable {
             showButtonViewControllersHandler(leadingViewControllers, trailingViewControllers)
         }
         
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
     }
 }
 
@@ -2867,11 +1105,8 @@ class TripDetailsRoutingMock: TripDetailsRouting {
 
     
     init() {}
-    init(sectionProvider: TripDetailsSectionProviding = TripDetailsSectionProvidingMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(sectionProvider: TripDetailsSectionProviding = TripDetailsSectionProvidingMock()) {
         self.sectionProvider = sectionProvider
-        self.lifecycle = lifecycle
-        self.interactable = interactable
-        self.children = children
     }
         
     var sectionProviderSetCallCount = 0
@@ -2893,92 +1128,6 @@ class TripDetailsRoutingMock: TripDetailsRouting {
     
         if let routeToRowsHandler = routeToRowsHandler {
             routeToRowsHandler(rows)
-        }
-        
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
         }
         
     }
@@ -3075,10 +1224,9 @@ public class ProductPackageStreamingMock: ProductPackageStreaming {
 class ConfirmationInteractableV2Mock: ConfirmationInteractableV2 {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -3116,6 +1264,28 @@ class ConfirmationInteractableV2Mock: ConfirmationInteractableV2 {
         
     }
     
+    var wantSelectedProductCallCount = 0
+    var wantSelectedProductHandler: ((ProductId) -> ())?
+    func wantSelectedProduct(productId: ProductId)  {
+        wantSelectedProductCallCount += 1
+    
+        if let wantSelectedProductHandler = wantSelectedProductHandler {
+            wantSelectedProductHandler(productId)
+        }
+        
+    }
+    
+    var selectProductCallCount = 0
+    var selectProductHandler: ((ProductItemId, Bool) -> ())?
+    func selectProduct(productItemId: ProductItemId, shouldRouteToSelectedProduct: Bool)  {
+        selectProductCallCount += 1
+    
+        if let selectProductHandler = selectProductHandler {
+            selectProductHandler(productItemId, shouldRouteToSelectedProduct)
+        }
+        
+    }
+    
     var updateProductSelectionViewStateTransitionProgressCallCount = 0
     var updateProductSelectionViewStateTransitionProgressHandler: (() -> ())?
     func updateProductSelectionViewStateTransitionProgress()  {
@@ -3137,170 +1307,14 @@ class ConfirmationInteractableV2Mock: ConfirmationInteractableV2 {
         }
         
     }
-var wantSelectedProductCallCount = 0
-public var wantSelectedProductHandler: ((ProductId) -> ())?
-public func wantSelectedProduct(productId: ProductId)  {
-        wantSelectedProductCallCount += 1
-    
-        if let wantSelectedProductHandler = wantSelectedProductHandler {
-            wantSelectedProductHandler(productId)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var wantsToEditPickupLocationCallCount = 0
-public var wantsToEditPickupLocationHandler: ((Bool) -> ())?
-public func wantsToEditPickupLocation(destinationHidden: Bool)  {
-        wantsToEditPickupLocationCallCount += 1
-    
-        if let wantsToEditPickupLocationHandler = wantsToEditPickupLocationHandler {
-            wantsToEditPickupLocationHandler(destinationHidden)
-        }
-        
-    }
-var wantsToEditDropoffLocationCallCount = 0
-public var wantsToEditDropoffLocationHandler: (() -> ())?
-public func wantsToEditDropoffLocation()  {
-        wantsToEditDropoffLocationCallCount += 1
-    
-        if let wantsToEditDropoffLocationHandler = wantsToEditDropoffLocationHandler {
-            wantsToEditDropoffLocationHandler()
-        }
-        
-    }
-var didFinishDrawingRoutelineCallCount = 0
-public var didFinishDrawingRoutelineHandler: (() -> ())?
-public func didFinishDrawingRouteline()  {
-        didFinishDrawingRoutelineCallCount += 1
-    
-        if let didFinishDrawingRoutelineHandler = didFinishDrawingRoutelineHandler {
-            didFinishDrawingRoutelineHandler()
-        }
-        
-    }
-var didFinishDrawingHaversineCallCount = 0
-public var didFinishDrawingHaversineHandler: (() -> ())?
-public func didFinishDrawingHaversine()  {
-        didFinishDrawingHaversineCallCount += 1
-    
-        if let didFinishDrawingHaversineHandler = didFinishDrawingHaversineHandler {
-            didFinishDrawingHaversineHandler()
-        }
-        
-    }
-var didFinishCallCount = 0
-public var didFinishHandler: ((ConfirmationActionInteractable) -> ())?
-public func didFinish(interactor: ConfirmationActionInteractable)  {
-        didFinishCallCount += 1
-    
-        if let didFinishHandler = didFinishHandler {
-            didFinishHandler(interactor)
-        }
-        
-    }
-var didInitiateLocationEditorCallCount = 0
-public var didInitiateLocationEditorHandler: ((ConfirmationActionInteractable) -> ())?
-public func didInitiateLocationEditor(interactor: ConfirmationActionInteractable)  {
-        didInitiateLocationEditorCallCount += 1
-    
-        if let didInitiateLocationEditorHandler = didInitiateLocationEditorHandler {
-            didInitiateLocationEditorHandler(interactor)
-        }
-        
-    }
-var getConfirmationActionTapMetadataCallCount = 0
-public var getConfirmationActionTapMetadataHandler: (() -> (AnalyticsMetadata?))?
-public func getConfirmationActionTapMetadata() -> AnalyticsMetadata? {
-        getConfirmationActionTapMetadataCallCount += 1
-    
-        if let getConfirmationActionTapMetadataHandler = getConfirmationActionTapMetadataHandler {
-            return getConfirmationActionTapMetadataHandler()
-        }
-        return nil
-    }
-var selectProductCallCount = 0
-public var selectProductHandler: ((ProductItemId, Bool) -> ())?
-public func selectProduct(productItemId: ProductItemId, shouldRouteToSelectedProduct: Bool)  {
-        selectProductCallCount += 1
-    
-        if let selectProductHandler = selectProductHandler {
-            selectProductHandler(productItemId, shouldRouteToSelectedProduct)
-        }
-        
-    }
 }
 
 class MainViewControllableMock: MainViewControllable {
 
     
     init() {}
-    init(isShowingNetworkError: Bool = false, uiviewController: UIViewController = UIViewController()) {
+    init(isShowingNetworkError: Bool = false) {
         self.isShowingNetworkError = isShowingNetworkError
-        self.uiviewController = uiviewController
     }
         
     var listenerSetCallCount = 0
@@ -3414,46 +1428,14 @@ class MainViewControllableMock: MainViewControllable {
             isShowingNetworkErrorSetCallCount += 1
         }
     }
-var didTransitionCallCount = 0
-public var didTransitionHandler: ((UIViewController?, UIViewController?) -> ())?
-public func didTransition(fromViewController: UIViewController?, toViewController: UIViewController?)  {
-        didTransitionCallCount += 1
-    
-        if let didTransitionHandler = didTransitionHandler {
-            didTransitionHandler(fromViewController, toViewController)
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var transitionFromViewControllerCallCount = 0
-public var transitionFromViewControllerHandler: ((UIViewController?, UIViewController?, UIViewControllerAnimatedTransitioning?, TransitionContext, CachedExperimenting?) -> ())?
-public func transitionFromViewController(_ fromViewController: UIViewController?, toViewController: UIViewController?, animator: UIViewControllerAnimatedTransitioning?, context: TransitionContext, cachedExperiments: CachedExperimenting?)  {
-        transitionFromViewControllerCallCount += 1
-    
-        if let transitionFromViewControllerHandler = transitionFromViewControllerHandler {
-            transitionFromViewControllerHandler(fromViewController, toViewController, animator, context, cachedExperiments)
-        }
-        
-    }
 }
 
 class TripHeaderRootInteractableMock: TripHeaderRootInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -3479,84 +1461,15 @@ class TripHeaderRootInteractableMock: TripHeaderRootInteractable {
             listenerSetCallCount += 1
         }
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
 }
 
 class ProductOptionsRoutingMock: ProductOptionsRouting {
 
     
     init() {}
-    init(interactor: ProductOptionsInteractable = ProductOptionsInteractableMock(), viewController: ProductOptionsViewControllable = ProductOptionsViewControllableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: ProductOptionsInteractable = ProductOptionsInteractableMock(), viewController: ProductOptionsViewControllable = ProductOptionsViewControllableMock()) {
         self.interactor = interactor
         self.viewController = viewController
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -3605,111 +1518,14 @@ class ProductOptionsRoutingMock: ProductOptionsRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class RequestStateManagerMock: RequestStateManager {
 
     
-    init() {}
-    init(state: Observable<RequestState> = PublishSubject()) {
-        self.state = state
+
+    init() {
+
     }
         
     var wantCallCount = 0
@@ -3733,50 +1549,14 @@ class RequestStateManagerMock: RequestStateManager {
         }
         
     }
-private var stateSubjectKind = 0
-var stateSubjectSetCallCount = 0
-var stateSubject = PublishSubject<RequestState>() { didSet { stateSubjectSetCallCount += 1 } }
-var stateReplaySubject = ReplaySubject<RequestState>.create(bufferSize: 1) { didSet { stateSubjectSetCallCount += 1 } }
-var stateBehaviorSubject: BehaviorSubject<RequestState>! { didSet { stateSubjectSetCallCount += 1 } }
-var stateRxSubject: Observable<RequestState>! { didSet { stateSubjectSetCallCount += 1 } }
-public var state: Observable<RequestState> {
-        get {
-            if stateSubjectKind == 0 {
-                return stateSubject
-            } else if stateSubjectKind == 1 {
-                return stateBehaviorSubject
-            } else if stateSubjectKind == 2 {
-                return stateReplaySubject
-            } else {
-                return stateRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RequestState> {
-                stateSubject = val
-                stateSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RequestState> {
-                stateBehaviorSubject = val
-                stateSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RequestState> {
-                stateReplaySubject = val
-                stateSubjectKind = 2
-            } else {
-                stateRxSubject = newValue
-                stateSubjectKind = 3
-            }
-        }
-    }
 }
 
 class TripDetailsRowSlotConfigWorkingMock: TripDetailsRowSlotConfigWorking {
 
     
     init() {}
-    init(slotConfig: Observable<TripDetailsRowSlotConfig> = PublishSubject(), isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
+    init(slotConfig: Observable<TripDetailsRowSlotConfig> = PublishSubject()) {
         self.slotConfig = slotConfig
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
     }
         
     private var slotConfigSubjectKind = 0
@@ -3813,81 +1593,14 @@ class TripDetailsRowSlotConfigWorkingMock: TripDetailsRowSlotConfigWorking {
             }
         }
     }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
 }
 
 public class RiderProductConfigurationDataManagingMock: RiderProductConfigurationDataManaging {
 
     
     public init() {}
-    public init(productConfigurationDataStream: Observable<RidersProductConfigurationData?> = PublishSubject(), isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
+    public init(productConfigurationDataStream: Observable<RidersProductConfigurationData?> = PublishSubject()) {
         self.productConfigurationDataStream = productConfigurationDataStream
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
     }
         
     private var productConfigurationDataStreamSubjectKind = 0
@@ -3924,79 +1637,14 @@ public class RiderProductConfigurationDataManagingMock: RiderProductConfiguratio
             }
         }
     }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
 }
 
 class MutableTripViewPositionStreamingMock: MutableTripViewPositionStreaming {
 
     
-    init() {}
-    init(tripViewPosition: Observable<TripViewPositioning> = PublishSubject()) {
-        self.tripViewPosition = tripViewPosition
+
+    init() {
+
     }
         
     var updateCallCount = 0
@@ -4009,52 +1657,15 @@ class MutableTripViewPositionStreamingMock: MutableTripViewPositionStreaming {
         }
         
     }
-private var tripViewPositionSubjectKind = 0
-var tripViewPositionSubjectSetCallCount = 0
-var tripViewPositionSubject = PublishSubject<TripViewPositioning>() { didSet { tripViewPositionSubjectSetCallCount += 1 } }
-var tripViewPositionReplaySubject = ReplaySubject<TripViewPositioning>.create(bufferSize: 1) { didSet { tripViewPositionSubjectSetCallCount += 1 } }
-var tripViewPositionBehaviorSubject: BehaviorSubject<TripViewPositioning>! { didSet { tripViewPositionSubjectSetCallCount += 1 } }
-var tripViewPositionRxSubject: Observable<TripViewPositioning>! { didSet { tripViewPositionSubjectSetCallCount += 1 } }
-public var tripViewPosition: Observable<TripViewPositioning> {
-        get {
-            if tripViewPositionSubjectKind == 0 {
-                return tripViewPositionSubject
-            } else if tripViewPositionSubjectKind == 1 {
-                return tripViewPositionBehaviorSubject
-            } else if tripViewPositionSubjectKind == 2 {
-                return tripViewPositionReplaySubject
-            } else {
-                return tripViewPositionRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<TripViewPositioning> {
-                tripViewPositionSubject = val
-                tripViewPositionSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<TripViewPositioning> {
-                tripViewPositionBehaviorSubject = val
-                tripViewPositionSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<TripViewPositioning> {
-                tripViewPositionReplaySubject = val
-                tripViewPositionSubjectKind = 2
-            } else {
-                tripViewPositionRxSubject = newValue
-                tripViewPositionSubjectKind = 3
-            }
-        }
-    }
 }
 
 class ModeRoutingMock: ModeRouting {
 
     
     init() {}
-    init(interactor: ModeInteractable = ModeInteractableMock(), modeActionableItem: ModeActionableItem = ModeActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: ModeInteractable = ModeInteractableMock(), modeActionableItem: ModeActionableItem) {
         self.interactor = interactor
         self.modeActionableItem = modeActionableItem
-        self.lifecycle = lifecycle
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -4070,7 +1681,7 @@ class ModeRoutingMock: ModeRouting {
     }
     
     var modeActionableItemSetCallCount = 0
-    var underlyingModeActionableItem: ModeActionableItem = ModeActionableItemMock()
+    var underlyingModeActionableItem: ModeActionableItem! 
     var modeActionableItem: ModeActionableItem {
         get {
             return underlyingModeActionableItem
@@ -4114,104 +1725,14 @@ class ModeRoutingMock: ModeRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class PlusOneRoutingMock: PlusOneRouting {
 
     
     init() {}
-    init(plusOneInteractor: PlusOneInteractableCommon = PlusOneInteractableCommonMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(plusOneInteractor: PlusOneInteractableCommon = PlusOneInteractableCommonMock()) {
         self.plusOneInteractor = plusOneInteractor
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var plusOneInteractorSetCallCount = 0
@@ -4258,103 +1779,6 @@ class PlusOneRoutingMock: PlusOneRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class ProductFilterManagingMock: ProductFilterManaging {
@@ -4398,16 +1822,6 @@ class ProductFilterManagingMock: ProductFilterManaging {
                 filteringChangedSubjectKind = 3
             }
         }
-    }
-var shouldIncludeCallCount = 0
-public var shouldIncludeHandler: ((CoreShared.Product) -> (Bool))?
-public func shouldInclude(product: CoreShared.Product) -> Bool {
-        shouldIncludeCallCount += 1
-    
-        if let shouldIncludeHandler = shouldIncludeHandler {
-            return shouldIncludeHandler(product)
-        }
-        return false
     }
 }
 
@@ -4618,10 +2032,9 @@ class BaseRequestErrorHandlerViewControllerListenerMock: BaseRequestErrorHandler
 class MenuItemsWorkingMock: MenuItemsWorking {
 
     
-    init() {}
-    init(isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
+
+    init() {
+
     }
         
     private var menuItemsStreamSubjectKind = 0
@@ -4658,80 +2071,14 @@ class MenuItemsWorkingMock: MenuItemsWorking {
             }
         }
     }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
 }
 
 class PlusOneInteractableMock: PlusOneInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -4756,121 +2103,6 @@ class PlusOneInteractableMock: PlusOneInteractable {
             underlyingPlusOneListener = newValue
             plusOneListenerSetCallCount += 1
         }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var plusOneStepCompletedCallCount = 0
-public var plusOneStepCompletedHandler: (() -> ())?
-public func plusOneStepCompleted()  {
-        plusOneStepCompletedCallCount += 1
-    
-        if let plusOneStepCompletedHandler = plusOneStepCompletedHandler {
-            plusOneStepCompletedHandler()
-        }
-        
-    }
-var plusOneStepCompletedForceRecreateStepsCallCount = 0
-public var plusOneStepCompletedForceRecreateStepsHandler: ((Bool) -> ())?
-public func plusOneStepCompleted(forceRecreateSteps: Bool)  {
-        plusOneStepCompletedForceRecreateStepsCallCount += 1
-    
-        if let plusOneStepCompletedForceRecreateStepsHandler = plusOneStepCompletedForceRecreateStepsHandler {
-            plusOneStepCompletedForceRecreateStepsHandler(forceRecreateSteps)
-        }
-        
-    }
-var plusOneStepAbortedCallCount = 0
-public var plusOneStepAbortedHandler: (() -> ())?
-public func plusOneStepAborted()  {
-        plusOneStepAbortedCallCount += 1
-    
-        if let plusOneStepAbortedHandler = plusOneStepAbortedHandler {
-            plusOneStepAbortedHandler()
-        }
-        
-    }
-var plusOneStepAbortedForceRefreshFaresCallCount = 0
-public var plusOneStepAbortedForceRefreshFaresHandler: ((Bool) -> ())?
-public func plusOneStepAborted(forceRefreshFares: Bool)  {
-        plusOneStepAbortedForceRefreshFaresCallCount += 1
-    
-        if let plusOneStepAbortedForceRefreshFaresHandler = plusOneStepAbortedForceRefreshFaresHandler {
-            plusOneStepAbortedForceRefreshFaresHandler(forceRefreshFares)
-        }
-        
-    }
-var plusOneStepWantCallCount = 0
-public var plusOneStepWantHandler: ((PlusOneStepMapRouting) -> ())?
-public func plusOneStepWant(mapRouter: PlusOneStepMapRouting)  {
-        plusOneStepWantCallCount += 1
-    
-        if let plusOneStepWantHandler = plusOneStepWantHandler {
-            plusOneStepWantHandler(mapRouter)
-        }
-        
     }
 }
 
@@ -5119,11 +2351,8 @@ class TripHeaderRootRoutingMock: TripHeaderRootRouting {
 
     
     init() {}
-    init(interactor: TripHeaderRootInteractable = TripHeaderRootInteractableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: TripHeaderRootInteractable = TripHeaderRootInteractableMock()) {
         self.interactor = interactor
-        self.lifecycle = lifecycle
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -5148,99 +2377,14 @@ class TripHeaderRootRoutingMock: TripHeaderRootRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class OutOfCoverageViewControllableMock: OutOfCoverageViewControllable {
 
     
     init() {}
-    init(slidableVisualContentHeight: CGFloat = 0.0, presentationAnimation: ConfirmationSlidableAnimation, dismissalAnimation: ConfirmationSlidableAnimation, requiredViewState: ConfirmationViewState, topAnchor: ConfirmationSlidableTopAnchor, bottomAnchor: ConfirmationSlidableBottomAnchor, slidableHeight: CGFloat = 0.0, uiviewController: UIViewController = UIViewController()) {
+    init(uiviewController: UIViewController = UIViewController(), slidableVisualContentHeight: CGFloat = 0.0, presentationAnimation: ConfirmationSlidableAnimation, dismissalAnimation: ConfirmationSlidableAnimation, requiredViewState: ConfirmationViewState, topAnchor: ConfirmationSlidableTopAnchor, bottomAnchor: ConfirmationSlidableBottomAnchor, slidableHeight: CGFloat = 0.0) {
+        self.uiviewController = uiviewController
         self.slidableVisualContentHeight = slidableVisualContentHeight
         self.presentationAnimation = presentationAnimation
         self.dismissalAnimation = dismissalAnimation
@@ -5248,11 +2392,11 @@ class OutOfCoverageViewControllableMock: OutOfCoverageViewControllable {
         self.topAnchor = topAnchor
         self.bottomAnchor = bottomAnchor
         self.slidableHeight = slidableHeight
-        self.uiviewController = uiviewController
     }
+        
     var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
+    var underlyingUiviewController: UIViewController = UIViewController()
+    var uiviewController: UIViewController {
         get {
             return underlyingUiviewController
         }
@@ -5462,13 +2606,8 @@ class DestinationPromptRoutingMock: DestinationPromptRouting {
 
     
     init() {}
-    init(interactor: DestinationPromptInteractable = DestinationPromptInteractableMock(), actionableItem: LocationEditorEntryActionableItem = LocationEditorEntryActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: DestinationPromptInteractable = DestinationPromptInteractableMock()) {
         self.interactor = interactor
-        self.actionableItem = actionableItem
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -5502,7 +2641,7 @@ class DestinationPromptRoutingMock: DestinationPromptRouting {
         if let routeToDestinationEntryAccessoryHandler = routeToDestinationEntryAccessoryHandler {
             return routeToDestinationEntryAccessoryHandler(builder)
         }
-        return DestinationEntryAccessoryActionableItemMock()
+        fatalError("routeToDestinationEntryAccessoryHandler returns can't have a default value thus its handler must be set")
     }
     
     var detachTopAccessoryCallCount = 0
@@ -5526,122 +2665,15 @@ class DestinationPromptRoutingMock: DestinationPromptRouting {
         }
         
     }
-var actionableItemSetCallCount = 0
-var underlyingActionableItem: LocationEditorEntryActionableItem = LocationEditorEntryActionableItemMock()
-public var actionableItem: LocationEditorEntryActionableItem {
-        get {
-            return underlyingActionableItem
-        }
-        set {
-            underlyingActionableItem = newValue
-            actionableItemSetCallCount += 1
-        }
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class SelectedProductViewControllableMock: SelectedProductViewControllable {
 
     
     init() {}
-    init(anchorPointHeight: CGFloat = 0.0, slidableVisualContentHeight: CGFloat = 0.0, presentationAnimation: ConfirmationSlidableAnimation, dismissalAnimation: ConfirmationSlidableAnimation, requiredViewState: ConfirmationViewState, topAnchor: ConfirmationSlidableTopAnchor, bottomAnchor: ConfirmationSlidableBottomAnchor, slidableHeight: CGFloat = 0.0, uiviewController: UIViewController = UIViewController()) {
+    init(anchorPointHeight: CGFloat = 0.0, uiviewController: UIViewController = UIViewController(), slidableVisualContentHeight: CGFloat = 0.0, presentationAnimation: ConfirmationSlidableAnimation, dismissalAnimation: ConfirmationSlidableAnimation, requiredViewState: ConfirmationViewState, topAnchor: ConfirmationSlidableTopAnchor, bottomAnchor: ConfirmationSlidableBottomAnchor, slidableHeight: CGFloat = 0.0) {
         self.anchorPointHeight = anchorPointHeight
+        self.uiviewController = uiviewController
         self.slidableVisualContentHeight = slidableVisualContentHeight
         self.presentationAnimation = presentationAnimation
         self.dismissalAnimation = dismissalAnimation
@@ -5649,7 +2681,6 @@ class SelectedProductViewControllableMock: SelectedProductViewControllable {
         self.topAnchor = topAnchor
         self.bottomAnchor = bottomAnchor
         self.slidableHeight = slidableHeight
-        self.uiviewController = uiviewController
     }
         
     var listenerSetCallCount = 0
@@ -5719,9 +2750,10 @@ class SelectedProductViewControllableMock: SelectedProductViewControllable {
         }
         
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
+    
+    var uiviewControllerSetCallCount = 0
+    var underlyingUiviewController: UIViewController = UIViewController()
+    var uiviewController: UIViewController {
         get {
             return underlyingUiviewController
         }
@@ -5921,9 +2953,9 @@ public var uiviewController: UIViewController {
 class ConfirmationAlertViewControllableMock: ConfirmationAlertViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var viewListenerSetCallCount = 0
@@ -5935,17 +2967,6 @@ class ConfirmationAlertViewControllableMock: ConfirmationAlertViewControllable {
         set {
             underlyingViewListener = newValue
             viewListenerSetCallCount += 1
-        }
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
         }
     }
 }
@@ -5985,12 +3006,12 @@ class ProductUpsellManagingMock: ProductUpsellManaging {
 
     
     init() {}
-    init(viewedUpsells: ProductUpsellPreferences = ProductUpsellPreferencesMock()) {
+    init(viewedUpsells: ProductUpsellPreferences) {
         self.viewedUpsells = viewedUpsells
     }
         
     var viewedUpsellsSetCallCount = 0
-    var underlyingViewedUpsells: ProductUpsellPreferences = ProductUpsellPreferencesMock()
+    var underlyingViewedUpsells: ProductUpsellPreferences! 
     var viewedUpsells: ProductUpsellPreferences {
         get {
             return underlyingViewedUpsells
@@ -6017,7 +3038,7 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
 
     
     public init() {}
-    public init(cachedExperiments: CachedExperimenting = CachedExperimentingMock(), confirmationActionTitleMappingPluginPoint: ConfirmationActionTitleMappingPluginPoint = ConfirmationActionTitleMappingPluginPointMock(), confirmationNextStepStream: ConfirmationNextStepStreaming = ConfirmationNextStepStreamingMock(), productSelection: Observable<ProductSelection> = PublishSubject(), productPricingStream: ProductPricingStreaming = ProductPricingStreamingMock(), fareImpressionProvider: FareImpressionProviding = FareImpressionProvidingMock()) {
+    public init(cachedExperiments: CachedExperimenting, confirmationActionTitleMappingPluginPoint: ConfirmationActionTitleMappingPluginPoint, confirmationNextStepStream: ConfirmationNextStepStreaming, productSelection: Observable<ProductSelection> = PublishSubject(), productPricingStream: ProductPricingStreaming, fareImpressionProvider: FareImpressionProviding) {
         self.cachedExperiments = cachedExperiments
         self.confirmationActionTitleMappingPluginPoint = confirmationActionTitleMappingPluginPoint
         self.confirmationNextStepStream = confirmationNextStepStream
@@ -6027,7 +3048,7 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
     }
         
     var cachedExperimentsSetCallCount = 0
-    var underlyingCachedExperiments: CachedExperimenting = CachedExperimentingMock()
+    var underlyingCachedExperiments: CachedExperimenting! 
     public var cachedExperiments: CachedExperimenting {
         get {
             return underlyingCachedExperiments
@@ -6039,7 +3060,7 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
     }
     
     var confirmationActionTitleMappingPluginPointSetCallCount = 0
-    var underlyingConfirmationActionTitleMappingPluginPoint: ConfirmationActionTitleMappingPluginPoint = ConfirmationActionTitleMappingPluginPointMock()
+    var underlyingConfirmationActionTitleMappingPluginPoint: ConfirmationActionTitleMappingPluginPoint! 
     public var confirmationActionTitleMappingPluginPoint: ConfirmationActionTitleMappingPluginPoint {
         get {
             return underlyingConfirmationActionTitleMappingPluginPoint
@@ -6051,7 +3072,7 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
     }
     
     var confirmationNextStepStreamSetCallCount = 0
-    var underlyingConfirmationNextStepStream: ConfirmationNextStepStreaming = ConfirmationNextStepStreamingMock()
+    var underlyingConfirmationNextStepStream: ConfirmationNextStepStreaming! 
     public var confirmationNextStepStream: ConfirmationNextStepStreaming {
         get {
             return underlyingConfirmationNextStepStream
@@ -6098,7 +3119,7 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
     }
     
     var productPricingStreamSetCallCount = 0
-    var underlyingProductPricingStream: ProductPricingStreaming = ProductPricingStreamingMock()
+    var underlyingProductPricingStream: ProductPricingStreaming! 
     public var productPricingStream: ProductPricingStreaming {
         get {
             return underlyingProductPricingStream
@@ -6110,7 +3131,7 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
     }
     
     var fareImpressionProviderSetCallCount = 0
-    var underlyingFareImpressionProvider: FareImpressionProviding = FareImpressionProvidingMock()
+    var underlyingFareImpressionProvider: FareImpressionProviding! 
     public var fareImpressionProvider: FareImpressionProviding {
         get {
             return underlyingFareImpressionProvider
@@ -6125,9 +3146,9 @@ public class ConfirmationActionRequestDependencyMock: ConfirmationActionRequestD
 class ConfirmationActionRequestViewControllableMock: ConfirmationActionRequestViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -6174,37 +3195,14 @@ class ConfirmationActionRequestViewControllableMock: ConfirmationActionRequestVi
         }
         
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var showConfirmationActionAccessoryCallCount = 0
-public var showConfirmationActionAccessoryHandler: ((ConfirmationActionAccessoryViewControllable?, @escaping () -> ()) -> ())?
-public func showConfirmationActionAccessory(_ accessory: ConfirmationActionAccessoryViewControllable?, completion: @escaping () -> ())  {
-        showConfirmationActionAccessoryCallCount += 1
-    
-        if let showConfirmationActionAccessoryHandler = showConfirmationActionAccessoryHandler {
-            showConfirmationActionAccessoryHandler(accessory, completion)
-        }
-        
-    }
 }
 
 class ConfirmationInteractableMock: ConfirmationInteractable {
 
     
     init() {}
-    init(confirmationPresenter: ConfirmationPresentable = ConfirmationPresentableMock(), isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
+    init(confirmationPresenter: ConfirmationPresentable = ConfirmationPresentableMock()) {
         self.confirmationPresenter = confirmationPresenter
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
     }
         
     var routerSetCallCount = 0
@@ -6275,164 +3273,15 @@ class ConfirmationInteractableMock: ConfirmationInteractable {
         }
         
     }
-var wantSelectedProductCallCount = 0
-public var wantSelectedProductHandler: ((ProductId) -> ())?
-public func wantSelectedProduct(productId: ProductId)  {
-        wantSelectedProductCallCount += 1
-    
-        if let wantSelectedProductHandler = wantSelectedProductHandler {
-            wantSelectedProductHandler(productId)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var wantsToEditPickupLocationCallCount = 0
-public var wantsToEditPickupLocationHandler: ((Bool) -> ())?
-public func wantsToEditPickupLocation(destinationHidden: Bool)  {
-        wantsToEditPickupLocationCallCount += 1
-    
-        if let wantsToEditPickupLocationHandler = wantsToEditPickupLocationHandler {
-            wantsToEditPickupLocationHandler(destinationHidden)
-        }
-        
-    }
-var wantsToEditDropoffLocationCallCount = 0
-public var wantsToEditDropoffLocationHandler: (() -> ())?
-public func wantsToEditDropoffLocation()  {
-        wantsToEditDropoffLocationCallCount += 1
-    
-        if let wantsToEditDropoffLocationHandler = wantsToEditDropoffLocationHandler {
-            wantsToEditDropoffLocationHandler()
-        }
-        
-    }
-var didFinishDrawingRoutelineCallCount = 0
-public var didFinishDrawingRoutelineHandler: (() -> ())?
-public func didFinishDrawingRouteline()  {
-        didFinishDrawingRoutelineCallCount += 1
-    
-        if let didFinishDrawingRoutelineHandler = didFinishDrawingRoutelineHandler {
-            didFinishDrawingRoutelineHandler()
-        }
-        
-    }
-var didFinishDrawingHaversineCallCount = 0
-public var didFinishDrawingHaversineHandler: (() -> ())?
-public func didFinishDrawingHaversine()  {
-        didFinishDrawingHaversineCallCount += 1
-    
-        if let didFinishDrawingHaversineHandler = didFinishDrawingHaversineHandler {
-            didFinishDrawingHaversineHandler()
-        }
-        
-    }
-var didFinishCallCount = 0
-public var didFinishHandler: ((ConfirmationActionInteractable) -> ())?
-public func didFinish(interactor: ConfirmationActionInteractable)  {
-        didFinishCallCount += 1
-    
-        if let didFinishHandler = didFinishHandler {
-            didFinishHandler(interactor)
-        }
-        
-    }
-var didInitiateLocationEditorCallCount = 0
-public var didInitiateLocationEditorHandler: ((ConfirmationActionInteractable) -> ())?
-public func didInitiateLocationEditor(interactor: ConfirmationActionInteractable)  {
-        didInitiateLocationEditorCallCount += 1
-    
-        if let didInitiateLocationEditorHandler = didInitiateLocationEditorHandler {
-            didInitiateLocationEditorHandler(interactor)
-        }
-        
-    }
-var getConfirmationActionTapMetadataCallCount = 0
-public var getConfirmationActionTapMetadataHandler: (() -> (AnalyticsMetadata?))?
-public func getConfirmationActionTapMetadata() -> AnalyticsMetadata? {
-        getConfirmationActionTapMetadataCallCount += 1
-    
-        if let getConfirmationActionTapMetadataHandler = getConfirmationActionTapMetadataHandler {
-            return getConfirmationActionTapMetadataHandler()
-        }
-        return nil
-    }
 }
 
 class SelectedProductRoutingMock: SelectedProductRouting {
 
     
     init() {}
-    init(interactor: SelectedProductInteractable = SelectedProductInteractableMock(), viewController: SelectedProductViewControllable = SelectedProductViewControllableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: SelectedProductInteractable = SelectedProductInteractableMock(), viewController: SelectedProductViewControllable = SelectedProductViewControllableMock()) {
         self.interactor = interactor
         self.viewController = viewController
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -6457,103 +3306,6 @@ class SelectedProductRoutingMock: SelectedProductRouting {
             underlyingViewController = newValue
             viewControllerSetCallCount += 1
         }
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
     }
 }
 
@@ -6603,12 +3355,8 @@ class SelectedProductConfigurationRoutingMock: SelectedProductConfigurationRouti
 
     
     init() {}
-    init(viewController: SelectedProductConfigurationViewControllable = SelectedProductConfigurationViewControllableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(viewController: SelectedProductConfigurationViewControllable = SelectedProductConfigurationViewControllableMock()) {
         self.viewController = viewController
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var viewControllerSetCallCount = 0
@@ -6641,103 +3389,6 @@ class SelectedProductConfigurationRoutingMock: SelectedProductConfigurationRouti
     
         if let detachConfigurationChildRouterHandler = detachConfigurationChildRouterHandler {
             detachConfigurationChildRouterHandler()
-        }
-        
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
         }
         
     }
@@ -6941,10 +3592,9 @@ public class SelectedProductLeadingButtonStreamingMock: SelectedProductLeadingBu
 class HomeInteractableV2Mock: HomeInteractableV2 {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -6981,151 +3631,6 @@ class HomeInteractableV2Mock: HomeInteractableV2 {
             underlyingListener = newValue
             listenerSetCallCount += 1
         }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var wantAvailableSizeCallCount = 0
-public var wantAvailableSizeHandler: ((Bool) -> (CGSize?))?
-public func wantAvailableSize(_ toScreenTop: Bool) -> CGSize? {
-        wantAvailableSizeCallCount += 1
-    
-        if let wantAvailableSizeHandler = wantAvailableSizeHandler {
-            return wantAvailableSizeHandler(toScreenTop)
-        }
-        return nil
-    }
-var wantUpdateDimCallCount = 0
-public var wantUpdateDimHandler: ((Bool) -> ())?
-public func wantUpdateDim(shouldDim: Bool)  {
-        wantUpdateDimCallCount += 1
-    
-        if let wantUpdateDimHandler = wantUpdateDimHandler {
-            wantUpdateDimHandler(shouldDim)
-        }
-        
-    }
-var wantUpdateMapPaddingCallCount = 0
-public var wantUpdateMapPaddingHandler: (() -> ())?
-public func wantUpdateMapPadding()  {
-        wantUpdateMapPaddingCallCount += 1
-    
-        if let wantUpdateMapPaddingHandler = wantUpdateMapPaddingHandler {
-            wantUpdateMapPaddingHandler()
-        }
-        
-    }
-var wantDestinationCallCount = 0
-public var wantDestinationHandler: (() -> ())?
-public func wantDestination()  {
-        wantDestinationCallCount += 1
-    
-        if let wantDestinationHandler = wantDestinationHandler {
-            wantDestinationHandler()
-        }
-        
-    }
-var acceleratorsUpdatedCallCount = 0
-public var acceleratorsUpdatedHandler: ((Bool) -> ())?
-public func acceleratorsUpdated(availability: Bool)  {
-        acceleratorsUpdatedCallCount += 1
-    
-        if let acceleratorsUpdatedHandler = acceleratorsUpdatedHandler {
-            acceleratorsUpdatedHandler(availability)
-        }
-        
-    }
-var selectingAcceleratorCompletedCallCount = 0
-public var selectingAcceleratorCompletedHandler: (() -> ())?
-public func selectingAcceleratorCompleted()  {
-        selectingAcceleratorCompletedCallCount += 1
-    
-        if let selectingAcceleratorCompletedHandler = selectingAcceleratorCompletedHandler {
-            selectingAcceleratorCompletedHandler()
-        }
-        
-    }
-var wantLocationEditorCallCount = 0
-public var wantLocationEditorHandler: ((LocationEditorContext, LocationEditorMode) -> ())?
-public func wantLocationEditor(context: LocationEditorContext, mode: LocationEditorMode)  {
-        wantLocationEditorCallCount += 1
-    
-        if let wantLocationEditorHandler = wantLocationEditorHandler {
-            wantLocationEditorHandler(context, mode)
-        }
-        
-    }
-var waitForLocationEditorEntryCallCount = 0
-public var waitForLocationEditorEntryHandler: (() -> (Observable<(LocationEditorEntryActionableItem, ())>))?
-public func waitForLocationEditorEntry() -> Observable<(LocationEditorEntryActionableItem, ())> {
-        waitForLocationEditorEntryCallCount += 1
-    
-        if let waitForLocationEditorEntryHandler = waitForLocationEditorEntryHandler {
-            return waitForLocationEditorEntryHandler()
-        }
-        return Observable.empty()
     }
 }
 
@@ -7167,16 +3672,6 @@ class ModeActionableItemHandlingMock: ModeActionableItemHandling {
         }
         
     }
-var waitForModeChildCallCount = 0
-public var waitForModeChildHandler: ((ModeType) -> (Any))?
-public func waitForModeChild<ActionItemType>(modeType: ModeType) -> Observable<(ActionItemType, ())> {
-        waitForModeChildCallCount += 1
-    
-        if let waitForModeChildHandler = waitForModeChildHandler {
-            return waitForModeChildHandler(modeType) as! Observable<(ActionItemType, ())>
-        }
-        return Observable.empty()
-    }
 }
 
 class ProductCatalogTransformingMock: ProductCatalogTransforming {
@@ -7188,40 +3683,6 @@ private var productsStream: ProductsStreaming!
     required init(cachedExperiments: CachedExperimenting, productsStream: ProductsStreaming) {
         self.cachedExperiments = cachedExperiments
     self.productsStream = productsStream
-    }
-private var catalogStreamSubjectKind = 0
-var catalogStreamSubjectSetCallCount = 0
-var catalogStreamSubject = PublishSubject<ProductCatalogResult>() { didSet { catalogStreamSubjectSetCallCount += 1 } }
-var catalogStreamReplaySubject = ReplaySubject<ProductCatalogResult>.create(bufferSize: 1) { didSet { catalogStreamSubjectSetCallCount += 1 } }
-var catalogStreamBehaviorSubject: BehaviorSubject<ProductCatalogResult>! { didSet { catalogStreamSubjectSetCallCount += 1 } }
-var catalogStreamRxSubject: Observable<ProductCatalogResult>! { didSet { catalogStreamSubjectSetCallCount += 1 } }
-public var catalogStream: Observable<ProductCatalogResult> {
-        get {
-            if catalogStreamSubjectKind == 0 {
-                return catalogStreamSubject
-            } else if catalogStreamSubjectKind == 1 {
-                return catalogStreamBehaviorSubject
-            } else if catalogStreamSubjectKind == 2 {
-                return catalogStreamReplaySubject
-            } else {
-                return catalogStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ProductCatalogResult> {
-                catalogStreamSubject = val
-                catalogStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ProductCatalogResult> {
-                catalogStreamBehaviorSubject = val
-                catalogStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ProductCatalogResult> {
-                catalogStreamReplaySubject = val
-                catalogStreamSubjectKind = 2
-            } else {
-                catalogStreamRxSubject = newValue
-                catalogStreamSubjectKind = 3
-            }
-        }
     }
 }
 
@@ -7375,10 +3836,9 @@ class MutableSelectedProductPackageStreamingMock: MutableSelectedProductPackageS
 class RootInteractableMock: RootInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -7403,88 +3863,19 @@ class RootInteractableMock: RootInteractable {
         }
         
     }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
 }
 
 class HomeRoutingV2Mock: HomeRoutingV2 {
 
     
     init() {}
-    init(actionableItem: HomeActionableItemV2 = HomeActionableItemV2Mock(), interactor: HomeInteractableV2 = HomeInteractableV2Mock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(actionableItem: HomeActionableItemV2, interactor: HomeInteractableV2 = HomeInteractableV2Mock()) {
         self.actionableItem = actionableItem
         self.interactor = interactor
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var actionableItemSetCallCount = 0
-    var underlyingActionableItem: HomeActionableItemV2 = HomeActionableItemV2Mock()
+    var underlyingActionableItem: HomeActionableItemV2! 
     var actionableItem: HomeActionableItemV2 {
         get {
             return underlyingActionableItem
@@ -7570,7 +3961,7 @@ class HomeRoutingV2Mock: HomeRoutingV2 {
         if let routeToLocationEditorEntryHandler = routeToLocationEditorEntryHandler {
             return routeToLocationEditorEntryHandler(builder)
         }
-        return LocationEditorEntryActionableItemMock()
+        fatalError("routeToLocationEditorEntryHandler returns can't have a default value thus its handler must be set")
     }
     
     var routeFromRewardsRiderStatusBarCallCount = 0
@@ -7649,103 +4040,6 @@ class HomeRoutingV2Mock: HomeRoutingV2 {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class ProductSelectionAnnotationManagingMock: ProductSelectionAnnotationManaging {
@@ -7772,12 +4066,12 @@ public class PersistedStreamLoadingMock: PersistedStreamLoading {
 
     
     public init() {}
-    public init(mutableRiderStream: MutableRiderStreaming = MutableRiderStreamingMock()) {
+    public init(mutableRiderStream: MutableRiderStreaming) {
         self.mutableRiderStream = mutableRiderStream
     }
         
     var mutableRiderStreamSetCallCount = 0
-    var underlyingMutableRiderStream: MutableRiderStreaming = MutableRiderStreamingMock()
+    var underlyingMutableRiderStream: MutableRiderStreaming! 
     public var mutableRiderStream: MutableRiderStreaming {
         get {
             return underlyingMutableRiderStream
@@ -7875,10 +4169,8 @@ class MenuInteractableMock: MenuInteractable {
 
     
     init() {}
-    init(menuItemsReadyStream: Observable<Bool> = PublishSubject(), isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
+    init(menuItemsReadyStream: Observable<Bool> = PublishSubject()) {
         self.menuItemsReadyStream = menuItemsReadyStream
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
     }
         
     var routerSetCallCount = 0
@@ -7939,160 +4231,14 @@ class MenuInteractableMock: MenuInteractable {
             }
         }
     }
-var dismissCallCount = 0
-public var dismissHandler: (((() -> Void)?) -> ())?
-public func dismiss(_ completion: (() -> Void)?)  {
-        dismissCallCount += 1
-    
-        if let dismissHandler = dismissHandler {
-            dismissHandler(completion)
-        }
-        
-    }
-var showTopMenuItemDetailCallCount = 0
-public var showTopMenuItemDetailHandler: ((ViewableRouting, Bool) -> ())?
-public func showTopMenuItemDetail(for router: ViewableRouting, fullScreen: Bool)  {
-        showTopMenuItemDetailCallCount += 1
-    
-        if let showTopMenuItemDetailHandler = showTopMenuItemDetailHandler {
-            showTopMenuItemDetailHandler(router, fullScreen)
-        }
-        
-    }
-var dismissTopMenuItemDetailCallCount = 0
-public var dismissTopMenuItemDetailHandler: (((() -> ())?) -> ())?
-public func dismissTopMenuItemDetail(completion: (() -> ())?)  {
-        dismissTopMenuItemDetailCallCount += 1
-    
-        if let dismissTopMenuItemDetailHandler = dismissTopMenuItemDetailHandler {
-            dismissTopMenuItemDetailHandler(completion)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var wantDismissHubMessagingCallCount = 0
-public var wantDismissHubMessagingHandler: (() -> ())?
-public func wantDismissHubMessaging()  {
-        wantDismissHubMessagingCallCount += 1
-    
-        if let wantDismissHubMessagingHandler = wantDismissHubMessagingHandler {
-            wantDismissHubMessagingHandler()
-        }
-        
-    }
-var wantPresentHubMessagingCallCount = 0
-public var wantPresentHubMessagingHandler: ((HubMessagingRouting) -> ())?
-public func wantPresentHubMessaging(router: HubMessagingRouting)  {
-        wantPresentHubMessagingCallCount += 1
-    
-        if let wantPresentHubMessagingHandler = wantPresentHubMessagingHandler {
-            wantPresentHubMessagingHandler(router)
-        }
-        
-    }
-var routeToRiderInfoDetailCallCount = 0
-public var routeToRiderInfoDetailHandler: ((UIViewController) -> ())?
-public func routeToRiderInfoDetail(withViewController viewController: UIViewController)  {
-        routeToRiderInfoDetailCallCount += 1
-    
-        if let routeToRiderInfoDetailHandler = routeToRiderInfoDetailHandler {
-            routeToRiderInfoDetailHandler(viewController)
-        }
-        
-    }
-var routeAwayFromRiderInfoDetailCallCount = 0
-public var routeAwayFromRiderInfoDetailHandler: (() -> ())?
-public func routeAwayFromRiderInfoDetail()  {
-        routeAwayFromRiderInfoDetailCallCount += 1
-    
-        if let routeAwayFromRiderInfoDetailHandler = routeAwayFromRiderInfoDetailHandler {
-            routeAwayFromRiderInfoDetailHandler()
-        }
-        
-    }
-var openMenuItemCallCount = 0
-public var openMenuItemHandler: ((MenuItemType) -> (Observable<(MenuItemActionableItem, ())>))?
-public func openMenuItem(menuItemType: MenuItemType) -> Observable<(MenuItemActionableItem, ())> {
-        openMenuItemCallCount += 1
-    
-        if let openMenuItemHandler = openMenuItemHandler {
-            return openMenuItemHandler(menuItemType)
-        }
-        return Observable.empty()
-    }
 }
 
 class TripRequestManagerMock: TripRequestManager {
 
     
-    init() {}
-    init(isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
+
+    init() {
+
     }
         
     var sendCallCount = 0
@@ -8127,179 +4273,25 @@ class TripRequestManagerMock: TripRequestManager {
         }
         
     }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
-var tripRequestStatusProducerDidProduceStatusCallCount = 0
-public var tripRequestStatusProducerDidProduceStatusHandler: ((TripRequestStatus) -> ())?
-public func tripRequestStatusProducerDidProduceStatus(_ status: TripRequestStatus)  {
-        tripRequestStatusProducerDidProduceStatusCallCount += 1
-    
-        if let tripRequestStatusProducerDidProduceStatusHandler = tripRequestStatusProducerDidProduceStatusHandler {
-            tripRequestStatusProducerDidProduceStatusHandler(status)
-        }
-        
-    }
-var tripRequestStatusProducerShouldResetStatusCallCount = 0
-public var tripRequestStatusProducerShouldResetStatusHandler: (() -> ())?
-public func tripRequestStatusProducerShouldResetStatus()  {
-        tripRequestStatusProducerShouldResetStatusCallCount += 1
-    
-        if let tripRequestStatusProducerShouldResetStatusHandler = tripRequestStatusProducerShouldResetStatusHandler {
-            tripRequestStatusProducerShouldResetStatusHandler()
-        }
-        
-    }
 }
 
 public class PickupRequestMiddlewareManagingMock: PickupRequestMiddlewareManaging {
 
     
-    public init() {}
-    public init(isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject()) {
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
+
+    public init() {
+
     }
-    var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
     
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
 }
 
 class ProductSelectionRoutingV2Mock: ProductSelectionRoutingV2 {
 
     
     init() {}
-    init(interactor: ProductSelectionInteractableV2 = ProductSelectionInteractableV2Mock(), viewController: ProductSelectionViewControllableV2 = ProductSelectionViewControllableV2Mock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: ProductSelectionInteractableV2 = ProductSelectionInteractableV2Mock(), viewController: ProductSelectionViewControllableV2 = ProductSelectionViewControllableV2Mock()) {
         self.interactor = interactor
         self.viewController = viewController
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -8325,111 +4317,14 @@ class ProductSelectionRoutingV2Mock: ProductSelectionRoutingV2 {
             viewControllerSetCallCount += 1
         }
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class MenuViewControllableMock: MenuViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -8542,7 +4437,6 @@ class MenuViewControllableMock: MenuViewControllable {
         }
         
     }
-var uiviewControllerSetCallCount = 0
     
     var showTopMenuItemCallCount = 0
     var showTopMenuItemHandler: ((ViewControllable?) -> ())?
@@ -8554,7 +4448,6 @@ var uiviewControllerSetCallCount = 0
         }
         
     }
-var underlyingUiviewController: UIViewController = UIViewController()
     
     var hideTopMenuItemCallCount = 0
     var hideTopMenuItemHandler: (() -> ())?
@@ -8565,15 +4458,6 @@ var underlyingUiviewController: UIViewController = UIViewController()
             hideTopMenuItemHandler()
         }
         
-    }
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
     }
 }
 
@@ -8613,9 +4497,10 @@ class ProductSelectionViewControllableV2Mock: ProductSelectionViewControllableV2
 
     
     init() {}
-    init(recommendedProductsCount: Int = 0, currentState: ProductSelectionViewState, slidableVisualContentHeight: CGFloat = 0.0, presentationAnimation: ConfirmationSlidableAnimation, dismissalAnimation: ConfirmationSlidableAnimation, requiredViewState: ConfirmationViewState, topAnchor: ConfirmationSlidableTopAnchor, bottomAnchor: ConfirmationSlidableBottomAnchor, slidableHeight: CGFloat = 0.0, uiviewController: UIViewController = UIViewController()) {
+    init(recommendedProductsCount: Int = 0, currentState: ProductSelectionViewState, uiviewController: UIViewController = UIViewController(), slidableVisualContentHeight: CGFloat = 0.0, presentationAnimation: ConfirmationSlidableAnimation, dismissalAnimation: ConfirmationSlidableAnimation, requiredViewState: ConfirmationViewState, topAnchor: ConfirmationSlidableTopAnchor, bottomAnchor: ConfirmationSlidableBottomAnchor, slidableHeight: CGFloat = 0.0) {
         self.recommendedProductsCount = recommendedProductsCount
         self.currentState = currentState
+        self.uiviewController = uiviewController
         self.slidableVisualContentHeight = slidableVisualContentHeight
         self.presentationAnimation = presentationAnimation
         self.dismissalAnimation = dismissalAnimation
@@ -8623,7 +4508,6 @@ class ProductSelectionViewControllableV2Mock: ProductSelectionViewControllableV2
         self.topAnchor = topAnchor
         self.bottomAnchor = bottomAnchor
         self.slidableHeight = slidableHeight
-        self.uiviewController = uiviewController
     }
         
     var listenerSetCallCount = 0
@@ -8672,7 +4556,6 @@ class ProductSelectionViewControllableV2Mock: ProductSelectionViewControllableV2
         }
         
     }
-var uiviewControllerSetCallCount = 0
     
     var updateCollectionViewNumberOfCategoriesCallCount = 0
     var updateCollectionViewNumberOfCategoriesHandler: ((Int) -> ())?
@@ -8683,16 +4566,6 @@ var uiviewControllerSetCallCount = 0
             updateCollectionViewNumberOfCategoriesHandler(numberOfCategories)
         }
         
-    }
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
     }
     
     var updateCollectionViewChangeSetCallCount = 0
@@ -8737,6 +4610,18 @@ public var uiviewController: UIViewController {
             productSelectedHandler(indexPath)
         }
         
+    }
+    
+    var uiviewControllerSetCallCount = 0
+    var underlyingUiviewController: UIViewController = UIViewController()
+    var uiviewController: UIViewController {
+        get {
+            return underlyingUiviewController
+        }
+        set {
+            underlyingUiviewController = newValue
+            uiviewControllerSetCallCount += 1
+        }
     }
     
     var slidableVisualContentHeightSetCallCount = 0
@@ -8951,356 +4836,11 @@ public var uiviewController: UIViewController {
 class DeviceLocationWorkingMock: DeviceLocationWorking {
 
     
-    init() {}
-    init(isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject(), location: Observable<CLLocation?> = PublishSubject(), coreAuthorizationStatus: Observable<CLAuthorizationStatus> = PublishSubject(), coreLocation: Observable<UBCoreLocation?> = PublishSubject(), compassHeading: Observable<CLHeading?> = PublishSubject(), deprecatedAuthorizationStatus: Observable<DeviceLocationAuthorizationStatus> = PublishSubject(), error: Observable<Error> = PublishSubject()) {
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
-        self.location = location
-        self.coreAuthorizationStatus = coreAuthorizationStatus
-        self.coreLocation = coreLocation
-        self.compassHeading = compassHeading
-        self.deprecatedAuthorizationStatus = deprecatedAuthorizationStatus
-        self.error = error
+
+    init() {
+
     }
-    var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
     
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
-private var locationSubjectKind = 0
-var locationSubjectSetCallCount = 0
-var locationSubject = PublishSubject<CLLocation?>() { didSet { locationSubjectSetCallCount += 1 } }
-var locationReplaySubject = ReplaySubject<CLLocation?>.create(bufferSize: 1) { didSet { locationSubjectSetCallCount += 1 } }
-var locationBehaviorSubject: BehaviorSubject<CLLocation?>! { didSet { locationSubjectSetCallCount += 1 } }
-var locationRxSubject: Observable<CLLocation?>! { didSet { locationSubjectSetCallCount += 1 } }
-public var location: Observable<CLLocation?> {
-        get {
-            if locationSubjectKind == 0 {
-                return locationSubject
-            } else if locationSubjectKind == 1 {
-                return locationBehaviorSubject
-            } else if locationSubjectKind == 2 {
-                return locationReplaySubject
-            } else {
-                return locationRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<CLLocation?> {
-                locationSubject = val
-                locationSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<CLLocation?> {
-                locationBehaviorSubject = val
-                locationSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<CLLocation?> {
-                locationReplaySubject = val
-                locationSubjectKind = 2
-            } else {
-                locationRxSubject = newValue
-                locationSubjectKind = 3
-            }
-        }
-    }
-private var coreAuthorizationStatusSubjectKind = 0
-var coreAuthorizationStatusSubjectSetCallCount = 0
-var coreAuthorizationStatusSubject = PublishSubject<CLAuthorizationStatus>() { didSet { coreAuthorizationStatusSubjectSetCallCount += 1 } }
-var coreAuthorizationStatusReplaySubject = ReplaySubject<CLAuthorizationStatus>.create(bufferSize: 1) { didSet { coreAuthorizationStatusSubjectSetCallCount += 1 } }
-var coreAuthorizationStatusBehaviorSubject: BehaviorSubject<CLAuthorizationStatus>! { didSet { coreAuthorizationStatusSubjectSetCallCount += 1 } }
-var coreAuthorizationStatusRxSubject: Observable<CLAuthorizationStatus>! { didSet { coreAuthorizationStatusSubjectSetCallCount += 1 } }
-public var coreAuthorizationStatus: Observable<CLAuthorizationStatus> {
-        get {
-            if coreAuthorizationStatusSubjectKind == 0 {
-                return coreAuthorizationStatusSubject
-            } else if coreAuthorizationStatusSubjectKind == 1 {
-                return coreAuthorizationStatusBehaviorSubject
-            } else if coreAuthorizationStatusSubjectKind == 2 {
-                return coreAuthorizationStatusReplaySubject
-            } else {
-                return coreAuthorizationStatusRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<CLAuthorizationStatus> {
-                coreAuthorizationStatusSubject = val
-                coreAuthorizationStatusSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<CLAuthorizationStatus> {
-                coreAuthorizationStatusBehaviorSubject = val
-                coreAuthorizationStatusSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<CLAuthorizationStatus> {
-                coreAuthorizationStatusReplaySubject = val
-                coreAuthorizationStatusSubjectKind = 2
-            } else {
-                coreAuthorizationStatusRxSubject = newValue
-                coreAuthorizationStatusSubjectKind = 3
-            }
-        }
-    }
-var clearLocationOverrideCallCount = 0
-public var clearLocationOverrideHandler: (() -> ())?
-public func clearLocationOverride()  {
-        clearLocationOverrideCallCount += 1
-    
-        if let clearLocationOverrideHandler = clearLocationOverrideHandler {
-            clearLocationOverrideHandler()
-        }
-        
-    }
-var setLocationOverrideCallCount = 0
-public var setLocationOverrideHandler: ((Double, Double, Double) -> ())?
-public func setLocationOverride(latitude: Double, longitude: Double, speed: Double)  {
-        setLocationOverrideCallCount += 1
-    
-        if let setLocationOverrideHandler = setLocationOverrideHandler {
-            setLocationOverrideHandler(latitude, longitude, speed)
-        }
-        
-    }
-private var coreLocationSubjectKind = 0
-var coreLocationSubjectSetCallCount = 0
-var coreLocationSubject = PublishSubject<UBCoreLocation?>() { didSet { coreLocationSubjectSetCallCount += 1 } }
-var coreLocationReplaySubject = ReplaySubject<UBCoreLocation?>.create(bufferSize: 1) { didSet { coreLocationSubjectSetCallCount += 1 } }
-var coreLocationBehaviorSubject: BehaviorSubject<UBCoreLocation?>! { didSet { coreLocationSubjectSetCallCount += 1 } }
-var coreLocationRxSubject: Observable<UBCoreLocation?>! { didSet { coreLocationSubjectSetCallCount += 1 } }
-public var coreLocation: Observable<UBCoreLocation?> {
-        get {
-            if coreLocationSubjectKind == 0 {
-                return coreLocationSubject
-            } else if coreLocationSubjectKind == 1 {
-                return coreLocationBehaviorSubject
-            } else if coreLocationSubjectKind == 2 {
-                return coreLocationReplaySubject
-            } else {
-                return coreLocationRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<UBCoreLocation?> {
-                coreLocationSubject = val
-                coreLocationSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<UBCoreLocation?> {
-                coreLocationBehaviorSubject = val
-                coreLocationSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<UBCoreLocation?> {
-                coreLocationReplaySubject = val
-                coreLocationSubjectKind = 2
-            } else {
-                coreLocationRxSubject = newValue
-                coreLocationSubjectKind = 3
-            }
-        }
-    }
-private var compassHeadingSubjectKind = 0
-var compassHeadingSubjectSetCallCount = 0
-var compassHeadingSubject = PublishSubject<CLHeading?>() { didSet { compassHeadingSubjectSetCallCount += 1 } }
-var compassHeadingReplaySubject = ReplaySubject<CLHeading?>.create(bufferSize: 1) { didSet { compassHeadingSubjectSetCallCount += 1 } }
-var compassHeadingBehaviorSubject: BehaviorSubject<CLHeading?>! { didSet { compassHeadingSubjectSetCallCount += 1 } }
-var compassHeadingRxSubject: Observable<CLHeading?>! { didSet { compassHeadingSubjectSetCallCount += 1 } }
-public var compassHeading: Observable<CLHeading?> {
-        get {
-            if compassHeadingSubjectKind == 0 {
-                return compassHeadingSubject
-            } else if compassHeadingSubjectKind == 1 {
-                return compassHeadingBehaviorSubject
-            } else if compassHeadingSubjectKind == 2 {
-                return compassHeadingReplaySubject
-            } else {
-                return compassHeadingRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<CLHeading?> {
-                compassHeadingSubject = val
-                compassHeadingSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<CLHeading?> {
-                compassHeadingBehaviorSubject = val
-                compassHeadingSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<CLHeading?> {
-                compassHeadingReplaySubject = val
-                compassHeadingSubjectKind = 2
-            } else {
-                compassHeadingRxSubject = newValue
-                compassHeadingSubjectKind = 3
-            }
-        }
-    }
-private var deprecatedAuthorizationStatusSubjectKind = 0
-var deprecatedAuthorizationStatusSubjectSetCallCount = 0
-var deprecatedAuthorizationStatusSubject = PublishSubject<DeviceLocationAuthorizationStatus>() { didSet { deprecatedAuthorizationStatusSubjectSetCallCount += 1 } }
-var deprecatedAuthorizationStatusReplaySubject = ReplaySubject<DeviceLocationAuthorizationStatus>.create(bufferSize: 1) { didSet { deprecatedAuthorizationStatusSubjectSetCallCount += 1 } }
-var deprecatedAuthorizationStatusBehaviorSubject: BehaviorSubject<DeviceLocationAuthorizationStatus>! { didSet { deprecatedAuthorizationStatusSubjectSetCallCount += 1 } }
-var deprecatedAuthorizationStatusRxSubject: Observable<DeviceLocationAuthorizationStatus>! { didSet { deprecatedAuthorizationStatusSubjectSetCallCount += 1 } }
-public var deprecatedAuthorizationStatus: Observable<DeviceLocationAuthorizationStatus> {
-        get {
-            if deprecatedAuthorizationStatusSubjectKind == 0 {
-                return deprecatedAuthorizationStatusSubject
-            } else if deprecatedAuthorizationStatusSubjectKind == 1 {
-                return deprecatedAuthorizationStatusBehaviorSubject
-            } else if deprecatedAuthorizationStatusSubjectKind == 2 {
-                return deprecatedAuthorizationStatusReplaySubject
-            } else {
-                return deprecatedAuthorizationStatusRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<DeviceLocationAuthorizationStatus> {
-                deprecatedAuthorizationStatusSubject = val
-                deprecatedAuthorizationStatusSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<DeviceLocationAuthorizationStatus> {
-                deprecatedAuthorizationStatusBehaviorSubject = val
-                deprecatedAuthorizationStatusSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<DeviceLocationAuthorizationStatus> {
-                deprecatedAuthorizationStatusReplaySubject = val
-                deprecatedAuthorizationStatusSubjectKind = 2
-            } else {
-                deprecatedAuthorizationStatusRxSubject = newValue
-                deprecatedAuthorizationStatusSubjectKind = 3
-            }
-        }
-    }
-private var errorSubjectKind = 0
-var errorSubjectSetCallCount = 0
-var errorSubject = PublishSubject<Error>() { didSet { errorSubjectSetCallCount += 1 } }
-var errorReplaySubject = ReplaySubject<Error>.create(bufferSize: 1) { didSet { errorSubjectSetCallCount += 1 } }
-var errorBehaviorSubject: BehaviorSubject<Error>! { didSet { errorSubjectSetCallCount += 1 } }
-var errorRxSubject: Observable<Error>! { didSet { errorSubjectSetCallCount += 1 } }
-public var error: Observable<Error> {
-        get {
-            if errorSubjectKind == 0 {
-                return errorSubject
-            } else if errorSubjectKind == 1 {
-                return errorBehaviorSubject
-            } else if errorSubjectKind == 2 {
-                return errorReplaySubject
-            } else {
-                return errorRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Error> {
-                errorSubject = val
-                errorSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Error> {
-                errorBehaviorSubject = val
-                errorSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Error> {
-                errorReplaySubject = val
-                errorSubjectKind = 2
-            } else {
-                errorRxSubject = newValue
-                errorSubjectKind = 3
-            }
-        }
-    }
-var locationFilteredCallCount = 0
-public var locationFilteredHandler: ((Observable<Bool>) -> (Observable<LocationUpdate>))?
-public func locationFiltered(by filter: Observable<Bool>) -> Observable<LocationUpdate> {
-        locationFilteredCallCount += 1
-    
-        if let locationFilteredHandler = locationFilteredHandler {
-            return locationFilteredHandler(filter)
-        }
-        return Observable.empty()
-    }
-var stopObservingDeviceLocationCallCount = 0
-public var stopObservingDeviceLocationHandler: (() -> ())?
-public func stopObservingDeviceLocation()  {
-        stopObservingDeviceLocationCallCount += 1
-    
-        if let stopObservingDeviceLocationHandler = stopObservingDeviceLocationHandler {
-            stopObservingDeviceLocationHandler()
-        }
-        
-    }
-var disableBackgroundLocationUpdatesCallCount = 0
-public var disableBackgroundLocationUpdatesHandler: (() -> ())?
-public func disableBackgroundLocationUpdates()  {
-        disableBackgroundLocationUpdatesCallCount += 1
-    
-        if let disableBackgroundLocationUpdatesHandler = disableBackgroundLocationUpdatesHandler {
-            disableBackgroundLocationUpdatesHandler()
-        }
-        
-    }
-var enableBackgroundLocationUpdates_DO_NOT_USECallCount = 0
-public var enableBackgroundLocationUpdates_DO_NOT_USEHandler: (() -> ())?
-public func enableBackgroundLocationUpdates_DO_NOT_USE()  {
-        enableBackgroundLocationUpdates_DO_NOT_USECallCount += 1
-    
-        if let enableBackgroundLocationUpdates_DO_NOT_USEHandler = enableBackgroundLocationUpdates_DO_NOT_USEHandler {
-            enableBackgroundLocationUpdates_DO_NOT_USEHandler()
-        }
-        
-    }
-var startObservingDeviceLocationCallCount = 0
-public var startObservingDeviceLocationHandler: (() -> ())?
-public func startObservingDeviceLocation()  {
-        startObservingDeviceLocationCallCount += 1
-    
-        if let startObservingDeviceLocationHandler = startObservingDeviceLocationHandler {
-            startObservingDeviceLocationHandler()
-        }
-        
-    }
 }
 
 public class ModeViewListenerMock: ModeViewListener {
@@ -9332,16 +4872,6 @@ public class ModeViewListenerMock: ModeViewListener {
         }
         
     }
-var didTransitionCallCount = 0
-public var didTransitionHandler: ((UIViewController?, UIViewController?) -> ())?
-public func didTransition(fromViewController: UIViewController?, toViewController: UIViewController?)  {
-        didTransitionCallCount += 1
-    
-        if let didTransitionHandler = didTransitionHandler {
-            didTransitionHandler(fromViewController, toViewController)
-        }
-        
-    }
 }
 
 class ConfirmationPresentableListenerV2Mock: ConfirmationPresentableListenerV2 {
@@ -9361,26 +4891,6 @@ class ConfirmationPresentableListenerV2Mock: ConfirmationPresentableListenerV2 {
             didTapDestinationEntryHandler()
         }
         
-    }
-var didTapLeadingButtonCallCount = 0
-public var didTapLeadingButtonHandler: ((LeadingButton.Mode) -> ())?
-public func didTapLeadingButton(_ mode: LeadingButton.Mode)  {
-        didTapLeadingButtonCallCount += 1
-    
-        if let didTapLeadingButtonHandler = didTapLeadingButtonHandler {
-            didTapLeadingButtonHandler(mode)
-        }
-        
-    }
-var shouldHandleLeadingButtonTapCallCount = 0
-public var shouldHandleLeadingButtonTapHandler: ((LeadingButton.Mode) -> (Bool))?
-public func shouldHandleLeadingButtonTap(_ mode: LeadingButton.Mode) -> Bool {
-        shouldHandleLeadingButtonTapCallCount += 1
-    
-        if let shouldHandleLeadingButtonTapHandler = shouldHandleLeadingButtonTapHandler {
-            return shouldHandleLeadingButtonTapHandler(mode)
-        }
-        return false
     }
 }
 
@@ -9507,12 +5017,8 @@ class MenuRoutingMock: MenuRouting {
 
     
     init() {}
-    init(interactor: MenuInteractable = MenuInteractableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: MenuInteractable = MenuInteractableMock()) {
         self.interactor = interactor
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -9669,114 +5175,14 @@ class MenuRoutingMock: MenuRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class TripInteractableMock: TripInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject(), dispatchingMapAnimatedStream: Observable<Bool> = PublishSubject(), locationEditorDismissToggled: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
-        self.dispatchingMapAnimatedStream = dispatchingMapAnimatedStream
-        self.locationEditorDismissToggled = locationEditorDismissToggled
+
+    init() {
+
     }
         
     var cancelTripWithoutConfirmingCallCount = 0
@@ -9879,537 +5285,14 @@ class TripInteractableMock: TripInteractable {
         }
         
     }
-var safetyActionSheetCompletedCallCount = 0
-public var safetyActionSheetCompletedHandler: ((Bool) -> ())?
-public func safetyActionSheetCompleted(shouldCancelTrip: Bool)  {
-        safetyActionSheetCompletedCallCount += 1
-    
-        if let safetyActionSheetCompletedHandler = safetyActionSheetCompletedHandler {
-            safetyActionSheetCompletedHandler(shouldCancelTrip)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var dismissFeedPermalinkCallCount = 0
-public var dismissFeedPermalinkHandler: (() -> ())?
-public func dismissFeedPermalink()  {
-        dismissFeedPermalinkCallCount += 1
-    
-        if let dismissFeedPermalinkHandler = dismissFeedPermalinkHandler {
-            dismissFeedPermalinkHandler()
-        }
-        
-    }
-var didUpdatePickupLocationCallCount = 0
-public var didUpdatePickupLocationHandler: ((RequestLocation) -> ())?
-public func didUpdatePickupLocation(location: RequestLocation)  {
-        didUpdatePickupLocationCallCount += 1
-    
-        if let didUpdatePickupLocationHandler = didUpdatePickupLocationHandler {
-            didUpdatePickupLocationHandler(location)
-        }
-        
-    }
-var didUpdateDestinationLocationsCallCount = 0
-public var didUpdateDestinationLocationsHandler: (([RequestLocation]) -> ())?
-public func didUpdateDestinationLocations(locations: [RequestLocation])  {
-        didUpdateDestinationLocationsCallCount += 1
-    
-        if let didUpdateDestinationLocationsHandler = didUpdateDestinationLocationsHandler {
-            didUpdateDestinationLocationsHandler(locations)
-        }
-        
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var locationEditorDidFinishCallCount = 0
-var deactivateCallCount = 0
-public var locationEditorDidFinishHandler: ((Bool) -> ())?
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-public func locationEditorDidFinish(destinationSelected: Bool)  {
-        locationEditorDidFinishCallCount += 1
-    
-        if let locationEditorDidFinishHandler = locationEditorDidFinishHandler {
-            locationEditorDidFinishHandler(destinationSelected)
-        }
-        
-    }
-var locationEditorDidTapBackCallCount = 0
-public var locationEditorDidTapBackHandler: (() -> ())?
-public func locationEditorDidTapBack()  {
-        locationEditorDidTapBackCallCount += 1
-    
-        if let locationEditorDidTapBackHandler = locationEditorDidTapBackHandler {
-            locationEditorDidTapBackHandler()
-        }
-        
-    }
-var tripTrayDidCancelTripCallCount = 0
-public var tripTrayDidCancelTripHandler: (() -> ())?
-public func tripTrayDidCancelTrip()  {
-        tripTrayDidCancelTripCallCount += 1
-    
-        if let tripTrayDidCancelTripHandler = tripTrayDidCancelTripHandler {
-            tripTrayDidCancelTripHandler()
-        }
-        
-    }
-var tripCancellationCancelledTripCallCount = 0
-public var tripCancellationCancelledTripHandler: (() -> ())?
-public func tripCancellationCancelledTrip()  {
-        tripCancellationCancelledTripCallCount += 1
-    
-        if let tripCancellationCancelledTripHandler = tripCancellationCancelledTripHandler {
-            tripCancellationCancelledTripHandler()
-        }
-        
-    }
-var tripCancellationDidNotCancelTripCallCount = 0
-public var tripCancellationDidNotCancelTripHandler: (() -> ())?
-public func tripCancellationDidNotCancelTrip()  {
-        tripCancellationDidNotCancelTripCallCount += 1
-    
-        if let tripCancellationDidNotCancelTripHandler = tripCancellationDidNotCancelTripHandler {
-            tripCancellationDidNotCancelTripHandler()
-        }
-        
-    }
-var tripCancellationDidNotCancelTripGenericLocationEditorConfigurationCallCount = 0
-public var tripCancellationDidNotCancelTripGenericLocationEditorConfigurationHandler: ((GenericLocationEditorConfiguration) -> ())?
-public func tripCancellationDidNotCancelTrip(genericLocationEditorConfiguration configuration: GenericLocationEditorConfiguration)  {
-        tripCancellationDidNotCancelTripGenericLocationEditorConfigurationCallCount += 1
-    
-        if let tripCancellationDidNotCancelTripGenericLocationEditorConfigurationHandler = tripCancellationDidNotCancelTripGenericLocationEditorConfigurationHandler {
-            tripCancellationDidNotCancelTripGenericLocationEditorConfigurationHandler(configuration)
-        }
-        
-    }
-var collapseFeedCallCount = 0
-public var collapseFeedHandler: (() -> ())?
-public func collapseFeed()  {
-        collapseFeedCallCount += 1
-    
-        if let collapseFeedHandler = collapseFeedHandler {
-            collapseFeedHandler()
-        }
-        
-    }
-var showMapAlertControllerCallCount = 0
-public var showMapAlertControllerHandler: ((Bool, ModularMapAlertOptions, @escaping (_ backgroundViews: [UIView]) -> BaseAlertController) -> ())?
-public func showMapAlertController(dismissPresentedViewController: Bool, options: ModularMapAlertOptions, alertControllerFactory: @escaping (_ backgroundViews: [UIView]) -> BaseAlertController)  {
-        showMapAlertControllerCallCount += 1
-    
-        if let showMapAlertControllerHandler = showMapAlertControllerHandler {
-            showMapAlertControllerHandler(dismissPresentedViewController, options, alertControllerFactory)
-        }
-        
-    }
-var showSafetyActionSheetCallCount = 0
-public var showSafetyActionSheetHandler: ((SafetyCenterActionSheetIncidentType) -> ())?
-public func showSafetyActionSheet(incidentType: SafetyCenterActionSheetIncidentType)  {
-        showSafetyActionSheetCallCount += 1
-    
-        if let showSafetyActionSheetHandler = showSafetyActionSheetHandler {
-            showSafetyActionSheetHandler(incidentType)
-        }
-        
-    }
-var dispatchingMapIsReadyCallCount = 0
-public var dispatchingMapIsReadyHandler: (() -> ())?
-public func dispatchingMapIsReady()  {
-        dispatchingMapIsReadyCallCount += 1
-    
-        if let dispatchingMapIsReadyHandler = dispatchingMapIsReadyHandler {
-            dispatchingMapIsReadyHandler()
-        }
-        
-    }
-var genericLocationEditorDidSelectLocationCallCount = 0
-public var genericLocationEditorDidSelectLocationHandler: ((RequestLocation) -> ())?
-public func genericLocationEditorDidSelectLocation(requestLocation: RequestLocation)  {
-        genericLocationEditorDidSelectLocationCallCount += 1
-    
-        if let genericLocationEditorDidSelectLocationHandler = genericLocationEditorDidSelectLocationHandler {
-            genericLocationEditorDidSelectLocationHandler(requestLocation)
-        }
-        
-    }
-var genericLocationEditorDidCancelCallCount = 0
-public var genericLocationEditorDidCancelHandler: (() -> ())?
-public func genericLocationEditorDidCancel()  {
-        genericLocationEditorDidCancelCallCount += 1
-    
-        if let genericLocationEditorDidCancelHandler = genericLocationEditorDidCancelHandler {
-            genericLocationEditorDidCancelHandler()
-        }
-        
-    }
-var genericLocationEditorDidUpdateLocationManualCallCount = 0
-public var genericLocationEditorDidUpdateLocationManualHandler: (() -> ())?
-public func genericLocationEditorDidUpdateLocationManual()  {
-        genericLocationEditorDidUpdateLocationManualCallCount += 1
-    
-        if let genericLocationEditorDidUpdateLocationManualHandler = genericLocationEditorDidUpdateLocationManualHandler {
-            genericLocationEditorDidUpdateLocationManualHandler()
-        }
-        
-    }
-var modalRIBWantsDismissCallCount = 0
-public var modalRIBWantsDismissHandler: (() -> ())?
-public func modalRIBWantsDismiss()  {
-        modalRIBWantsDismissCallCount += 1
-    
-        if let modalRIBWantsDismissHandler = modalRIBWantsDismissHandler {
-            modalRIBWantsDismissHandler()
-        }
-        
-    }
-var attachModalRIBCallCount = 0
-public var attachModalRIBHandler: ((ModalRIBRouting) -> ())?
-public func attachModalRIB(_ router: ModalRIBRouting)  {
-        attachModalRIBCallCount += 1
-    
-        if let attachModalRIBHandler = attachModalRIBHandler {
-            attachModalRIBHandler(router)
-        }
-        
-    }
-var tripInstructionsWantLocationEditorCallCount = 0
-public var tripInstructionsWantLocationEditorHandler: ((LocationEditorConfiguration) -> ())?
-public func tripInstructionsWantLocationEditor(configuration: LocationEditorConfiguration)  {
-        tripInstructionsWantLocationEditorCallCount += 1
-    
-        if let tripInstructionsWantLocationEditorHandler = tripInstructionsWantLocationEditorHandler {
-            tripInstructionsWantLocationEditorHandler(configuration)
-        }
-        
-    }
-var tripInstructionsWantGenericLocationEditorCallCount = 0
-public var tripInstructionsWantGenericLocationEditorHandler: ((GenericLocationEditorConfiguration) -> ())?
-public func tripInstructionsWantGenericLocationEditor(configuration: GenericLocationEditorConfiguration)  {
-        tripInstructionsWantGenericLocationEditorCallCount += 1
-    
-        if let tripInstructionsWantGenericLocationEditorHandler = tripInstructionsWantGenericLocationEditorHandler {
-            tripInstructionsWantGenericLocationEditorHandler(configuration)
-        }
-        
-    }
-private var dispatchingMapAnimatedStreamSubjectKind = 0
-var dispatchingMapAnimatedStreamSubjectSetCallCount = 0
-var dispatchingMapAnimatedStreamSubject = PublishSubject<Bool>() { didSet { dispatchingMapAnimatedStreamSubjectSetCallCount += 1 } }
-var dispatchingMapAnimatedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { dispatchingMapAnimatedStreamSubjectSetCallCount += 1 } }
-var dispatchingMapAnimatedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { dispatchingMapAnimatedStreamSubjectSetCallCount += 1 } }
-var dispatchingMapAnimatedStreamRxSubject: Observable<Bool>! { didSet { dispatchingMapAnimatedStreamSubjectSetCallCount += 1 } }
-public var dispatchingMapAnimatedStream: Observable<Bool> {
-        get {
-            if dispatchingMapAnimatedStreamSubjectKind == 0 {
-                return dispatchingMapAnimatedStreamSubject
-            } else if dispatchingMapAnimatedStreamSubjectKind == 1 {
-                return dispatchingMapAnimatedStreamBehaviorSubject
-            } else if dispatchingMapAnimatedStreamSubjectKind == 2 {
-                return dispatchingMapAnimatedStreamReplaySubject
-            } else {
-                return dispatchingMapAnimatedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                dispatchingMapAnimatedStreamSubject = val
-                dispatchingMapAnimatedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                dispatchingMapAnimatedStreamBehaviorSubject = val
-                dispatchingMapAnimatedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                dispatchingMapAnimatedStreamReplaySubject = val
-                dispatchingMapAnimatedStreamSubjectKind = 2
-            } else {
-                dispatchingMapAnimatedStreamRxSubject = newValue
-                dispatchingMapAnimatedStreamSubjectKind = 3
-            }
-        }
-    }
-private var locationEditorDismissToggledSubjectKind = 0
-var locationEditorDismissToggledSubjectSetCallCount = 0
-var locationEditorDismissToggledSubject = PublishSubject<Bool>() { didSet { locationEditorDismissToggledSubjectSetCallCount += 1 } }
-var locationEditorDismissToggledReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { locationEditorDismissToggledSubjectSetCallCount += 1 } }
-var locationEditorDismissToggledBehaviorSubject: BehaviorSubject<Bool>! { didSet { locationEditorDismissToggledSubjectSetCallCount += 1 } }
-var locationEditorDismissToggledRxSubject: Observable<Bool>! { didSet { locationEditorDismissToggledSubjectSetCallCount += 1 } }
-public var locationEditorDismissToggled: Observable<Bool> {
-        get {
-            if locationEditorDismissToggledSubjectKind == 0 {
-                return locationEditorDismissToggledSubject
-            } else if locationEditorDismissToggledSubjectKind == 1 {
-                return locationEditorDismissToggledBehaviorSubject
-            } else if locationEditorDismissToggledSubjectKind == 2 {
-                return locationEditorDismissToggledReplaySubject
-            } else {
-                return locationEditorDismissToggledRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                locationEditorDismissToggledSubject = val
-                locationEditorDismissToggledSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                locationEditorDismissToggledBehaviorSubject = val
-                locationEditorDismissToggledSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                locationEditorDismissToggledReplaySubject = val
-                locationEditorDismissToggledSubjectKind = 2
-            } else {
-                locationEditorDismissToggledRxSubject = newValue
-                locationEditorDismissToggledSubjectKind = 3
-            }
-        }
-    }
-var attachDispatchingMapCallCount = 0
-public var attachDispatchingMapHandler: ((DispatchingMapBuildable) -> ())?
-public func attachDispatchingMap(builder: DispatchingMapBuildable)  {
-        attachDispatchingMapCallCount += 1
-    
-        if let attachDispatchingMapHandler = attachDispatchingMapHandler {
-            attachDispatchingMapHandler(builder)
-        }
-        
-    }
-var detachDispatchingMapCallCount = 0
-public var detachDispatchingMapHandler: (() -> ())?
-public func detachDispatchingMap()  {
-        detachDispatchingMapCallCount += 1
-    
-        if let detachDispatchingMapHandler = detachDispatchingMapHandler {
-            detachDispatchingMapHandler()
-        }
-        
-    }
-var attachTripMapCallCount = 0
-public var attachTripMapHandler: ((TripMapBuildable) -> ())?
-public func attachTripMap(builder: TripMapBuildable)  {
-        attachTripMapCallCount += 1
-    
-        if let attachTripMapHandler = attachTripMapHandler {
-            attachTripMapHandler(builder)
-        }
-        
-    }
-var detachTripMapCallCount = 0
-public var detachTripMapHandler: (() -> ())?
-public func detachTripMap()  {
-        detachTripMapCallCount += 1
-    
-        if let detachTripMapHandler = detachTripMapHandler {
-            detachTripMapHandler()
-        }
-        
-    }
-var expandFeedForOnTripCallCount = 0
-public var expandFeedForOnTripHandler: (() -> ())?
-public func expandFeedForOnTrip()  {
-        expandFeedForOnTripCallCount += 1
-    
-        if let expandFeedForOnTripHandler = expandFeedForOnTripHandler {
-            expandFeedForOnTripHandler()
-        }
-        
-    }
-var handleTripTitleDisplayCallCount = 0
-public var handleTripTitleDisplayHandler: ((String?) -> ())?
-public func handleTripTitleDisplay(with title: String?)  {
-        handleTripTitleDisplayCallCount += 1
-    
-        if let handleTripTitleDisplayHandler = handleTripTitleDisplayHandler {
-            handleTripTitleDisplayHandler(title)
-        }
-        
-    }
-var attachTripInstructionsCallCount = 0
-public var attachTripInstructionsHandler: ((TripInstructionsBuildable) -> ())?
-public func attachTripInstructions(builder: TripInstructionsBuildable)  {
-        attachTripInstructionsCallCount += 1
-    
-        if let attachTripInstructionsHandler = attachTripInstructionsHandler {
-            attachTripInstructionsHandler(builder)
-        }
-        
-    }
-var detachTripInstructionsCallCount = 0
-public var detachTripInstructionsHandler: ((Bool) -> ())?
-public func detachTripInstructions(animated: Bool)  {
-        detachTripInstructionsCallCount += 1
-    
-        if let detachTripInstructionsHandler = detachTripInstructionsHandler {
-            detachTripInstructionsHandler(animated)
-        }
-        
-    }
-var attachTripCardsCallCount = 0
-public var attachTripCardsHandler: (() -> ())?
-public func attachTripCards()  {
-        attachTripCardsCallCount += 1
-    
-        if let attachTripCardsHandler = attachTripCardsHandler {
-            attachTripCardsHandler()
-        }
-        
-    }
-var detachTripCardsCallCount = 0
-public var detachTripCardsHandler: (() -> ())?
-public func detachTripCards()  {
-        detachTripCardsCallCount += 1
-    
-        if let detachTripCardsHandler = detachTripCardsHandler {
-            detachTripCardsHandler()
-        }
-        
-    }
-var attachTripTrayCallCount = 0
-public var attachTripTrayHandler: ((TripTrayBuildable) -> ())?
-public func attachTripTray(builder: TripTrayBuildable)  {
-        attachTripTrayCallCount += 1
-    
-        if let attachTripTrayHandler = attachTripTrayHandler {
-            attachTripTrayHandler(builder)
-        }
-        
-    }
-var detachTripTrayCallCount = 0
-public var detachTripTrayHandler: (() -> ())?
-public func detachTripTray()  {
-        detachTripTrayCallCount += 1
-    
-        if let detachTripTrayHandler = detachTripTrayHandler {
-            detachTripTrayHandler()
-        }
-        
-    }
-var attachRiderOfferCallCount = 0
-public var attachRiderOfferHandler: ((RiderOfferBuildable, RiderOfferListener) -> ())?
-public func attachRiderOffer(buildable: RiderOfferBuildable, offerListener: RiderOfferListener)  {
-        attachRiderOfferCallCount += 1
-    
-        if let attachRiderOfferHandler = attachRiderOfferHandler {
-            attachRiderOfferHandler(buildable, offerListener)
-        }
-        
-    }
-var detachRiderOfferCallCount = 0
-public var detachRiderOfferHandler: (() -> ())?
-public func detachRiderOffer()  {
-        detachRiderOfferCallCount += 1
-    
-        if let detachRiderOfferHandler = detachRiderOfferHandler {
-            detachRiderOfferHandler()
-        }
-        
-    }
-var displayMessageCallCount = 0
-public var displayMessageHandler: ((String?, String) -> (Observable<(TripActionableItem, ())>))?
-public func displayMessage(title: String?, message: String) -> Observable<(TripActionableItem, ())> {
-        displayMessageCallCount += 1
-    
-        if let displayMessageHandler = displayMessageHandler {
-            return displayMessageHandler(title, message)
-        }
-        return Observable.empty()
-    }
-var dismissFeedCallCount = 0
-public var dismissFeedHandler: (() -> (Observable<(TripActionableItem, ())>))?
-public func dismissFeed() -> Observable<(TripActionableItem, ())> {
-        dismissFeedCallCount += 1
-    
-        if let dismissFeedHandler = dismissFeedHandler {
-            return dismissFeedHandler()
-        }
-        return Observable.empty()
-    }
-var waitForFeedCallCount = 0
-public var waitForFeedHandler: (() -> (Observable<(FeedActionableItem, ())>))?
-public func waitForFeed() -> Observable<(FeedActionableItem, ())> {
-        waitForFeedCallCount += 1
-    
-        if let waitForFeedHandler = waitForFeedHandler {
-            return waitForFeedHandler()
-        }
-        return Observable.empty()
-    }
-var presentFeedPermalinkCallCount = 0
-public var presentFeedPermalinkHandler: ((String) -> ())?
-public func presentFeedPermalink(withPermalinkId permalinkId: String)  {
-        presentFeedPermalinkCallCount += 1
-    
-        if let presentFeedPermalinkHandler = presentFeedPermalinkHandler {
-            presentFeedPermalinkHandler(permalinkId)
-        }
-        
-    }
 }
 
 class ContentViewControllableMock: ContentViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var embedViewControllerCallCount = 0
@@ -10430,27 +5313,6 @@ class ContentViewControllableMock: ContentViewControllable {
     
         if let pushNavigationViewControllerWithViewControllerHandler = pushNavigationViewControllerWithViewControllerHandler {
             pushNavigationViewControllerWithViewControllerHandler(viewController, flag, completion)
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var transitionFromViewControllerCallCount = 0
-public var transitionFromViewControllerHandler: ((UIViewController?, UIViewController?, UIViewControllerAnimatedTransitioning?, TransitionContext, CachedExperimenting?) -> ())?
-public func transitionFromViewController(_ fromViewController: UIViewController?, toViewController: UIViewController?, animator: UIViewControllerAnimatedTransitioning?, context: TransitionContext, cachedExperiments: CachedExperimenting?)  {
-        transitionFromViewControllerCallCount += 1
-    
-        if let transitionFromViewControllerHandler = transitionFromViewControllerHandler {
-            transitionFromViewControllerHandler(fromViewController, toViewController, animator, context, cachedExperiments)
         }
         
     }
@@ -10577,11 +5439,9 @@ class ProductSelectionPresenterListenerMock: ProductSelectionPresenterListener {
 class TripDetailsSectionProvidingMock: TripDetailsSectionProviding {
 
     
-    init() {}
-    init(displayOverPeekable: Bool = false, reuseIdentifierMapping: [String: UICollectionViewCell.Type] = [String: UICollectionViewCell.Type](), needsToBumpFirstCard: Bool = false) {
-        self.displayOverPeekable = displayOverPeekable
-        self.reuseIdentifierMapping = reuseIdentifierMapping
-        self.needsToBumpFirstCard = needsToBumpFirstCard
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -10617,316 +5477,14 @@ class TripDetailsSectionProvidingMock: TripDetailsSectionProviding {
         }
         
     }
-var peekingHeightCallCount = 0
-public var peekingHeightHandler: ((CGFloat) -> (CGFloat))?
-public func peekingHeight(forWidth width: CGFloat) -> CGFloat {
-        peekingHeightCallCount += 1
-    
-        if let peekingHeightHandler = peekingHeightHandler {
-            return peekingHeightHandler(width)
-        }
-        return 0.0
-    }
-var displayOverPeekableSetCallCount = 0
-var underlyingDisplayOverPeekable: Bool = false
-public var displayOverPeekable: Bool {
-        get {
-            return underlyingDisplayOverPeekable
-        }
-        set {
-            underlyingDisplayOverPeekable = newValue
-            displayOverPeekableSetCallCount += 1
-        }
-    }
-var reuseIdentifierMappingSetCallCount = 0
-var underlyingReuseIdentifierMapping: [String: UICollectionViewCell.Type] = [String: UICollectionViewCell.Type]()
-public var reuseIdentifierMapping: [String: UICollectionViewCell.Type] {
-        get {
-            return underlyingReuseIdentifierMapping
-        }
-        set {
-            underlyingReuseIdentifierMapping = newValue
-            reuseIdentifierMappingSetCallCount += 1
-        }
-    }
-var collectionViewCallCount = 0
-public var collectionViewHandler: ((UICollectionView, Int) -> (String?))?
-public func collectionView(_ collectionView: UICollectionView, reuseIdentifierForItemAt index: Int) -> String? {
-        collectionViewCallCount += 1
-    
-        if let collectionViewHandler = collectionViewHandler {
-            return collectionViewHandler(collectionView, index)
-        }
-        return nil
-    }
-var numberOfItemsCallCount = 0
-public var numberOfItemsHandler: ((UICollectionView) -> (Int))?
-public func numberOfItems(in collectionView: UICollectionView) -> Int {
-        numberOfItemsCallCount += 1
-    
-        if let numberOfItemsHandler = numberOfItemsHandler {
-            return numberOfItemsHandler(collectionView)
-        }
-        return 0
-    }
-var collectionViewConfigureCellCallCount = 0
-public var collectionViewConfigureCellHandler: ((UICollectionView, UICollectionViewCell, Int) -> ())?
-public func collectionView(_ collectionView: UICollectionView, configureCell cell: UICollectionViewCell, forItemAt index: Int)  {
-        collectionViewConfigureCellCallCount += 1
-    
-        if let collectionViewConfigureCellHandler = collectionViewConfigureCellHandler {
-            collectionViewConfigureCellHandler(collectionView, cell, index)
-        }
-        
-    }
-var collectionViewSizeForItemAtCallCount = 0
-public var collectionViewSizeForItemAtHandler: ((UICollectionView, Int) -> (CGSize))?
-public func collectionView(_ collectionView: UICollectionView, sizeForItemAt index: Int) -> CGSize {
-        collectionViewSizeForItemAtCallCount += 1
-    
-        if let collectionViewSizeForItemAtHandler = collectionViewSizeForItemAtHandler {
-            return collectionViewSizeForItemAtHandler(collectionView, index)
-        }
-        return .zero
-    }
-var headerMappingSetCallCount = 0
-var underlyingHeaderMapping: (identifier: String, type: UICollectionReusableView.Type)? = nil
-public var headerMapping: (identifier: String, type: UICollectionReusableView.Type)? {
-        get {
-            return underlyingHeaderMapping
-        }
-        set {
-            underlyingHeaderMapping = newValue
-            headerMappingSetCallCount += 1
-        }
-    }
-var sectionListenerSetCallCount = 0
-var underlyingSectionListener: CardCollectionViewSectionListener? = nil
-public var sectionListener: CardCollectionViewSectionListener? {
-        get {
-            return underlyingSectionListener
-        }
-        set {
-            underlyingSectionListener = newValue
-            sectionListenerSetCallCount += 1
-        }
-    }
-var footerMappingSetCallCount = 0
-var underlyingFooterMapping: (identifier: String, type: UICollectionReusableView.Type)? = nil
-public var footerMapping: (identifier: String, type: UICollectionReusableView.Type)? {
-        get {
-            return underlyingFooterMapping
-        }
-        set {
-            underlyingFooterMapping = newValue
-            footerMappingSetCallCount += 1
-        }
-    }
-var registerImpressionVisibilityItemCallCount = 0
-public var registerImpressionVisibilityItemHandler: ((ImpressionVisibilityItem) -> ())?
-public func registerImpressionVisibilityItem(_ impressionVisibilityItem: ImpressionVisibilityItem)  {
-        registerImpressionVisibilityItemCallCount += 1
-    
-        if let registerImpressionVisibilityItemHandler = registerImpressionVisibilityItemHandler {
-            registerImpressionVisibilityItemHandler(impressionVisibilityItem)
-        }
-        
-    }
-var collectionViewConfigureHeaderCallCount = 0
-public var collectionViewConfigureHeaderHandler: ((UICollectionView, UICollectionReusableView) -> ())?
-public func collectionView(_ collectionView: UICollectionView, configureHeader header: UICollectionReusableView)  {
-        collectionViewConfigureHeaderCallCount += 1
-    
-        if let collectionViewConfigureHeaderHandler = collectionViewConfigureHeaderHandler {
-            collectionViewConfigureHeaderHandler(collectionView, header)
-        }
-        
-    }
-var needsToBumpFirstCardSetCallCount = 0
-var underlyingNeedsToBumpFirstCard: Bool = false
-public var needsToBumpFirstCard: Bool {
-        get {
-            return underlyingNeedsToBumpFirstCard
-        }
-        set {
-            underlyingNeedsToBumpFirstCard = newValue
-            needsToBumpFirstCardSetCallCount += 1
-        }
-    }
-var showBumpCardAnalyticsMetadataSetCallCount = 0
-var underlyingShowBumpCardAnalyticsMetadata: AnalyticsMetadata? = nil
-public var showBumpCardAnalyticsMetadata: AnalyticsMetadata? {
-        get {
-            return underlyingShowBumpCardAnalyticsMetadata
-        }
-        set {
-            underlyingShowBumpCardAnalyticsMetadata = newValue
-            showBumpCardAnalyticsMetadataSetCallCount += 1
-        }
-    }
-var resetBumpCardAnalyticsMetadataSetCallCount = 0
-var underlyingResetBumpCardAnalyticsMetadata: AnalyticsMetadata? = nil
-public var resetBumpCardAnalyticsMetadata: AnalyticsMetadata? {
-        get {
-            return underlyingResetBumpCardAnalyticsMetadata
-        }
-        set {
-            underlyingResetBumpCardAnalyticsMetadata = newValue
-            resetBumpCardAnalyticsMetadataSetCallCount += 1
-        }
-    }
-var collectionViewConfigureFooterCallCount = 0
-public var collectionViewConfigureFooterHandler: ((UICollectionView, UICollectionReusableView) -> ())?
-public func collectionView(_ collectionView: UICollectionView, configureFooter footer: UICollectionReusableView)  {
-        collectionViewConfigureFooterCallCount += 1
-    
-        if let collectionViewConfigureFooterHandler = collectionViewConfigureFooterHandler {
-            collectionViewConfigureFooterHandler(collectionView, footer)
-        }
-        
-    }
-var willBumpFirstCardCallCount = 0
-public var willBumpFirstCardHandler: (() -> ())?
-public func willBumpFirstCard()  {
-        willBumpFirstCardCallCount += 1
-    
-        if let willBumpFirstCardHandler = willBumpFirstCardHandler {
-            willBumpFirstCardHandler()
-        }
-        
-    }
-var headerSizeCallCount = 0
-public var headerSizeHandler: ((UICollectionView) -> (CGSize))?
-public func headerSize(in collectionView: UICollectionView) -> CGSize {
-        headerSizeCallCount += 1
-    
-        if let headerSizeHandler = headerSizeHandler {
-            return headerSizeHandler(collectionView)
-        }
-        return .zero
-    }
-var footerSizeCallCount = 0
-public var footerSizeHandler: ((UICollectionView) -> (CGSize))?
-public func footerSize(in collectionView: UICollectionView) -> CGSize {
-        footerSizeCallCount += 1
-    
-        if let footerSizeHandler = footerSizeHandler {
-            return footerSizeHandler(collectionView)
-        }
-        return .zero
-    }
-var collectionViewDidSelectItemAtCallCount = 0
-public var collectionViewDidSelectItemAtHandler: ((UICollectionView, Int) -> ())?
-public func collectionView(_ collectionView: UICollectionView, didSelectItemAt index: Int)  {
-        collectionViewDidSelectItemAtCallCount += 1
-    
-        if let collectionViewDidSelectItemAtHandler = collectionViewDidSelectItemAtHandler {
-            collectionViewDidSelectItemAtHandler(collectionView, index)
-        }
-        
-    }
-var collectionViewDidDeselectItemAtCallCount = 0
-public var collectionViewDidDeselectItemAtHandler: ((UICollectionView, Int) -> ())?
-public func collectionView(_ collectionView: UICollectionView, didDeselectItemAt index: Int)  {
-        collectionViewDidDeselectItemAtCallCount += 1
-    
-        if let collectionViewDidDeselectItemAtHandler = collectionViewDidDeselectItemAtHandler {
-            collectionViewDidDeselectItemAtHandler(collectionView, index)
-        }
-        
-    }
-var collectionViewShouldDeselectItemAtCallCount = 0
-public var collectionViewShouldDeselectItemAtHandler: ((UICollectionView, Int) -> (Bool))?
-public func collectionView(_ collectionView: UICollectionView, shouldDeselectItemAt index: Int) -> Bool {
-        collectionViewShouldDeselectItemAtCallCount += 1
-    
-        if let collectionViewShouldDeselectItemAtHandler = collectionViewShouldDeselectItemAtHandler {
-            return collectionViewShouldDeselectItemAtHandler(collectionView, index)
-        }
-        return false
-    }
-var collectionViewWillDisplayCallCount = 0
-public var collectionViewWillDisplayHandler: ((UICollectionView, UICollectionViewCell, Int) -> ())?
-public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt index: Int)  {
-        collectionViewWillDisplayCallCount += 1
-    
-        if let collectionViewWillDisplayHandler = collectionViewWillDisplayHandler {
-            collectionViewWillDisplayHandler(collectionView, cell, index)
-        }
-        
-    }
-var collectionViewDidEndDisplayingCallCount = 0
-public var collectionViewDidEndDisplayingHandler: ((UICollectionView, UICollectionViewCell, Int) -> ())?
-public func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt index: Int)  {
-        collectionViewDidEndDisplayingCallCount += 1
-    
-        if let collectionViewDidEndDisplayingHandler = collectionViewDidEndDisplayingHandler {
-            collectionViewDidEndDisplayingHandler(collectionView, cell, index)
-        }
-        
-    }
-var minimumLineSpacingCallCount = 0
-public var minimumLineSpacingHandler: ((UICollectionView) -> (CGFloat?))?
-public func minimumLineSpacing(in collectionView: UICollectionView) -> CGFloat? {
-        minimumLineSpacingCallCount += 1
-    
-        if let minimumLineSpacingHandler = minimumLineSpacingHandler {
-            return minimumLineSpacingHandler(collectionView)
-        }
-        return nil
-    }
-var minimumInteritemSpacingCallCount = 0
-public var minimumInteritemSpacingHandler: ((UICollectionView) -> (CGFloat?))?
-public func minimumInteritemSpacing(in collectionView: UICollectionView) -> CGFloat? {
-        minimumInteritemSpacingCallCount += 1
-    
-        if let minimumInteritemSpacingHandler = minimumInteritemSpacingHandler {
-            return minimumInteritemSpacingHandler(collectionView)
-        }
-        return nil
-    }
-var overrideInsetCallCount = 0
-public var overrideInsetHandler: ((UICollectionView) -> (UIEdgeInsets?))?
-public func overrideInset(in collectionView: UICollectionView) -> UIEdgeInsets? {
-        overrideInsetCallCount += 1
-    
-        if let overrideInsetHandler = overrideInsetHandler {
-            return overrideInsetHandler(collectionView)
-        }
-        return nil
-    }
-var collectionViewAnalyticsImpressionItemForIndexCallCount = 0
-public var collectionViewAnalyticsImpressionItemForIndexHandler: ((UICollectionView, Int) -> (AnalyticsImpressionItem?))?
-public func collectionView(_ collectionView: UICollectionView, analyticsImpressionItemForIndex index: Int) -> AnalyticsImpressionItem? {
-        collectionViewAnalyticsImpressionItemForIndexCallCount += 1
-    
-        if let collectionViewAnalyticsImpressionItemForIndexHandler = collectionViewAnalyticsImpressionItemForIndexHandler {
-            return collectionViewAnalyticsImpressionItemForIndexHandler(collectionView, index)
-        }
-        return nil
-    }
-var collectionViewDidScrollAtSectionCallCount = 0
-public var collectionViewDidScrollAtSectionHandler: ((UICollectionView, Int) -> ())?
-public func collectionView(_ collectionView: UICollectionView, didScrollAtSection: Int)  {
-        collectionViewDidScrollAtSectionCallCount += 1
-    
-        if let collectionViewDidScrollAtSectionHandler = collectionViewDidScrollAtSectionHandler {
-            collectionViewDidScrollAtSectionHandler(collectionView, didScrollAtSection)
-        }
-        
-    }
 }
 
 class ConfirmationRoutingV2Mock: ConfirmationRoutingV2 {
 
     
     init() {}
-    init(interactor: ConfirmationInteractableV2 = ConfirmationInteractableV2Mock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: ConfirmationInteractableV2 = ConfirmationInteractableV2Mock()) {
         self.interactor = interactor
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -11003,103 +5561,6 @@ class ConfirmationRoutingV2Mock: ConfirmationRoutingV2 {
     
         if let clearAllStatesHandler = clearAllStatesHandler {
             clearAllStatesHandler()
-        }
-        
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
         }
         
     }
@@ -11194,10 +5655,9 @@ class HomePresentableListenerV2Mock: HomePresentableListenerV2 {
 class MainInteractableMock: MainInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -11233,281 +5693,14 @@ class MainInteractableMock: MainInteractable {
         }
         return Observable.empty()
     }
-var dismissCallCount = 0
-public var dismissHandler: (((() -> Void)?) -> ())?
-public func dismiss(_ completion: (() -> Void)?)  {
-        dismissCallCount += 1
-    
-        if let dismissHandler = dismissHandler {
-            dismissHandler(completion)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var didInitiateMenuOpenCallCount = 0
-public var didInitiateMenuOpenHandler: (() -> ())?
-public func didInitiateMenuOpen()  {
-        didInitiateMenuOpenCallCount += 1
-    
-        if let didInitiateMenuOpenHandler = didInitiateMenuOpenHandler {
-            didInitiateMenuOpenHandler()
-        }
-        
-    }
-var didInitiateMenuItemCloseCallCount = 0
-public var didInitiateMenuItemCloseHandler: (() -> ())?
-public func didInitiateMenuItemClose()  {
-        didInitiateMenuItemCloseCallCount += 1
-    
-        if let didInitiateMenuItemCloseHandler = didInitiateMenuItemCloseHandler {
-            didInitiateMenuItemCloseHandler()
-        }
-        
-    }
-var attachCallCount = 0
-public var attachHandler: ((Routing) -> (Observable<(Routing, Bool)>))?
-public func attach(router: Routing) -> Observable<(Routing, Bool)> {
-        attachCallCount += 1
-    
-        if let attachHandler = attachHandler {
-            return attachHandler(router)
-        }
-        return Observable.empty()
-    }
-var detachCallCount = 0
-public var detachHandler: ((Routing) -> (Observable<(MainActionableItem, Bool)>))?
-public func detach(router: Routing) -> Observable<(MainActionableItem, Bool)> {
-        detachCallCount += 1
-    
-        if let detachHandler = detachHandler {
-            return detachHandler(router)
-        }
-        return Observable.empty()
-    }
-var presentFullScreenRouterCallCount = 0
-public var presentFullScreenRouterHandler: ((ViewableRouting) -> (Observable<(ViewableRouting, Bool)>))?
-public func presentFullScreenRouter(router: ViewableRouting) -> Observable<(ViewableRouting, Bool)> {
-        presentFullScreenRouterCallCount += 1
-    
-        if let presentFullScreenRouterHandler = presentFullScreenRouterHandler {
-            return presentFullScreenRouterHandler(router)
-        }
-        return Observable.empty()
-    }
-var presentFullScreenRouterOverCurrentContextCallCount = 0
-public var presentFullScreenRouterOverCurrentContextHandler: ((ViewableRouting) -> (Observable<(ViewableRouting, Bool)>))?
-public func presentFullScreenRouterOverCurrentContext(router: ViewableRouting) -> Observable<(ViewableRouting, Bool)> {
-        presentFullScreenRouterOverCurrentContextCallCount += 1
-    
-        if let presentFullScreenRouterOverCurrentContextHandler = presentFullScreenRouterOverCurrentContextHandler {
-            return presentFullScreenRouterOverCurrentContextHandler(router)
-        }
-        return Observable.empty()
-    }
-var presentRouterInNavigationViewCallCount = 0
-public var presentRouterInNavigationViewHandler: ((ViewableRouting, ((ThemeableNavigationViewController, PlatformUI.Theme) -> ())?) -> (Observable<(ViewableRouting, Bool)>))?
-public func presentRouterInNavigationView(router: ViewableRouting, style: ((ThemeableNavigationViewController, PlatformUI.Theme) -> ())?) -> Observable<(ViewableRouting, Bool)> {
-        presentRouterInNavigationViewCallCount += 1
-    
-        if let presentRouterInNavigationViewHandler = presentRouterInNavigationViewHandler {
-            return presentRouterInNavigationViewHandler(router, style)
-        }
-        return Observable.empty()
-    }
-var presentRouterInNavigationViewV2CallCount = 0
-public var presentRouterInNavigationViewV2Handler: ((ViewableRouting) -> (Observable<(ViewableRouting, Bool)>))?
-public func presentRouterInNavigationViewV2(router: ViewableRouting) -> Observable<(ViewableRouting, Bool)> {
-        presentRouterInNavigationViewV2CallCount += 1
-    
-        if let presentRouterInNavigationViewV2Handler = presentRouterInNavigationViewV2Handler {
-            return presentRouterInNavigationViewV2Handler(router)
-        }
-        return Observable.empty()
-    }
-var presentRouterInFullscreenNavigationViewCallCount = 0
-public var presentRouterInFullscreenNavigationViewHandler: ((ViewableRouting) -> (Observable<(ViewableRouting, Bool)>))?
-public func presentRouterInFullscreenNavigationView(router: ViewableRouting) -> Observable<(ViewableRouting, Bool)> {
-        presentRouterInFullscreenNavigationViewCallCount += 1
-    
-        if let presentRouterInFullscreenNavigationViewHandler = presentRouterInFullscreenNavigationViewHandler {
-            return presentRouterInFullscreenNavigationViewHandler(router)
-        }
-        return Observable.empty()
-    }
-var dismissFullScreenRouterCallCount = 0
-public var dismissFullScreenRouterHandler: ((ViewableRouting) -> (Observable<(MainActionableItem, Bool)>))?
-public func dismissFullScreenRouter(router: ViewableRouting) -> Observable<(MainActionableItem, Bool)> {
-        dismissFullScreenRouterCallCount += 1
-    
-        if let dismissFullScreenRouterHandler = dismissFullScreenRouterHandler {
-            return dismissFullScreenRouterHandler(router)
-        }
-        return Observable.empty()
-    }
-var waitForWorkerCallCount = 0
-public var waitForWorkerHandler: ((Working) -> (Observable<(WorkingActionableItem, ())>))?
-public func waitForWorker(worker: Working) -> Observable<(WorkingActionableItem, ())> {
-        waitForWorkerCallCount += 1
-    
-        if let waitForWorkerHandler = waitForWorkerHandler {
-            return waitForWorkerHandler(worker)
-        }
-        return Observable.empty()
-    }
-var containerViewControllerSetCallCount = 0
-var underlyingContainerViewController: ViewControllable? = nil
-public var containerViewController: ViewControllable? {
-        get {
-            return underlyingContainerViewController
-        }
-        set {
-            underlyingContainerViewController = newValue
-            containerViewControllerSetCallCount += 1
-        }
-    }
-var waitForRideCallCount = 0
-public var waitForRideHandler: (() -> (Observable<(RideActionableItem, ())>))?
-public func waitForRide() -> Observable<(RideActionableItem, ())> {
-        waitForRideCallCount += 1
-    
-        if let waitForRideHandler = waitForRideHandler {
-            return waitForRideHandler()
-        }
-        return Observable.empty()
-    }
-var waitForEMobilityRiderCallCount = 0
-public var waitForEMobilityRiderHandler: (() -> (Observable<(EMobilityRiderActionableItem, ())>))?
-public func waitForEMobilityRider() -> Observable<(EMobilityRiderActionableItem, ())> {
-        waitForEMobilityRiderCallCount += 1
-    
-        if let waitForEMobilityRiderHandler = waitForEMobilityRiderHandler {
-            return waitForEMobilityRiderHandler()
-        }
-        return Observable.empty()
-    }
-var waitForEatsModeCallCount = 0
-public var waitForEatsModeHandler: (() -> (Observable<(EatsModeActionableItem, ())>))?
-public func waitForEatsMode() -> Observable<(EatsModeActionableItem, ())> {
-        waitForEatsModeCallCount += 1
-    
-        if let waitForEatsModeHandler = waitForEatsModeHandler {
-            return waitForEatsModeHandler()
-        }
-        return Observable.empty()
-    }
-var waitForMainViewCallCount = 0
-public var waitForMainViewHandler: (() -> (Observable<(MainActionableItem, ())>))?
-public func waitForMainView() -> Observable<(MainActionableItem, ())> {
-        waitForMainViewCallCount += 1
-    
-        if let waitForMainViewHandler = waitForMainViewHandler {
-            return waitForMainViewHandler()
-        }
-        return Observable.empty()
-    }
-var waitForMenuCallCount = 0
-public var waitForMenuHandler: (() -> (Observable<(MenuActionableItem, ())>))?
-public func waitForMenu() -> Observable<(MenuActionableItem, ())> {
-        waitForMenuCallCount += 1
-    
-        if let waitForMenuHandler = waitForMenuHandler {
-            return waitForMenuHandler()
-        }
-        return Observable.empty()
-    }
-var detachMenuCallCount = 0
-public var detachMenuHandler: (() -> (Observable<(MainActionableItem, ())>))?
-public func detachMenu() -> Observable<(MainActionableItem, ())> {
-        detachMenuCallCount += 1
-    
-        if let detachMenuHandler = detachMenuHandler {
-            return detachMenuHandler()
-        }
-        return Observable.empty()
-    }
-var waitForMenuLandingUrlCallCount = 0
-public var waitForMenuLandingUrlHandler: ((String?) -> (Observable<(MenuActionableItem, ())>))?
-public func waitForMenu(landingUrl: String?) -> Observable<(MenuActionableItem, ())> {
-        waitForMenuLandingUrlCallCount += 1
-    
-        if let waitForMenuLandingUrlHandler = waitForMenuLandingUrlHandler {
-            return waitForMenuLandingUrlHandler(landingUrl)
-        }
-        return Observable.empty()
-    }
 }
 
 class PlusOneViewControllableMock: PlusOneViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController(), mapPadding: UIEdgeInsets = .zero) {
-        self.uiviewController = uiviewController
-        self.mapPadding = mapPadding
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -11543,121 +5736,14 @@ class PlusOneViewControllableMock: PlusOneViewControllable {
         }
         
     }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var mapOverlayBackgroundViewSetCallCount = 0
-var underlyingMapOverlayBackgroundView: UIView? = nil
-public var mapOverlayBackgroundView: UIView? {
-        get {
-            return underlyingMapOverlayBackgroundView
-        }
-        set {
-            underlyingMapOverlayBackgroundView = newValue
-            mapOverlayBackgroundViewSetCallCount += 1
-        }
-    }
-var mapPaddingSetCallCount = 0
-var underlyingMapPadding: UIEdgeInsets = .zero
-public var mapPadding: UIEdgeInsets {
-        get {
-            return underlyingMapPadding
-        }
-        set {
-            underlyingMapPadding = newValue
-            mapPaddingSetCallCount += 1
-        }
-    }
-var updateAllowsMapInteractionCallCount = 0
-public var updateAllowsMapInteractionHandler: (() -> ())?
-public func updateAllowsMapInteraction()  {
-        updateAllowsMapInteractionCallCount += 1
-    
-        if let updateAllowsMapInteractionHandler = updateAllowsMapInteractionHandler {
-            updateAllowsMapInteractionHandler()
-        }
-        
-    }
-var collapseStepCallCount = 0
-public var collapseStepHandler: (((() -> ())?) -> ())?
-public func collapseStep(completion: (() -> ())?)  {
-        collapseStepCallCount += 1
-    
-        if let collapseStepHandler = collapseStepHandler {
-            collapseStepHandler(completion)
-        }
-        
-    }
-var expandStepCallCount = 0
-public var expandStepHandler: (((() -> ())?) -> ())?
-public func expandStep(completion: (() -> ())?)  {
-        expandStepCallCount += 1
-    
-        if let expandStepHandler = expandStepHandler {
-            expandStepHandler(completion)
-        }
-        
-    }
-var setPinCallCount = 0
-public var setPinHandler: ((Bool) -> ())?
-public func setPin(visible: Bool)  {
-        setPinCallCount += 1
-    
-        if let setPinHandler = setPinHandler {
-            setPinHandler(visible)
-        }
-        
-    }
 }
 
 public class ProductSelectionManagingMock: ProductSelectionManaging {
 
     
-    public init() {}
-    public init(isStarted: Bool = false, isStartedStream: Observable<Bool> = PublishSubject(), productSelection: Observable<ProductSelection> = PublishSubject(), userInitiatedProductSelection: Observable<ProductSelection> = PublishSubject(), userImpressedProductSelection: Observable<ProductSelection?> = PublishSubject()) {
-        self.isStarted = isStarted
-        self.isStartedStream = isStartedStream
-        self.productSelection = productSelection
-        self.userInitiatedProductSelection = userInitiatedProductSelection
-        self.userImpressedProductSelection = userImpressedProductSelection
+
+    public init() {
+
     }
         
     var selectProductCallCount = 0
@@ -11669,173 +5755,6 @@ public class ProductSelectionManagingMock: ProductSelectionManaging {
             selectProductHandler(productId)
         }
         
-    }
-var startCallCount = 0
-public var startHandler: ((InteractorScope) -> ())?
-public func start(_ interactorScope: InteractorScope)  {
-        startCallCount += 1
-    
-        if let startHandler = startHandler {
-            startHandler(interactorScope)
-        }
-        
-    }
-var stopCallCount = 0
-public var stopHandler: (() -> ())?
-public func stop()  {
-        stopCallCount += 1
-    
-        if let stopHandler = stopHandler {
-            stopHandler()
-        }
-        
-    }
-var isStartedSetCallCount = 0
-var underlyingIsStarted: Bool = false
-public var isStarted: Bool {
-        get {
-            return underlyingIsStarted
-        }
-        set {
-            underlyingIsStarted = newValue
-            isStartedSetCallCount += 1
-        }
-    }
-private var isStartedStreamSubjectKind = 0
-var isStartedStreamSubjectSetCallCount = 0
-var isStartedStreamSubject = PublishSubject<Bool>() { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-var isStartedStreamRxSubject: Observable<Bool>! { didSet { isStartedStreamSubjectSetCallCount += 1 } }
-public var isStartedStream: Observable<Bool> {
-        get {
-            if isStartedStreamSubjectKind == 0 {
-                return isStartedStreamSubject
-            } else if isStartedStreamSubjectKind == 1 {
-                return isStartedStreamBehaviorSubject
-            } else if isStartedStreamSubjectKind == 2 {
-                return isStartedStreamReplaySubject
-            } else {
-                return isStartedStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isStartedStreamSubject = val
-                isStartedStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isStartedStreamBehaviorSubject = val
-                isStartedStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isStartedStreamReplaySubject = val
-                isStartedStreamSubjectKind = 2
-            } else {
-                isStartedStreamRxSubject = newValue
-                isStartedStreamSubjectKind = 3
-            }
-        }
-    }
-private var productSelectionSubjectKind = 0
-var productSelectionSubjectSetCallCount = 0
-var productSelectionSubject = PublishSubject<ProductSelection>() { didSet { productSelectionSubjectSetCallCount += 1 } }
-var productSelectionReplaySubject = ReplaySubject<ProductSelection>.create(bufferSize: 1) { didSet { productSelectionSubjectSetCallCount += 1 } }
-var productSelectionBehaviorSubject: BehaviorSubject<ProductSelection>! { didSet { productSelectionSubjectSetCallCount += 1 } }
-var productSelectionRxSubject: Observable<ProductSelection>! { didSet { productSelectionSubjectSetCallCount += 1 } }
-public var productSelection: Observable<ProductSelection> {
-        get {
-            if productSelectionSubjectKind == 0 {
-                return productSelectionSubject
-            } else if productSelectionSubjectKind == 1 {
-                return productSelectionBehaviorSubject
-            } else if productSelectionSubjectKind == 2 {
-                return productSelectionReplaySubject
-            } else {
-                return productSelectionRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ProductSelection> {
-                productSelectionSubject = val
-                productSelectionSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ProductSelection> {
-                productSelectionBehaviorSubject = val
-                productSelectionSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ProductSelection> {
-                productSelectionReplaySubject = val
-                productSelectionSubjectKind = 2
-            } else {
-                productSelectionRxSubject = newValue
-                productSelectionSubjectKind = 3
-            }
-        }
-    }
-private var userInitiatedProductSelectionSubjectKind = 0
-var userInitiatedProductSelectionSubjectSetCallCount = 0
-var userInitiatedProductSelectionSubject = PublishSubject<ProductSelection>() { didSet { userInitiatedProductSelectionSubjectSetCallCount += 1 } }
-var userInitiatedProductSelectionReplaySubject = ReplaySubject<ProductSelection>.create(bufferSize: 1) { didSet { userInitiatedProductSelectionSubjectSetCallCount += 1 } }
-var userInitiatedProductSelectionBehaviorSubject: BehaviorSubject<ProductSelection>! { didSet { userInitiatedProductSelectionSubjectSetCallCount += 1 } }
-var userInitiatedProductSelectionRxSubject: Observable<ProductSelection>! { didSet { userInitiatedProductSelectionSubjectSetCallCount += 1 } }
-public var userInitiatedProductSelection: Observable<ProductSelection> {
-        get {
-            if userInitiatedProductSelectionSubjectKind == 0 {
-                return userInitiatedProductSelectionSubject
-            } else if userInitiatedProductSelectionSubjectKind == 1 {
-                return userInitiatedProductSelectionBehaviorSubject
-            } else if userInitiatedProductSelectionSubjectKind == 2 {
-                return userInitiatedProductSelectionReplaySubject
-            } else {
-                return userInitiatedProductSelectionRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ProductSelection> {
-                userInitiatedProductSelectionSubject = val
-                userInitiatedProductSelectionSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ProductSelection> {
-                userInitiatedProductSelectionBehaviorSubject = val
-                userInitiatedProductSelectionSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ProductSelection> {
-                userInitiatedProductSelectionReplaySubject = val
-                userInitiatedProductSelectionSubjectKind = 2
-            } else {
-                userInitiatedProductSelectionRxSubject = newValue
-                userInitiatedProductSelectionSubjectKind = 3
-            }
-        }
-    }
-private var userImpressedProductSelectionSubjectKind = 0
-var userImpressedProductSelectionSubjectSetCallCount = 0
-var userImpressedProductSelectionSubject = PublishSubject<ProductSelection?>() { didSet { userImpressedProductSelectionSubjectSetCallCount += 1 } }
-var userImpressedProductSelectionReplaySubject = ReplaySubject<ProductSelection?>.create(bufferSize: 1) { didSet { userImpressedProductSelectionSubjectSetCallCount += 1 } }
-var userImpressedProductSelectionBehaviorSubject: BehaviorSubject<ProductSelection?>! { didSet { userImpressedProductSelectionSubjectSetCallCount += 1 } }
-var userImpressedProductSelectionRxSubject: Observable<ProductSelection?>! { didSet { userImpressedProductSelectionSubjectSetCallCount += 1 } }
-public var userImpressedProductSelection: Observable<ProductSelection?> {
-        get {
-            if userImpressedProductSelectionSubjectKind == 0 {
-                return userImpressedProductSelectionSubject
-            } else if userImpressedProductSelectionSubjectKind == 1 {
-                return userImpressedProductSelectionBehaviorSubject
-            } else if userImpressedProductSelectionSubjectKind == 2 {
-                return userImpressedProductSelectionReplaySubject
-            } else {
-                return userImpressedProductSelectionRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<ProductSelection?> {
-                userImpressedProductSelectionSubject = val
-                userImpressedProductSelectionSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<ProductSelection?> {
-                userImpressedProductSelectionBehaviorSubject = val
-                userImpressedProductSelectionSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<ProductSelection?> {
-                userImpressedProductSelectionReplaySubject = val
-                userImpressedProductSelectionSubjectKind = 2
-            } else {
-                userImpressedProductSelectionRxSubject = newValue
-                userImpressedProductSelectionSubjectKind = 3
-            }
-        }
     }
 }
 
@@ -11927,9 +5846,8 @@ class SelectedProductConfigurationViewControllableMock: SelectedProductConfigura
 
     
     init() {}
-    init(listViewHeight: CGFloat = 0.0, uiviewController: UIViewController = UIViewController()) {
+    init(listViewHeight: CGFloat = 0.0) {
         self.listViewHeight = listViewHeight
-        self.uiviewController = uiviewController
     }
         
     var viewListenerSetCallCount = 0
@@ -11977,34 +5895,19 @@ class SelectedProductConfigurationViewControllableMock: SelectedProductConfigura
         }
         
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
 }
 
 class MainRoutingMock: MainRouting {
 
     
     init() {}
-    init(mainActionableItem: MainActionableItem = MainActionableItemMock(), modeActionableItemStream: Observable<ModeActionableItem?> = PublishSubject(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(mainActionableItem: MainActionableItem, modeActionableItemStream: Observable<ModeActionableItem?> = PublishSubject()) {
         self.mainActionableItem = mainActionableItem
         self.modeActionableItemStream = modeActionableItemStream
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var mainActionableItemSetCallCount = 0
-    var underlyingMainActionableItem: MainActionableItem = MainActionableItemMock()
+    var underlyingMainActionableItem: MainActionableItem! 
     var mainActionableItem: MainActionableItem {
         get {
             return underlyingMainActionableItem
@@ -12159,111 +6062,14 @@ class MainRoutingMock: MainRouting {
             }
         }
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class DestinationPromptViewControllableMock: DestinationPromptViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var dismissDestinationEntryAccessoryCallCount = 0
@@ -12320,38 +6126,27 @@ class DestinationPromptViewControllableMock: DestinationPromptViewControllable {
         }
         
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var providedMapPaddingCallCount = 0
-public var providedMapPaddingHandler: (() -> (ProvidedMapPadding))?
-public func providedMapPadding() -> ProvidedMapPadding {
-        providedMapPaddingCallCount += 1
-    
-        if let providedMapPaddingHandler = providedMapPaddingHandler {
-            return providedMapPaddingHandler()
-        }
-        fatalError("providedMapPaddingHandler returns can't have a default value thus its handler must be set")
-    }
 }
 
 class HomeInteractableMock: HomeInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
+    var updateDimmingCallCount = 0
+    var updateDimmingHandler: ((CGFloat, Bool) -> ())?
+    func updateDimming(to opacity: CGFloat, allowsInteraction: Bool)  {
+        updateDimmingCallCount += 1
+    
+        if let updateDimmingHandler = updateDimmingHandler {
+            updateDimmingHandler(opacity, allowsInteraction)
+        }
+        
+    }
+    
     var routerSetCallCount = 0
     var underlyingRouter: HomeRouting? = nil
     var router: HomeRouting? {
@@ -12395,171 +6190,6 @@ class HomeInteractableMock: HomeInteractable {
     
         if let didAttachFeedHandler = didAttachFeedHandler {
             didAttachFeedHandler(feedInteractor)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var dismissFeedPermalinkCallCount = 0
-public var dismissFeedPermalinkHandler: (() -> ())?
-public func dismissFeedPermalink()  {
-        dismissFeedPermalinkCallCount += 1
-    
-        if let dismissFeedPermalinkHandler = dismissFeedPermalinkHandler {
-            dismissFeedPermalinkHandler()
-        }
-        
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var selectingAcceleratorCompletedCallCount = 0
-public var selectingAcceleratorCompletedHandler: (() -> ())?
-public func selectingAcceleratorCompleted()  {
-        selectingAcceleratorCompletedCallCount += 1
-    
-        if let selectingAcceleratorCompletedHandler = selectingAcceleratorCompletedHandler {
-            selectingAcceleratorCompletedHandler()
-        }
-        
-    }
-var acceleratorsDidUpdateCallCount = 0
-public var acceleratorsDidUpdateHandler: ((Bool) -> ())?
-public func acceleratorsDidUpdate(_ areAvailable: Bool)  {
-        acceleratorsDidUpdateCallCount += 1
-    
-        if let acceleratorsDidUpdateHandler = acceleratorsDidUpdateHandler {
-            acceleratorsDidUpdateHandler(areAvailable)
-        }
-        
-    }
-var wantDestinationCallCount = 0
-public var wantDestinationHandler: (() -> ())?
-public func wantDestination()  {
-        wantDestinationCallCount += 1
-    
-        if let wantDestinationHandler = wantDestinationHandler {
-            wantDestinationHandler()
-        }
-        
-    }
-var didSelectStuntCallCount = 0
-public var didSelectStuntHandler: ((FeedInteractable, VehicleViewId) -> ())?
-public func didSelectStunt(_ interactor: FeedInteractable, vehicleViewId: VehicleViewId)  {
-        didSelectStuntCallCount += 1
-    
-        if let didSelectStuntHandler = didSelectStuntHandler {
-            didSelectStuntHandler(interactor, vehicleViewId)
-        }
-        
-    }
-var updateDimmingCallCount = 0
-public var updateDimmingHandler: ((CGFloat, Bool) -> ())?
-public func updateDimming(to opacity: CGFloat, allowsInteraction: Bool)  {
-        updateDimmingCallCount += 1
-    
-        if let updateDimmingHandler = updateDimmingHandler {
-            updateDimmingHandler(opacity, allowsInteraction)
-        }
-        
-    }
-var hideFeedCallCount = 0
-public var hideFeedHandler: (((@escaping () -> ()) -> ()) -> ())?
-public func hideFeed(andPerform actions: (@escaping () -> ()) -> ())  {
-        hideFeedCallCount += 1
-    
-        if let hideFeedHandler = hideFeedHandler {
-            hideFeedHandler(actions)
-        }
-        
-    }
-var waitForScheduleRideCallCount = 0
-public var waitForScheduleRideHandler: (() -> (Observable<(ScheduledRidesDestinationEntryAccessoryActionableItem, ())>))?
-public func waitForScheduleRide() -> Observable<(ScheduledRidesDestinationEntryAccessoryActionableItem, ())> {
-        waitForScheduleRideCallCount += 1
-    
-        if let waitForScheduleRideHandler = waitForScheduleRideHandler {
-            return waitForScheduleRideHandler()
-        }
-        return Observable.empty()
-    }
-var waitForFeedCallCount = 0
-public var waitForFeedHandler: (() -> (Observable<(FeedActionableItem, ())>))?
-public func waitForFeed() -> Observable<(FeedActionableItem, ())> {
-        waitForFeedCallCount += 1
-    
-        if let waitForFeedHandler = waitForFeedHandler {
-            return waitForFeedHandler()
-        }
-        return Observable.empty()
-    }
-var presentFeedPermalinkCallCount = 0
-public var presentFeedPermalinkHandler: ((String) -> ())?
-public func presentFeedPermalink(withPermalinkId permalinkId: String)  {
-        presentFeedPermalinkCallCount += 1
-    
-        if let presentFeedPermalinkHandler = presentFeedPermalinkHandler {
-            presentFeedPermalinkHandler(permalinkId)
         }
         
     }
@@ -12632,11 +6262,9 @@ class TripViewControllableMock: TripViewControllable {
 
     
     init() {}
-    init(cardCollectionViewController: CardCollectionViewControllable = CardCollectionViewControllableMock(), isShowingScrim: Bool = false, themeStream: ThemeStream, uiviewController: UIViewController = UIViewController()) {
+    init(cardCollectionViewController: CardCollectionViewControllable, isShowingScrim: Bool = false) {
         self.cardCollectionViewController = cardCollectionViewController
         self.isShowingScrim = isShowingScrim
-        self.themeStream = themeStream
-        self.uiviewController = uiviewController
     }
         
     var titleSetCallCount = 0
@@ -12663,7 +6291,7 @@ class TripViewControllableMock: TripViewControllable {
     }
     
     var cardCollectionViewControllerSetCallCount = 0
-    var underlyingCardCollectionViewController: CardCollectionViewControllable = CardCollectionViewControllableMock()
+    var underlyingCardCollectionViewController: CardCollectionViewControllable! 
     var cardCollectionViewController: CardCollectionViewControllable {
         get {
             return underlyingCardCollectionViewController
@@ -12906,6 +6534,17 @@ class TripViewControllableMock: TripViewControllable {
         
     }
     
+    var showMapAlertControllerCallCount = 0
+    var showMapAlertControllerHandler: ((Bool, ModularMapAlertOptions, @escaping (_ backgroundViews: [UIView]) -> BaseAlertController) -> ())?
+    func showMapAlertController(dismissPresentedViewController: Bool, options: ModularMapAlertOptions, alertControllerFactory: @escaping (_ backgroundViews: [UIView]) -> BaseAlertController)  {
+        showMapAlertControllerCallCount += 1
+    
+        if let showMapAlertControllerHandler = showMapAlertControllerHandler {
+            showMapAlertControllerHandler(dismissPresentedViewController, options, alertControllerFactory)
+        }
+        
+    }
+    
     var isShowingScrimSetCallCount = 0
     var underlyingIsShowingScrim: Bool = false
     var isShowingScrim: Bool {
@@ -12983,178 +6622,14 @@ class TripViewControllableMock: TripViewControllable {
         }
         
     }
-var dismissCallCount = 0
-public var dismissHandler: ((Bool, (() -> ())?) -> ())?
-public func dismiss(animated: Bool, completion: (() -> ())?)  {
-        dismissCallCount += 1
-    
-        if let dismissHandler = dismissHandler {
-            dismissHandler(animated, completion)
-        }
-        
-    }
-var presentCallCount = 0
-public var presentHandler: ((UIViewController, Bool, (() -> ())?) -> ())?
-public func present(_ viewController: UIViewController, animated: Bool, completion: (() -> ())?)  {
-        presentCallCount += 1
-    
-        if let presentHandler = presentHandler {
-            presentHandler(viewController, animated, completion)
-        }
-        
-    }
-var themeStreamSetCallCount = 0
-var underlyingThemeStream: ThemeStream!
-public var themeStream: ThemeStream {
-        get {
-            return underlyingThemeStream
-        }
-        set {
-            underlyingThemeStream = newValue
-            themeStreamSetCallCount += 1
-        }
-    }
-var presentedViewControllerSetCallCount = 0
-var underlyingPresentedViewController: UIViewController? = nil
-public var presentedViewController: UIViewController? {
-        get {
-            return underlyingPresentedViewController
-        }
-        set {
-            underlyingPresentedViewController = newValue
-            presentedViewControllerSetCallCount += 1
-        }
-    }
-var showAppSettingsCallCount = 0
-public var showAppSettingsHandler: ((ActionSheetController) -> ())?
-public func showAppSettings(_ appSettingsModalVC: ActionSheetController)  {
-        showAppSettingsCallCount += 1
-    
-        if let showAppSettingsHandler = showAppSettingsHandler {
-            showAppSettingsHandler(appSettingsModalVC)
-        }
-        
-    }
-var transitionFromViewControllerCallCount = 0
-public var transitionFromViewControllerHandler: ((UIViewController?, UIViewController?, TransitionDirection, TransitionStyle) -> ())?
-public func transitionFromViewController(_ fromViewController: UIViewController?, toViewController: UIViewController?, direction: TransitionDirection, transitionStyle: TransitionStyle)  {
-        transitionFromViewControllerCallCount += 1
-    
-        if let transitionFromViewControllerHandler = transitionFromViewControllerHandler {
-            transitionFromViewControllerHandler(fromViewController, toViewController, direction, transitionStyle)
-        }
-        
-    }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var showMapAlertControllerCallCount = 0
-public var showMapAlertControllerHandler: ((Bool, ModularMapAlertOptions, @escaping (_ backgroundViews: [UIView]) -> BaseAlertController) -> ())?
-public func showMapAlertController(dismissPresentedViewController: Bool, options: ModularMapAlertOptions, alertControllerFactory: @escaping (_ backgroundViews: [UIView]) -> BaseAlertController)  {
-        showMapAlertControllerCallCount += 1
-    
-        if let showMapAlertControllerHandler = showMapAlertControllerHandler {
-            showMapAlertControllerHandler(dismissPresentedViewController, options, alertControllerFactory)
-        }
-        
-    }
-var createBackgroundSensitiveAlertCallCount = 0
-public var createBackgroundSensitiveAlertHandler: ((Any) -> (Any))?
-public func createBackgroundSensitiveAlert<A: BaseAlertController>(_ handler: @escaping ((_ interactableViews: [UIView]) -> A)) -> A {
-        createBackgroundSensitiveAlertCallCount += 1
-    
-        if let createBackgroundSensitiveAlertHandler = createBackgroundSensitiveAlertHandler {
-            return createBackgroundSensitiveAlertHandler(handler) as! A
-        }
-        fatalError("createBackgroundSensitiveAlertHandler returns can't have a default value thus its handler must be set")
-    }
-var showTripModalViewControllerCallCount = 0
-public var showTripModalViewControllerHandler: ((TripModalViewControllable) -> ())?
-public func showTripModalViewController(viewController: TripModalViewControllable)  {
-        showTripModalViewControllerCallCount += 1
-    
-        if let showTripModalViewControllerHandler = showTripModalViewControllerHandler {
-            showTripModalViewControllerHandler(viewController)
-        }
-        
-    }
-var fullScreenMapTripModalWillShowCallCount = 0
-public var fullScreenMapTripModalWillShowHandler: (() -> ())?
-public func fullScreenMapTripModalWillShow()  {
-        fullScreenMapTripModalWillShowCallCount += 1
-    
-        if let fullScreenMapTripModalWillShowHandler = fullScreenMapTripModalWillShowHandler {
-            fullScreenMapTripModalWillShowHandler()
-        }
-        
-    }
-var hideTripModalViewControllerCallCount = 0
-public var hideTripModalViewControllerHandler: (() -> ())?
-public func hideTripModalViewController()  {
-        hideTripModalViewControllerCallCount += 1
-    
-        if let hideTripModalViewControllerHandler = hideTripModalViewControllerHandler {
-            hideTripModalViewControllerHandler()
-        }
-        
-    }
-var fullScreenMapTripModalWillHideCallCount = 0
-public var fullScreenMapTripModalWillHideHandler: (() -> ())?
-public func fullScreenMapTripModalWillHide()  {
-        fullScreenMapTripModalWillHideCallCount += 1
-    
-        if let fullScreenMapTripModalWillHideHandler = fullScreenMapTripModalWillHideHandler {
-            fullScreenMapTripModalWillHideHandler()
-        }
-        
-    }
 }
 
 class RequestInteractableMock: RequestInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var plusOneCompletedCallCount = 0
@@ -13236,6 +6711,17 @@ class RequestInteractableMock: RequestInteractable {
         
     }
     
+    var wantLocationEditorCallCount = 0
+    var wantLocationEditorHandler: ((LocationEditorContext, LocationEditorMode) -> ())?
+    func wantLocationEditor(context: LocationEditorContext, mode: LocationEditorMode)  {
+        wantLocationEditorCallCount += 1
+    
+        if let wantLocationEditorHandler = wantLocationEditorHandler {
+            wantLocationEditorHandler(context, mode)
+        }
+        
+    }
+    
     var wantToEditDestinationLocationCallCount = 0
     var wantToEditDestinationLocationHandler: (() -> ())?
     func wantToEditDestinationLocation()  {
@@ -13313,6 +6799,17 @@ class RequestInteractableMock: RequestInteractable {
         
     }
     
+    var wantSelectedProductCallCount = 0
+    var wantSelectedProductHandler: ((ProductId) -> ())?
+    func wantSelectedProduct(productId: ProductId)  {
+        wantSelectedProductCallCount += 1
+    
+        if let wantSelectedProductHandler = wantSelectedProductHandler {
+            wantSelectedProductHandler(productId)
+        }
+        
+    }
+    
     var wantToDismissCallCount = 0
     var wantToDismissHandler: (() -> ())?
     func wantToDismiss()  {
@@ -13323,289 +6820,14 @@ class RequestInteractableMock: RequestInteractable {
         }
         
     }
-var wantHomeStateCallCount = 0
-public var wantHomeStateHandler: (() -> ())?
-public func wantHomeState()  {
-        wantHomeStateCallCount += 1
-    
-        if let wantHomeStateHandler = wantHomeStateHandler {
-            wantHomeStateHandler()
-        }
-        
-    }
-var wantSelectedProductCallCount = 0
-public var wantSelectedProductHandler: ((ProductId) -> ())?
-public func wantSelectedProduct(productId: ProductId)  {
-        wantSelectedProductCallCount += 1
-    
-        if let wantSelectedProductHandler = wantSelectedProductHandler {
-            wantSelectedProductHandler(productId)
-        }
-        
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var didUpdatePickupLocationCallCount = 0
-public var didUpdatePickupLocationHandler: ((RequestLocation) -> ())?
-public func didUpdatePickupLocation(location: RequestLocation)  {
-        didUpdatePickupLocationCallCount += 1
-    
-        if let didUpdatePickupLocationHandler = didUpdatePickupLocationHandler {
-            didUpdatePickupLocationHandler(location)
-        }
-        
-    }
-var didUpdateDestinationLocationsCallCount = 0
-public var didUpdateDestinationLocationsHandler: (([RequestLocation]) -> ())?
-public func didUpdateDestinationLocations(locations: [RequestLocation])  {
-        didUpdateDestinationLocationsCallCount += 1
-    
-        if let didUpdateDestinationLocationsHandler = didUpdateDestinationLocationsHandler {
-            didUpdateDestinationLocationsHandler(locations)
-        }
-        
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var locationEditorDidFinishCallCount = 0
-var deactivateCallCount = 0
-public var locationEditorDidFinishHandler: ((Bool) -> ())?
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-public func locationEditorDidFinish(destinationSelected: Bool)  {
-        locationEditorDidFinishCallCount += 1
-    
-        if let locationEditorDidFinishHandler = locationEditorDidFinishHandler {
-            locationEditorDidFinishHandler(destinationSelected)
-        }
-        
-    }
-var locationEditorDidTapBackCallCount = 0
-public var locationEditorDidTapBackHandler: (() -> ())?
-public func locationEditorDidTapBack()  {
-        locationEditorDidTapBackCallCount += 1
-    
-        if let locationEditorDidTapBackHandler = locationEditorDidTapBackHandler {
-            locationEditorDidTapBackHandler()
-        }
-        
-    }
-var didCompleteErrorHandlingCallCount = 0
-public var didCompleteErrorHandlingHandler: ((RequestErrorHandlerResolution) -> ())?
-public func didCompleteErrorHandling(resolution: RequestErrorHandlerResolution)  {
-        didCompleteErrorHandlingCallCount += 1
-    
-        if let didCompleteErrorHandlingHandler = didCompleteErrorHandlingHandler {
-            didCompleteErrorHandlingHandler(resolution)
-        }
-        
-    }
-var selectingAcceleratorCompletedCallCount = 0
-public var selectingAcceleratorCompletedHandler: (() -> ())?
-public func selectingAcceleratorCompleted()  {
-        selectingAcceleratorCompletedCallCount += 1
-    
-        if let selectingAcceleratorCompletedHandler = selectingAcceleratorCompletedHandler {
-            selectingAcceleratorCompletedHandler()
-        }
-        
-    }
-var acceleratorsDidUpdateCallCount = 0
-public var acceleratorsDidUpdateHandler: ((Bool) -> ())?
-public func acceleratorsDidUpdate(_ areAvailable: Bool)  {
-        acceleratorsDidUpdateCallCount += 1
-    
-        if let acceleratorsDidUpdateHandler = acceleratorsDidUpdateHandler {
-            acceleratorsDidUpdateHandler(areAvailable)
-        }
-        
-    }
-var acceleratorsUpdatedCallCount = 0
-public var acceleratorsUpdatedHandler: ((Bool) -> ())?
-public func acceleratorsUpdated(availability: Bool)  {
-        acceleratorsUpdatedCallCount += 1
-    
-        if let acceleratorsUpdatedHandler = acceleratorsUpdatedHandler {
-            acceleratorsUpdatedHandler(availability)
-        }
-        
-    }
-var wantLocationEditorCallCount = 0
-public var wantLocationEditorHandler: ((LocationEditorContext, LocationEditorMode) -> ())?
-public func wantLocationEditor(context: LocationEditorContext, mode: LocationEditorMode)  {
-        wantLocationEditorCallCount += 1
-    
-        if let wantLocationEditorHandler = wantLocationEditorHandler {
-            wantLocationEditorHandler(context, mode)
-        }
-        
-    }
-var cacheClientIDCallCount = 0
-public var cacheClientIDHandler: ((String?) -> (Observable<(RequestActionableItem, Bool)>))?
-public func cacheClientID(clientID: String?) -> Observable<(RequestActionableItem, Bool)> {
-        cacheClientIDCallCount += 1
-    
-        if let cacheClientIDHandler = cacheClientIDHandler {
-            return cacheClientIDHandler(clientID)
-        }
-        return Observable.empty()
-    }
-var setPickupCallCount = 0
-public var setPickupHandler: ((RideRequestLocatable?) -> (Observable<(RequestPickupConfirmedActionableItem, Bool)>))?
-public func setPickup(pickup: RideRequestLocatable?) -> Observable<(RequestPickupConfirmedActionableItem, Bool)> {
-        setPickupCallCount += 1
-    
-        if let setPickupHandler = setPickupHandler {
-            return setPickupHandler(pickup)
-        }
-        return Observable.empty()
-    }
-var waitForHomeCallCount = 0
-public var waitForHomeHandler: (() -> (Observable<(HomeActionableItem, ())>))?
-public func waitForHome() -> Observable<(HomeActionableItem, ())> {
-        waitForHomeCallCount += 1
-    
-        if let waitForHomeHandler = waitForHomeHandler {
-            return waitForHomeHandler()
-        }
-        return Observable.empty()
-    }
-var waitForHomeV2CallCount = 0
-public var waitForHomeV2Handler: (() -> (Observable<(HomeActionableItemV2, ())>))?
-public func waitForHomeV2() -> Observable<(HomeActionableItemV2, ())> {
-        waitForHomeV2CallCount += 1
-    
-        if let waitForHomeV2Handler = waitForHomeV2Handler {
-            return waitForHomeV2Handler()
-        }
-        return Observable.empty()
-    }
-var setProductCallCount = 0
-public var setProductHandler: ((String?, Bool) -> (Observable<(RequestSetDestinationOrTransitionToConfirmationActionableItem, Bool)>))?
-public func setProduct(productID: String?, forceSelection: Bool) -> Observable<(RequestSetDestinationOrTransitionToConfirmationActionableItem, Bool)> {
-        setProductCallCount += 1
-    
-        if let setProductHandler = setProductHandler {
-            return setProductHandler(productID, forceSelection)
-        }
-        return Observable.empty()
-    }
-var setDestinationCallCount = 0
-public var setDestinationHandler: ((RideRequestLocatable?) -> (Observable<(RequestSetProductOrTransitionToConfirmationActionableItem, Bool)>))?
-public func setDestination(destination: RideRequestLocatable?) -> Observable<(RequestSetProductOrTransitionToConfirmationActionableItem, Bool)> {
-        setDestinationCallCount += 1
-    
-        if let setDestinationHandler = setDestinationHandler {
-            return setDestinationHandler(destination)
-        }
-        return Observable.empty()
-    }
-var waitForConfirmationCallCount = 0
-public var waitForConfirmationHandler: (() -> (Observable<(ConfirmationActionableItem, ())>))?
-public func waitForConfirmation() -> Observable<(ConfirmationActionableItem, ())> {
-        waitForConfirmationCallCount += 1
-    
-        if let waitForConfirmationHandler = waitForConfirmationHandler {
-            return waitForConfirmationHandler()
-        }
-        return Observable.empty()
-    }
-var waitForConfirmationV2CallCount = 0
-public var waitForConfirmationV2Handler: (() -> (Observable<(ConfirmationActionableItemV2, ())>))?
-public func waitForConfirmationV2() -> Observable<(ConfirmationActionableItemV2, ())> {
-        waitForConfirmationV2CallCount += 1
-    
-        if let waitForConfirmationV2Handler = waitForConfirmationV2Handler {
-            return waitForConfirmationV2Handler()
-        }
-        return Observable.empty()
-    }
-var goToConfirmationCallCount = 0
-public var goToConfirmationHandler: (() -> (Observable<(ConfirmationActionableItem, ())>))?
-public func goToConfirmation() -> Observable<(ConfirmationActionableItem, ())> {
-        goToConfirmationCallCount += 1
-    
-        if let goToConfirmationHandler = goToConfirmationHandler {
-            return goToConfirmationHandler()
-        }
-        return Observable.empty()
-    }
-var goToConfirmationV2CallCount = 0
-public var goToConfirmationV2Handler: (() -> (Observable<(ConfirmationActionableItemV2, ())>))?
-public func goToConfirmationV2() -> Observable<(ConfirmationActionableItemV2, ())> {
-        goToConfirmationV2CallCount += 1
-    
-        if let goToConfirmationV2Handler = goToConfirmationV2Handler {
-            return goToConfirmationV2Handler()
-        }
-        return Observable.empty()
-    }
 }
 
 class DualLocationEditorEntryViewControllableMock: DualLocationEditorEntryViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var dismissDestinationEntryAccessoryCallCount = 0
@@ -13629,41 +6851,16 @@ class DualLocationEditorEntryViewControllableMock: DualLocationEditorEntryViewCo
         }
         
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var providedMapPaddingCallCount = 0
-public var providedMapPaddingHandler: (() -> (ProvidedMapPadding))?
-public func providedMapPadding() -> ProvidedMapPadding {
-        providedMapPaddingCallCount += 1
-    
-        if let providedMapPaddingHandler = providedMapPaddingHandler {
-            return providedMapPaddingHandler()
-        }
-        fatalError("providedMapPaddingHandler returns can't have a default value thus its handler must be set")
-    }
 }
 
 class TripRoutingMock: TripRouting {
 
     
     init() {}
-    init(interactor: TripInteractable = TripInteractableMock(), viewController: TripViewControllable = TripViewControllableMock(), tripActionableItem: TripActionableItem = TripActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: TripInteractable = TripInteractableMock(), viewController: TripViewControllable = TripViewControllableMock(), tripActionableItem: TripActionableItem) {
         self.interactor = interactor
         self.viewController = viewController
         self.tripActionableItem = tripActionableItem
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -13691,7 +6888,7 @@ class TripRoutingMock: TripRouting {
     }
     
     var tripActionableItemSetCallCount = 0
-    var underlyingTripActionableItem: TripActionableItem = TripActionableItemMock()
+    var underlyingTripActionableItem: TripActionableItem! 
     var tripActionableItem: TripActionableItem {
         get {
             return underlyingTripActionableItem
@@ -13965,103 +7162,6 @@ class TripRoutingMock: TripRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class ConfirmationViewControllerListenerMock: ConfirmationViewControllerListener {
@@ -14098,9 +7198,9 @@ class ConfirmationViewControllerListenerMock: ConfirmationViewControllerListener
 public class TripHeaderRootViewControllableMock: TripHeaderRootViewControllable {
 
     
-    public init() {}
-    public init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    public init() {
+
     }
         
     var showTripHeaderViewControllerCallCount = 0
@@ -14124,30 +7224,15 @@ public class TripHeaderRootViewControllableMock: TripHeaderRootViewControllable 
         }
         
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
 }
 
 class HomeRoutingMock: HomeRouting {
 
     
     init() {}
-    init(interactor: HomeInteractable = HomeInteractableMock(), homeActionableItem: HomeActionableItem = HomeActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: HomeInteractable = HomeInteractableMock(), homeActionableItem: HomeActionableItem) {
         self.interactor = interactor
         self.homeActionableItem = homeActionableItem
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -14163,7 +7248,7 @@ class HomeRoutingMock: HomeRouting {
     }
     
     var homeActionableItemSetCallCount = 0
-    var underlyingHomeActionableItem: HomeActionableItem = HomeActionableItemMock()
+    var underlyingHomeActionableItem: HomeActionableItem! 
     var homeActionableItem: HomeActionableItem {
         get {
             return underlyingHomeActionableItem
@@ -14261,111 +7346,14 @@ class HomeRoutingMock: HomeRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class ConfirmationViewControllableMock: ConfirmationViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var listenerSetCallCount = 0
@@ -14523,70 +7511,15 @@ class ConfirmationViewControllableMock: ConfirmationViewControllable {
         }
         
     }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var showConfirmationActionAccessoryCallCount = 0
-public var showConfirmationActionAccessoryHandler: ((ConfirmationActionAccessoryViewControllable?, @escaping () -> ()) -> ())?
-public func showConfirmationActionAccessory(_ accessory: ConfirmationActionAccessoryViewControllable?, completion: @escaping () -> ())  {
-        showConfirmationActionAccessoryCallCount += 1
-    
-        if let showConfirmationActionAccessoryHandler = showConfirmationActionAccessoryHandler {
-            showConfirmationActionAccessoryHandler(accessory, completion)
-        }
-        
-    }
 }
 
 class ConfirmationRoutingMock: ConfirmationRouting {
 
     
     init() {}
-    init(interactor: ConfirmationInteractable = ConfirmationInteractableMock(), confirmationViewControllable: ConfirmationViewControllable = ConfirmationViewControllableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: ConfirmationInteractable = ConfirmationInteractableMock(), confirmationViewControllable: ConfirmationViewControllable = ConfirmationViewControllableMock()) {
         self.interactor = interactor
         self.confirmationViewControllable = confirmationViewControllable
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -14656,103 +7589,6 @@ class ConfirmationRoutingMock: ConfirmationRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class SelectedProductPresentableMock: SelectedProductPresentable {
@@ -14796,106 +7632,6 @@ class SelectedProductPresentableMock: SelectedProductPresentable {
         }
         
     }
-var updateFareViewModelCallCount = 0
-public var updateFareViewModelHandler: ((ProductCellFareViewModel?, ProductItemId) -> ())?
-public func updateFareViewModel(_ viewModel: ProductCellFareViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateFareViewModelCallCount += 1
-    
-        if let updateFareViewModelHandler = updateFareViewModelHandler {
-            updateFareViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateCapacityViewModelCallCount = 0
-public var updateCapacityViewModelHandler: ((ProductCellCapacityViewModel?, ProductItemId) -> ())?
-public func updateCapacityViewModel(_ viewModel: ProductCellCapacityViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateCapacityViewModelCallCount += 1
-    
-        if let updateCapacityViewModelHandler = updateCapacityViewModelHandler {
-            updateCapacityViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updatePromoViewModelCallCount = 0
-public var updatePromoViewModelHandler: ((ProductCellPromoViewModel?, ProductItemId) -> ())?
-public func updatePromoViewModel(_ viewModel: ProductCellPromoViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updatePromoViewModelCallCount += 1
-    
-        if let updatePromoViewModelHandler = updatePromoViewModelHandler {
-            updatePromoViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateEtdViewModelCallCount = 0
-public var updateEtdViewModelHandler: ((ProductCellEtdViewModel?, ProductItemId) -> ())?
-public func updateEtdViewModel(_ viewModel: ProductCellEtdViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateEtdViewModelCallCount += 1
-    
-        if let updateEtdViewModelHandler = updateEtdViewModelHandler {
-            updateEtdViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateTitleViewModelCallCount = 0
-public var updateTitleViewModelHandler: ((ProductCellTitleViewModel?, ProductItemId) -> ())?
-public func updateTitleViewModel(_ viewModel: ProductCellTitleViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateTitleViewModelCallCount += 1
-    
-        if let updateTitleViewModelHandler = updateTitleViewModelHandler {
-            updateTitleViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateDescriptionViewModelCallCount = 0
-public var updateDescriptionViewModelHandler: ((ProductCellDescriptionViewModel?, ProductItemId) -> ())?
-public func updateDescriptionViewModel(_ viewModel: ProductCellDescriptionViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateDescriptionViewModelCallCount += 1
-    
-        if let updateDescriptionViewModelHandler = updateDescriptionViewModelHandler {
-            updateDescriptionViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateSupplementaryViewModelCallCount = 0
-public var updateSupplementaryViewModelHandler: ((ProductCellSupplementaryViewModel?, ProductItemId) -> ())?
-public func updateSupplementaryViewModel(_ viewModel: ProductCellSupplementaryViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateSupplementaryViewModelCallCount += 1
-    
-        if let updateSupplementaryViewModelHandler = updateSupplementaryViewModelHandler {
-            updateSupplementaryViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateIconViewModelCallCount = 0
-public var updateIconViewModelHandler: ((ProductCellIconViewModel?, ProductItemId) -> ())?
-public func updateIconViewModel(_ viewModel: ProductCellIconViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateIconViewModelCallCount += 1
-    
-        if let updateIconViewModelHandler = updateIconViewModelHandler {
-            updateIconViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateRecommendationViewModelCallCount = 0
-public var updateRecommendationViewModelHandler: ((ProductCellRecommendationViewModel?, ProductItemId) -> ())?
-public func updateRecommendationViewModel(_ viewModel: ProductCellRecommendationViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateRecommendationViewModelCallCount += 1
-    
-        if let updateRecommendationViewModelHandler = updateRecommendationViewModelHandler {
-            updateRecommendationViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateFareExplainerViewModelCallCount = 0
-public var updateFareExplainerViewModelHandler: ((ProductCellFareExplainerViewModel?, ProductItemId) -> ())?
-public func updateFareExplainerViewModel(_ viewModel: ProductCellFareExplainerViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateFareExplainerViewModelCallCount += 1
-    
-        if let updateFareExplainerViewModelHandler = updateFareExplainerViewModelHandler {
-            updateFareExplainerViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
 }
 
 class PlusOnePresentableMock: PlusOnePresentable {
@@ -14926,26 +7662,7 @@ class ModeListenerMock: ModeListener {
     init() {
 
     }
-    var didInitiateMenuOpenCallCount = 0
-public var didInitiateMenuOpenHandler: (() -> ())?
-public func didInitiateMenuOpen()  {
-        didInitiateMenuOpenCallCount += 1
     
-        if let didInitiateMenuOpenHandler = didInitiateMenuOpenHandler {
-            didInitiateMenuOpenHandler()
-        }
-        
-    }
-var didInitiateMenuItemCloseCallCount = 0
-public var didInitiateMenuItemCloseHandler: (() -> ())?
-public func didInitiateMenuItemClose()  {
-        didInitiateMenuItemCloseCallCount += 1
-    
-        if let didInitiateMenuItemCloseHandler = didInitiateMenuItemCloseHandler {
-            didInitiateMenuItemCloseHandler()
-        }
-        
-    }
 }
 
 class SelectedProductConfigurationPresentableMock: SelectedProductConfigurationPresentable {
@@ -15085,106 +7802,6 @@ class ProductSelectionPresentableV2Mock: ProductSelectionPresentableV2 {
         }
         
     }
-var updateFareViewModelCallCount = 0
-public var updateFareViewModelHandler: ((ProductCellFareViewModel?, ProductItemId) -> ())?
-public func updateFareViewModel(_ viewModel: ProductCellFareViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateFareViewModelCallCount += 1
-    
-        if let updateFareViewModelHandler = updateFareViewModelHandler {
-            updateFareViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateCapacityViewModelCallCount = 0
-public var updateCapacityViewModelHandler: ((ProductCellCapacityViewModel?, ProductItemId) -> ())?
-public func updateCapacityViewModel(_ viewModel: ProductCellCapacityViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateCapacityViewModelCallCount += 1
-    
-        if let updateCapacityViewModelHandler = updateCapacityViewModelHandler {
-            updateCapacityViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updatePromoViewModelCallCount = 0
-public var updatePromoViewModelHandler: ((ProductCellPromoViewModel?, ProductItemId) -> ())?
-public func updatePromoViewModel(_ viewModel: ProductCellPromoViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updatePromoViewModelCallCount += 1
-    
-        if let updatePromoViewModelHandler = updatePromoViewModelHandler {
-            updatePromoViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateEtdViewModelCallCount = 0
-public var updateEtdViewModelHandler: ((ProductCellEtdViewModel?, ProductItemId) -> ())?
-public func updateEtdViewModel(_ viewModel: ProductCellEtdViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateEtdViewModelCallCount += 1
-    
-        if let updateEtdViewModelHandler = updateEtdViewModelHandler {
-            updateEtdViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateTitleViewModelCallCount = 0
-public var updateTitleViewModelHandler: ((ProductCellTitleViewModel?, ProductItemId) -> ())?
-public func updateTitleViewModel(_ viewModel: ProductCellTitleViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateTitleViewModelCallCount += 1
-    
-        if let updateTitleViewModelHandler = updateTitleViewModelHandler {
-            updateTitleViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateDescriptionViewModelCallCount = 0
-public var updateDescriptionViewModelHandler: ((ProductCellDescriptionViewModel?, ProductItemId) -> ())?
-public func updateDescriptionViewModel(_ viewModel: ProductCellDescriptionViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateDescriptionViewModelCallCount += 1
-    
-        if let updateDescriptionViewModelHandler = updateDescriptionViewModelHandler {
-            updateDescriptionViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateSupplementaryViewModelCallCount = 0
-public var updateSupplementaryViewModelHandler: ((ProductCellSupplementaryViewModel?, ProductItemId) -> ())?
-public func updateSupplementaryViewModel(_ viewModel: ProductCellSupplementaryViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateSupplementaryViewModelCallCount += 1
-    
-        if let updateSupplementaryViewModelHandler = updateSupplementaryViewModelHandler {
-            updateSupplementaryViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateIconViewModelCallCount = 0
-public var updateIconViewModelHandler: ((ProductCellIconViewModel?, ProductItemId) -> ())?
-public func updateIconViewModel(_ viewModel: ProductCellIconViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateIconViewModelCallCount += 1
-    
-        if let updateIconViewModelHandler = updateIconViewModelHandler {
-            updateIconViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateRecommendationViewModelCallCount = 0
-public var updateRecommendationViewModelHandler: ((ProductCellRecommendationViewModel?, ProductItemId) -> ())?
-public func updateRecommendationViewModel(_ viewModel: ProductCellRecommendationViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateRecommendationViewModelCallCount += 1
-    
-        if let updateRecommendationViewModelHandler = updateRecommendationViewModelHandler {
-            updateRecommendationViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateFareExplainerViewModelCallCount = 0
-public var updateFareExplainerViewModelHandler: ((ProductCellFareExplainerViewModel?, ProductItemId) -> ())?
-public func updateFareExplainerViewModel(_ viewModel: ProductCellFareExplainerViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateFareExplainerViewModelCallCount += 1
-    
-        if let updateFareExplainerViewModelHandler = updateFareExplainerViewModelHandler {
-            updateFareExplainerViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
 }
 
 class SelectedProductConfigurationManagerListenerMock: SelectedProductConfigurationManagerListener {
@@ -15211,9 +7828,8 @@ class RootViewControllableMock: RootViewControllable {
 
     
     init() {}
-    init(statusBarStyle: UIStatusBarStyle, uiviewController: UIViewController = UIViewController()) {
+    init(statusBarStyle: UIStatusBarStyle) {
         self.statusBarStyle = statusBarStyle
-        self.uiviewController = uiviewController
     }
         
     var listenerSetCallCount = 0
@@ -15261,30 +7877,15 @@ class RootViewControllableMock: RootViewControllable {
             statusBarStyleSetCallCount += 1
         }
     }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
 }
 
 class RequestRoutingMock: RequestRouting {
 
     
     init() {}
-    init(interactor: RequestInteractable = RequestInteractableMock(), requestActionableItem: RequestActionableItem = RequestActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: RequestInteractable = RequestInteractableMock(), requestActionableItem: RequestActionableItem) {
         self.interactor = interactor
         self.requestActionableItem = requestActionableItem
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -15300,7 +7901,7 @@ class RequestRoutingMock: RequestRouting {
     }
     
     var requestActionableItemSetCallCount = 0
-    var underlyingRequestActionableItem: RequestActionableItem = RequestActionableItemMock()
+    var underlyingRequestActionableItem: RequestActionableItem! 
     var requestActionableItem: RequestActionableItem {
         get {
             return underlyingRequestActionableItem
@@ -15420,130 +8021,13 @@ class RequestRoutingMock: RequestRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
-var attachModalPluginRouterCallCount = 0
-public var attachModalPluginRouterHandler: ((ViewableRouting) -> ())?
-public func attachModalPluginRouter(router: ViewableRouting)  {
-        attachModalPluginRouterCallCount += 1
-    
-        if let attachModalPluginRouterHandler = attachModalPluginRouterHandler {
-            attachModalPluginRouterHandler(router)
-        }
-        
-    }
-var detachModalPluginRouterCallCount = 0
-public var detachModalPluginRouterHandler: (() -> ())?
-public func detachModalPluginRouter()  {
-        detachModalPluginRouterCallCount += 1
-    
-        if let detachModalPluginRouterHandler = detachModalPluginRouterHandler {
-            detachModalPluginRouterHandler()
-        }
-        
-    }
 }
 
 public class RideDependencyMock: RideDependency {
 
     
     public init() {}
-    public init(riderStream: RiderStreaming = RiderStreamingMock(), marketplaceRiderService: MarketplaceRiderServicing = MarketplaceRiderServicingMock(), realtimeClient: RealtimeClient = RealtimeClientMock(), cachedExperiments: CachedExperimenting = CachedExperimentingMock(), appLifecycle: ApplicationLifecycleBroadcaster = ApplicationLifecycleBroadcasterMock(), deviceLocationProvider: DeviceLocationProviding = DeviceLocationProvidingMock(), userLocationProvider: UserLocationProviding = UserLocationProvidingMock(), applicationLaunchStream: ApplicationLaunchStream = ApplicationLaunchStreamMock(), mutableRiderStatusTargetLocationStream: MutableRiderStatusTargetLocationStreaming = MutableRiderStatusTargetLocationStreamingMock(), statusPollCompletedStream: StatusPollCompletedStreaming = StatusPollCompletedStreamingMock(), modeExperiments: ModeExperimenting = ModeExperimentingMock(), modeEventStream: MutableModeEventStreaming = MutableModeEventStreamingMock()) {
+    public init(riderStream: RiderStreaming, marketplaceRiderService: MarketplaceRiderServicing, realtimeClient: RealtimeClient, cachedExperiments: CachedExperimenting, appLifecycle: ApplicationLifecycleBroadcaster, deviceLocationProvider: DeviceLocationProviding, userLocationProvider: UserLocationProviding, applicationLaunchStream: ApplicationLaunchStream, mutableRiderStatusTargetLocationStream: MutableRiderStatusTargetLocationStreaming, statusPollCompletedStream: StatusPollCompletedStreaming, modeExperiments: ModeExperimenting, modeEventStream: MutableModeEventStreaming) {
         self.riderStream = riderStream
         self.marketplaceRiderService = marketplaceRiderService
         self.realtimeClient = realtimeClient
@@ -15559,7 +8043,7 @@ public class RideDependencyMock: RideDependency {
     }
         
     var riderStreamSetCallCount = 0
-    var underlyingRiderStream: RiderStreaming = RiderStreamingMock()
+    var underlyingRiderStream: RiderStreaming! 
     public var riderStream: RiderStreaming {
         get {
             return underlyingRiderStream
@@ -15571,7 +8055,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var marketplaceRiderServiceSetCallCount = 0
-    var underlyingMarketplaceRiderService: MarketplaceRiderServicing = MarketplaceRiderServicingMock()
+    var underlyingMarketplaceRiderService: MarketplaceRiderServicing! 
     public var marketplaceRiderService: MarketplaceRiderServicing {
         get {
             return underlyingMarketplaceRiderService
@@ -15583,7 +8067,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var realtimeClientSetCallCount = 0
-    var underlyingRealtimeClient: RealtimeClient = RealtimeClientMock()
+    var underlyingRealtimeClient: RealtimeClient! 
     public var realtimeClient: RealtimeClient {
         get {
             return underlyingRealtimeClient
@@ -15595,7 +8079,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var cachedExperimentsSetCallCount = 0
-    var underlyingCachedExperiments: CachedExperimenting = CachedExperimentingMock()
+    var underlyingCachedExperiments: CachedExperimenting! 
     public var cachedExperiments: CachedExperimenting {
         get {
             return underlyingCachedExperiments
@@ -15607,7 +8091,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var appLifecycleSetCallCount = 0
-    var underlyingAppLifecycle: ApplicationLifecycleBroadcaster = ApplicationLifecycleBroadcasterMock()
+    var underlyingAppLifecycle: ApplicationLifecycleBroadcaster! 
     public var appLifecycle: ApplicationLifecycleBroadcaster {
         get {
             return underlyingAppLifecycle
@@ -15619,7 +8103,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var deviceLocationProviderSetCallCount = 0
-    var underlyingDeviceLocationProvider: DeviceLocationProviding = DeviceLocationProvidingMock()
+    var underlyingDeviceLocationProvider: DeviceLocationProviding! 
     public var deviceLocationProvider: DeviceLocationProviding {
         get {
             return underlyingDeviceLocationProvider
@@ -15631,7 +8115,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var userLocationProviderSetCallCount = 0
-    var underlyingUserLocationProvider: UserLocationProviding = UserLocationProvidingMock()
+    var underlyingUserLocationProvider: UserLocationProviding! 
     public var userLocationProvider: UserLocationProviding {
         get {
             return underlyingUserLocationProvider
@@ -15643,7 +8127,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var applicationLaunchStreamSetCallCount = 0
-    var underlyingApplicationLaunchStream: ApplicationLaunchStream = ApplicationLaunchStreamMock()
+    var underlyingApplicationLaunchStream: ApplicationLaunchStream! 
     public var applicationLaunchStream: ApplicationLaunchStream {
         get {
             return underlyingApplicationLaunchStream
@@ -15655,7 +8139,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var mutableRiderStatusTargetLocationStreamSetCallCount = 0
-    var underlyingMutableRiderStatusTargetLocationStream: MutableRiderStatusTargetLocationStreaming = MutableRiderStatusTargetLocationStreamingMock()
+    var underlyingMutableRiderStatusTargetLocationStream: MutableRiderStatusTargetLocationStreaming! 
     public var mutableRiderStatusTargetLocationStream: MutableRiderStatusTargetLocationStreaming {
         get {
             return underlyingMutableRiderStatusTargetLocationStream
@@ -15667,7 +8151,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var statusPollCompletedStreamSetCallCount = 0
-    var underlyingStatusPollCompletedStream: StatusPollCompletedStreaming = StatusPollCompletedStreamingMock()
+    var underlyingStatusPollCompletedStream: StatusPollCompletedStreaming! 
     public var statusPollCompletedStream: StatusPollCompletedStreaming {
         get {
             return underlyingStatusPollCompletedStream
@@ -15679,7 +8163,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var modeExperimentsSetCallCount = 0
-    var underlyingModeExperiments: ModeExperimenting = ModeExperimentingMock()
+    var underlyingModeExperiments: ModeExperimenting! 
     public var modeExperiments: ModeExperimenting {
         get {
             return underlyingModeExperiments
@@ -15691,7 +8175,7 @@ public class RideDependencyMock: RideDependency {
     }
     
     var modeEventStreamSetCallCount = 0
-    var underlyingModeEventStream: MutableModeEventStreaming = MutableModeEventStreamingMock()
+    var underlyingModeEventStream: MutableModeEventStreaming! 
     public var modeEventStream: MutableModeEventStreaming {
         get {
             return underlyingModeEventStream
@@ -15707,9 +8191,8 @@ class ConfirmationViewControllableV2Mock: ConfirmationViewControllableV2 {
 
     
     init() {}
-    init(currentViewState: ConfirmationViewState, uiviewController: UIViewController = UIViewController()) {
+    init(currentViewState: ConfirmationViewState) {
         self.currentViewState = currentViewState
-        self.uiviewController = uiviewController
     }
         
     var currentViewStateSetCallCount = 0
@@ -15834,87 +8317,14 @@ class ConfirmationViewControllableV2Mock: ConfirmationViewControllableV2 {
         }
         
     }
-var leadingButtonConfigurationListenerSetCallCount = 0
-var underlyingLeadingButtonConfigurationListener: LeadingButtonConfigurationListener? = nil
-public var leadingButtonConfigurationListener: LeadingButtonConfigurationListener? {
-        get {
-            return underlyingLeadingButtonConfigurationListener
-        }
-        set {
-            underlyingLeadingButtonConfigurationListener = newValue
-            leadingButtonConfigurationListenerSetCallCount += 1
-        }
-    }
-var prepForTransitionIfNeededCallCount = 0
-public var prepForTransitionIfNeededHandler: (() -> ())?
-public func prepForTransitionIfNeeded()  {
-        prepForTransitionIfNeededCallCount += 1
-    
-        if let prepForTransitionIfNeededHandler = prepForTransitionIfNeededHandler {
-            prepForTransitionIfNeededHandler()
-        }
-        
-    }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var showConfirmationActionAccessoryCallCount = 0
-public var showConfirmationActionAccessoryHandler: ((ConfirmationActionAccessoryViewControllable?, @escaping () -> ()) -> ())?
-public func showConfirmationActionAccessory(_ accessory: ConfirmationActionAccessoryViewControllable?, completion: @escaping () -> ())  {
-        showConfirmationActionAccessoryCallCount += 1
-    
-        if let showConfirmationActionAccessoryHandler = showConfirmationActionAccessoryHandler {
-            showConfirmationActionAccessoryHandler(accessory, completion)
-        }
-        
-    }
 }
 
 class HomeViewControllableV2Mock: HomeViewControllableV2 {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController(), topRowPillContainerView: ThemeableView) {
-        self.uiviewController = uiviewController
-        self.topRowPillContainerView = topRowPillContainerView
+
+    init() {
+
     }
         
     var dismissScheduledRidesHomeEntryCallCount = 0
@@ -16015,127 +8425,15 @@ class HomeViewControllableV2Mock: HomeViewControllableV2 {
         }
         
     }
-var leadingButtonConfigurationListenerSetCallCount = 0
-var underlyingLeadingButtonConfigurationListener: LeadingButtonConfigurationListener? = nil
-public var leadingButtonConfigurationListener: LeadingButtonConfigurationListener? {
-        get {
-            return underlyingLeadingButtonConfigurationListener
-        }
-        set {
-            underlyingLeadingButtonConfigurationListener = newValue
-            leadingButtonConfigurationListenerSetCallCount += 1
-        }
-    }
-var prepForTransitionIfNeededCallCount = 0
-public var prepForTransitionIfNeededHandler: (() -> ())?
-public func prepForTransitionIfNeeded()  {
-        prepForTransitionIfNeededCallCount += 1
-    
-        if let prepForTransitionIfNeededHandler = prepForTransitionIfNeededHandler {
-            prepForTransitionIfNeededHandler()
-        }
-        
-    }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var topRowPillContainerViewSetCallCount = 0
-var underlyingTopRowPillContainerView: ThemeableView!
-public var topRowPillContainerView: ThemeableView {
-        get {
-            return underlyingTopRowPillContainerView
-        }
-        set {
-            underlyingTopRowPillContainerView = newValue
-            topRowPillContainerViewSetCallCount += 1
-        }
-    }
-var topRowPillViewInsertionBehaviorProviderSetCallCount = 0
-var underlyingTopRowPillViewInsertionBehaviorProvider: TopRowPillViewInsertionBehaviorProviding? = nil
-public var topRowPillViewInsertionBehaviorProvider: TopRowPillViewInsertionBehaviorProviding? {
-        get {
-            return underlyingTopRowPillViewInsertionBehaviorProvider
-        }
-        set {
-            underlyingTopRowPillViewInsertionBehaviorProvider = newValue
-            topRowPillViewInsertionBehaviorProviderSetCallCount += 1
-        }
-    }
-var topRowSecondaryContainerViewSetCallCount = 0
-var underlyingTopRowSecondaryContainerView: UIView? = nil
-public var topRowSecondaryContainerView: UIView? {
-        get {
-            return underlyingTopRowSecondaryContainerView
-        }
-        set {
-            underlyingTopRowSecondaryContainerView = newValue
-            topRowSecondaryContainerViewSetCallCount += 1
-        }
-    }
-var topRowSecondaryAnimationProviderSetCallCount = 0
-var underlyingTopRowSecondaryAnimationProvider: TopRowSecondaryViewControllerAnimationProviding? = nil
-public var topRowSecondaryAnimationProvider: TopRowSecondaryViewControllerAnimationProviding? {
-        get {
-            return underlyingTopRowSecondaryAnimationProvider
-        }
-        set {
-            underlyingTopRowSecondaryAnimationProvider = newValue
-            topRowSecondaryAnimationProviderSetCallCount += 1
-        }
-    }
 }
 
 class RideRoutingMock: RideRouting {
 
     
     init() {}
-    init(interactor: RideInteractable = RideInteractableMock(), rideActionableItem: RideActionableItem = RideActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing](), modeChildActionableItem: ModeChildActionableItem = ModeChildActionableItemMock(), modeChildInteractor: ModeChildInteractable = ModeChildInteractableMock()) {
+    init(interactor: RideInteractable = RideInteractableMock(), rideActionableItem: RideActionableItem) {
         self.interactor = interactor
         self.rideActionableItem = rideActionableItem
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
-        self.modeChildActionableItem = modeChildActionableItem
-        self.modeChildInteractor = modeChildInteractor
     }
         
     var interactorSetCallCount = 0
@@ -16151,7 +8449,7 @@ class RideRoutingMock: RideRouting {
     }
     
     var rideActionableItemSetCallCount = 0
-    var underlyingRideActionableItem: RideActionableItem = RideActionableItemMock()
+    var underlyingRideActionableItem: RideActionableItem! 
     var rideActionableItem: RideActionableItem {
         get {
             return underlyingRideActionableItem
@@ -16170,7 +8468,7 @@ class RideRoutingMock: RideRouting {
         if let routeToRequestHandler = routeToRequestHandler {
             return routeToRequestHandler()
         }
-        return RequestActionableItemMock()
+        fatalError("routeToRequestHandler returns can't have a default value thus its handler must be set")
     }
     
     var routeToTripCallCount = 0
@@ -16181,7 +8479,7 @@ class RideRoutingMock: RideRouting {
         if let routeToTripHandler = routeToTripHandler {
             return routeToTripHandler()
         }
-        return TripActionableItemMock()
+        fatalError("routeToTripHandler returns can't have a default value thus its handler must be set")
     }
     
     var routeToAlternativeTripCallCount = 0
@@ -16227,144 +8525,14 @@ class RideRoutingMock: RideRouting {
         }
         
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
-var modeChildActionableItemSetCallCount = 0
-var underlyingModeChildActionableItem: ModeChildActionableItem = ModeChildActionableItemMock()
-public var modeChildActionableItem: ModeChildActionableItem {
-        get {
-            return underlyingModeChildActionableItem
-        }
-        set {
-            underlyingModeChildActionableItem = newValue
-            modeChildActionableItemSetCallCount += 1
-        }
-    }
-var modeChildInteractorSetCallCount = 0
-var underlyingModeChildInteractor: ModeChildInteractable = ModeChildInteractableMock()
-public var modeChildInteractor: ModeChildInteractable {
-        get {
-            return underlyingModeChildInteractor
-        }
-        set {
-            underlyingModeChildInteractor = newValue
-            modeChildInteractorSetCallCount += 1
-        }
-    }
-var updateCallCount = 0
-public var updateHandler: ((ModeStateContext) -> ())?
-public func update(withStateContext context: ModeStateContext)  {
-        updateCallCount += 1
-    
-        if let updateHandler = updateHandler {
-            updateHandler(context)
-        }
-        
-    }
 }
 
 class ProductOptionsInteractableMock: ProductOptionsInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
     var routerSetCallCount = 0
@@ -16401,71 +8569,6 @@ class ProductOptionsInteractableMock: ProductOptionsInteractable {
             underlyingProductOptionsItemListener = newValue
             productOptionsItemListenerSetCallCount += 1
         }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
     }
 }
 
@@ -16761,13 +8864,8 @@ class DualLocationEditorEntryRoutingMock: DualLocationEditorEntryRouting {
 
     
     init() {}
-    init(interactor: DualLocationEditorEntryInteractable = DualLocationEditorEntryInteractableMock(), actionableItem: LocationEditorEntryActionableItem = LocationEditorEntryActionableItemMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: DualLocationEditorEntryInteractable = DualLocationEditorEntryInteractableMock()) {
         self.interactor = interactor
-        self.actionableItem = actionableItem
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -16801,124 +8899,16 @@ class DualLocationEditorEntryRoutingMock: DualLocationEditorEntryRouting {
         if let routeToDestinationEntryAccessoryHandler = routeToDestinationEntryAccessoryHandler {
             return routeToDestinationEntryAccessoryHandler(builder)
         }
-        return DestinationEntryAccessoryActionableItemMock()
-    }
-var actionableItemSetCallCount = 0
-var underlyingActionableItem: LocationEditorEntryActionableItem = LocationEditorEntryActionableItemMock()
-public var actionableItem: LocationEditorEntryActionableItem {
-        get {
-            return underlyingActionableItem
-        }
-        set {
-            underlyingActionableItem = newValue
-            actionableItemSetCallCount += 1
-        }
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
+        fatalError("routeToDestinationEntryAccessoryHandler returns can't have a default value thus its handler must be set")
     }
 }
 
 class RideModalPresentationViewControllableMock: RideModalPresentationViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var presentModalCallCount = 0
@@ -16939,27 +8929,6 @@ class RideModalPresentationViewControllableMock: RideModalPresentationViewContro
     
         if let dismissModalHandler = dismissModalHandler {
             dismissModalHandler(animated, completion)
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var transitionFromViewControllerCallCount = 0
-public var transitionFromViewControllerHandler: ((UIViewController?, UIViewController?, UIViewControllerAnimatedTransitioning?, TransitionContext, CachedExperimenting?) -> ())?
-public func transitionFromViewController(_ fromViewController: UIViewController?, toViewController: UIViewController?, animator: UIViewControllerAnimatedTransitioning?, context: TransitionContext, cachedExperiments: CachedExperimenting?)  {
-        transitionFromViewControllerCallCount += 1
-    
-        if let transitionFromViewControllerHandler = transitionFromViewControllerHandler {
-            transitionFromViewControllerHandler(fromViewController, toViewController, animator, context, cachedExperiments)
         }
         
     }
@@ -17138,11 +9107,9 @@ class HomeViewControllableMock: HomeViewControllable {
 
     
     init() {}
-    init(cardCollectionViewController: CardCollectionViewControllable = CardCollectionViewControllableMock(), destinationEntryEdgeViewsHidden: Bool = false, uiviewController: UIViewController = UIViewController(), topRowPillContainerView: ThemeableView) {
+    init(cardCollectionViewController: CardCollectionViewControllable, destinationEntryEdgeViewsHidden: Bool = false) {
         self.cardCollectionViewController = cardCollectionViewController
         self.destinationEntryEdgeViewsHidden = destinationEntryEdgeViewsHidden
-        self.uiviewController = uiviewController
-        self.topRowPillContainerView = topRowPillContainerView
     }
         
     var updateDimmingCallCount = 0
@@ -17169,7 +9136,7 @@ class HomeViewControllableMock: HomeViewControllable {
     }
     
     var cardCollectionViewControllerSetCallCount = 0
-    var underlyingCardCollectionViewController: CardCollectionViewControllable = CardCollectionViewControllableMock()
+    var underlyingCardCollectionViewController: CardCollectionViewControllable! 
     var cardCollectionViewController: CardCollectionViewControllable {
         get {
             return underlyingCardCollectionViewController
@@ -17312,103 +9279,14 @@ class HomeViewControllableMock: HomeViewControllable {
         }
         
     }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var topRowPillContainerViewSetCallCount = 0
-var underlyingTopRowPillContainerView: ThemeableView!
-public var topRowPillContainerView: ThemeableView {
-        get {
-            return underlyingTopRowPillContainerView
-        }
-        set {
-            underlyingTopRowPillContainerView = newValue
-            topRowPillContainerViewSetCallCount += 1
-        }
-    }
-var topRowPillViewInsertionBehaviorProviderSetCallCount = 0
-var underlyingTopRowPillViewInsertionBehaviorProvider: TopRowPillViewInsertionBehaviorProviding? = nil
-public var topRowPillViewInsertionBehaviorProvider: TopRowPillViewInsertionBehaviorProviding? {
-        get {
-            return underlyingTopRowPillViewInsertionBehaviorProvider
-        }
-        set {
-            underlyingTopRowPillViewInsertionBehaviorProvider = newValue
-            topRowPillViewInsertionBehaviorProviderSetCallCount += 1
-        }
-    }
-var topRowSecondaryContainerViewSetCallCount = 0
-var underlyingTopRowSecondaryContainerView: UIView? = nil
-public var topRowSecondaryContainerView: UIView? {
-        get {
-            return underlyingTopRowSecondaryContainerView
-        }
-        set {
-            underlyingTopRowSecondaryContainerView = newValue
-            topRowSecondaryContainerViewSetCallCount += 1
-        }
-    }
-var topRowSecondaryAnimationProviderSetCallCount = 0
-var underlyingTopRowSecondaryAnimationProvider: TopRowSecondaryViewControllerAnimationProviding? = nil
-public var topRowSecondaryAnimationProvider: TopRowSecondaryViewControllerAnimationProviding? {
-        get {
-            return underlyingTopRowSecondaryAnimationProvider
-        }
-        set {
-            underlyingTopRowSecondaryAnimationProvider = newValue
-            topRowSecondaryAnimationProviderSetCallCount += 1
-        }
-    }
 }
 
 class ProductSelectionRoutingMock: ProductSelectionRouting {
 
     
     init() {}
-    init(interactor: ProductSelectionInteractable = ProductSelectionInteractableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: ProductSelectionInteractable = ProductSelectionInteractableMock()) {
         self.interactor = interactor
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -17422,111 +9300,14 @@ class ProductSelectionRoutingMock: ProductSelectionRouting {
             interactorSetCallCount += 1
         }
     }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
-    }
 }
 
 class RequestViewControllableMock: RequestViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var buttonHidingTransitionDidProgressCallCount = 0
@@ -17562,57 +9343,6 @@ class RequestViewControllableMock: RequestViewControllable {
         }
         
     }
-var presentMapLayerControllerCallCount = 0
-public var presentMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func presentMapLayerController(_ controller: MapLayerControllable)  {
-        presentMapLayerControllerCallCount += 1
-    
-        if let presentMapLayerControllerHandler = presentMapLayerControllerHandler {
-            presentMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissMapLayerControllerCallCount = 0
-public var dismissMapLayerControllerHandler: ((MapLayerControllable) -> ())?
-public func dismissMapLayerController(_ controller: MapLayerControllable)  {
-        dismissMapLayerControllerCallCount += 1
-    
-        if let dismissMapLayerControllerHandler = dismissMapLayerControllerHandler {
-            dismissMapLayerControllerHandler(controller)
-        }
-        
-    }
-var dismissAllMapLayersCallCount = 0
-public var dismissAllMapLayersHandler: (() -> ())?
-public func dismissAllMapLayers()  {
-        dismissAllMapLayersCallCount += 1
-    
-        if let dismissAllMapLayersHandler = dismissAllMapLayersHandler {
-            dismissAllMapLayersHandler()
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var transitionFromViewControllerCallCount = 0
-public var transitionFromViewControllerHandler: ((UIViewController?, UIViewController?, TransitionDirection, TransitionStyle) -> ())?
-public func transitionFromViewController(_ fromViewController: UIViewController?, toViewController: UIViewController?, direction: TransitionDirection, transitionStyle: TransitionStyle)  {
-        transitionFromViewControllerCallCount += 1
-    
-        if let transitionFromViewControllerHandler = transitionFromViewControllerHandler {
-            transitionFromViewControllerHandler(fromViewController, toViewController, direction, transitionStyle)
-        }
-        
-    }
 }
 
 class ProductSelectionViewControllerPricingViewListenerMock: ProductSelectionViewControllerPricingViewListener {
@@ -17639,9 +9369,8 @@ class ProductSelectionViewControllableMock: ProductSelectionViewControllable {
 
     
     init() {}
-    init(transitionStateStream: Observable<ProductSelectionTransitionState> = PublishSubject(), uiviewController: UIViewController = UIViewController()) {
+    init(transitionStateStream: Observable<ProductSelectionTransitionState> = PublishSubject()) {
         self.transitionStateStream = transitionStateStream
-        self.uiviewController = uiviewController
     }
         
     var listenerSetCallCount = 0
@@ -17653,17 +9382,6 @@ class ProductSelectionViewControllableMock: ProductSelectionViewControllable {
         set {
             underlyingListener = newValue
             listenerSetCallCount += 1
-        }
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
         }
     }
     
@@ -18614,12 +10332,8 @@ class RootRoutingMock: RootRouting {
 
     
     init() {}
-    init(interactor: RootInteractable = RootInteractableMock(), lifecycle: Observable<RouterLifecycle> = PublishSubject(), viewControllable: ViewControllable = ViewControllableMock(), interactable: Interactable = InteractableMock(), children: [Routing] = [Routing]()) {
+    init(interactor: RootInteractable = RootInteractableMock()) {
         self.interactor = interactor
-        self.lifecycle = lifecycle
-        self.viewControllable = viewControllable
-        self.interactable = interactable
-        self.children = children
     }
         
     var interactorSetCallCount = 0
@@ -18654,7 +10368,7 @@ class RootRoutingMock: RootRouting {
         if let routeToEntryHandler = routeToEntryHandler {
             return routeToEntryHandler()
         }
-        return EntryActionableItemMock()
+        fatalError("routeToEntryHandler returns can't have a default value thus its handler must be set")
     }
     
     var routeToMainCallCount = 0
@@ -18665,114 +10379,7 @@ class RootRoutingMock: RootRouting {
         if let routeToMainHandler = routeToMainHandler {
             return routeToMainHandler(session, immutableSession)
         }
-        return MainActionableItemMock()
-    }
-var launchFromWindowCallCount = 0
-public var launchFromWindowHandler: ((UIWindow) -> ())?
-public func launchFromWindow(_ window: UIWindow)  {
-        launchFromWindowCallCount += 1
-    
-        if let launchFromWindowHandler = launchFromWindowHandler {
-            launchFromWindowHandler(window)
-        }
-        
-    }
-private var lifecycleSubjectKind = 0
-var lifecycleSubjectSetCallCount = 0
-var lifecycleSubject = PublishSubject<RouterLifecycle>() { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleReplaySubject = ReplaySubject<RouterLifecycle>.create(bufferSize: 1) { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleBehaviorSubject: BehaviorSubject<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-var lifecycleRxSubject: Observable<RouterLifecycle>! { didSet { lifecycleSubjectSetCallCount += 1 } }
-public var lifecycle: Observable<RouterLifecycle> {
-        get {
-            if lifecycleSubjectKind == 0 {
-                return lifecycleSubject
-            } else if lifecycleSubjectKind == 1 {
-                return lifecycleBehaviorSubject
-            } else if lifecycleSubjectKind == 2 {
-                return lifecycleReplaySubject
-            } else {
-                return lifecycleRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<RouterLifecycle> {
-                lifecycleSubject = val
-                lifecycleSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<RouterLifecycle> {
-                lifecycleBehaviorSubject = val
-                lifecycleSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<RouterLifecycle> {
-                lifecycleReplaySubject = val
-                lifecycleSubjectKind = 2
-            } else {
-                lifecycleRxSubject = newValue
-                lifecycleSubjectKind = 3
-            }
-        }
-    }
-var viewControllableSetCallCount = 0
-var underlyingViewControllable: ViewControllable = ViewControllableMock()
-public var viewControllable: ViewControllable {
-        get {
-            return underlyingViewControllable
-        }
-        set {
-            underlyingViewControllable = newValue
-            viewControllableSetCallCount += 1
-        }
-    }
-var interactableSetCallCount = 0
-var underlyingInteractable: Interactable = InteractableMock()
-public var interactable: Interactable {
-        get {
-            return underlyingInteractable
-        }
-        set {
-            underlyingInteractable = newValue
-            interactableSetCallCount += 1
-        }
-    }
-var childrenSetCallCount = 0
-var underlyingChildren: [Routing] = [Routing]()
-public var children: [Routing] {
-        get {
-            return underlyingChildren
-        }
-        set {
-            underlyingChildren = newValue
-            childrenSetCallCount += 1
-        }
-    }
-var loadCallCount = 0
-public var loadHandler: (() -> ())?
-public func load()  {
-        loadCallCount += 1
-    
-        if let loadHandler = loadHandler {
-            loadHandler()
-        }
-        
-    }
-var attachChildCallCount = 0
-public var attachChildHandler: ((Routing) -> ())?
-public func attachChild(_ child: Routing)  {
-        attachChildCallCount += 1
-    
-        if let attachChildHandler = attachChildHandler {
-            attachChildHandler(child)
-        }
-        
-    }
-var detachChildCallCount = 0
-public var detachChildHandler: ((Routing) -> ())?
-public func detachChild(_ child: Routing)  {
-        detachChildCallCount += 1
-    
-        if let detachChildHandler = detachChildHandler {
-            detachChildHandler(child)
-        }
-        
+        fatalError("routeToMainHandler returns can't have a default value thus its handler must be set")
     }
 }
 
@@ -18780,7 +10387,7 @@ public class OrchestratorPluginExtensionMock: OrchestratorPluginExtension {
 
     
     public init() {}
-    public init(networkStatusStream: OrchestratorNetworkStatusStreaming = OrchestratorNetworkStatusStreamingMock(), mutableNetworkStatusStream: MutableOrchestratorNetworkStatusStreaming = MutableOrchestratorNetworkStatusStreamingMock()) {
+    public init(networkStatusStream: OrchestratorNetworkStatusStreaming, mutableNetworkStatusStream: MutableOrchestratorNetworkStatusStreaming) {
         self.networkStatusStream = networkStatusStream
         self.mutableNetworkStatusStream = mutableNetworkStatusStream
     }
@@ -18894,7 +10501,7 @@ public class OrchestratorPluginExtensionMock: OrchestratorPluginExtension {
     }
     
     var networkStatusStreamSetCallCount = 0
-    var underlyingNetworkStatusStream: OrchestratorNetworkStatusStreaming = OrchestratorNetworkStatusStreamingMock()
+    var underlyingNetworkStatusStream: OrchestratorNetworkStatusStreaming! 
     public var networkStatusStream: OrchestratorNetworkStatusStreaming {
         get {
             return underlyingNetworkStatusStream
@@ -18906,7 +10513,7 @@ public class OrchestratorPluginExtensionMock: OrchestratorPluginExtension {
     }
     
     var mutableNetworkStatusStreamSetCallCount = 0
-    var underlyingMutableNetworkStatusStream: MutableOrchestratorNetworkStatusStreaming = MutableOrchestratorNetworkStatusStreamingMock()
+    var underlyingMutableNetworkStatusStream: MutableOrchestratorNetworkStatusStreaming! 
     public var mutableNetworkStatusStream: MutableOrchestratorNetworkStatusStreaming {
         get {
             return underlyingMutableNetworkStatusStream
@@ -19174,12 +10781,22 @@ class MenuListenerMock: MenuListener {
 class RideInteractableMock: RideInteractable {
 
     
-    init() {}
-    init(isActive: Bool = false, isActiveStream: Observable<Bool> = PublishSubject()) {
-        self.isActive = isActive
-        self.isActiveStream = isActiveStream
+
+    init() {
+
     }
         
+    var attachMenuCallCount = 0
+    var attachMenuHandler: (() -> ())?
+    func attachMenu()  {
+        attachMenuCallCount += 1
+    
+        if let attachMenuHandler = attachMenuHandler {
+            attachMenuHandler()
+        }
+        
+    }
+    
     var pickupLocationUpdatedCallCount = 0
     var pickupLocationUpdatedHandler: ((CLLocationCoordinate2D, Date?) -> ())?
     func pickupLocationUpdated(locationCoordinate: CLLocationCoordinate2D, timestamp: Date?)  {
@@ -19301,162 +10918,6 @@ class RideInteractableMock: RideInteractable {
             completeTripIfNeededHandler(riderUUID, tripUUID)
         }
         
-    }
-var alternativeTripCompletedCallCount = 0
-public var alternativeTripCompletedHandler: ((Error?) -> ())?
-public func alternativeTripCompleted(withRequestError requestError: Error?)  {
-        alternativeTripCompletedCallCount += 1
-    
-        if let alternativeTripCompletedHandler = alternativeTripCompletedHandler {
-            alternativeTripCompletedHandler(requestError)
-        }
-        
-    }
-var attachMenuCallCount = 0
-public var attachMenuHandler: (() -> ())?
-public func attachMenu()  {
-        attachMenuCallCount += 1
-    
-        if let attachMenuHandler = attachMenuHandler {
-            attachMenuHandler()
-        }
-        
-    }
-var modeChildListenerSetCallCount = 0
-var underlyingModeChildListener: ModeChildListener? = nil
-public var modeChildListener: ModeChildListener? {
-        get {
-            return underlyingModeChildListener
-        }
-        set {
-            underlyingModeChildListener = newValue
-            modeChildListenerSetCallCount += 1
-        }
-    }
-var isActiveSetCallCount = 0
-var underlyingIsActive: Bool = false
-public var isActive: Bool {
-        get {
-            return underlyingIsActive
-        }
-        set {
-            underlyingIsActive = newValue
-            isActiveSetCallCount += 1
-        }
-    }
-private var isActiveStreamSubjectKind = 0
-var isActiveStreamSubjectSetCallCount = 0
-var isActiveStreamSubject = PublishSubject<Bool>() { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamReplaySubject = ReplaySubject<Bool>.create(bufferSize: 1) { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamBehaviorSubject: BehaviorSubject<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-var isActiveStreamRxSubject: Observable<Bool>! { didSet { isActiveStreamSubjectSetCallCount += 1 } }
-public var isActiveStream: Observable<Bool> {
-        get {
-            if isActiveStreamSubjectKind == 0 {
-                return isActiveStreamSubject
-            } else if isActiveStreamSubjectKind == 1 {
-                return isActiveStreamBehaviorSubject
-            } else if isActiveStreamSubjectKind == 2 {
-                return isActiveStreamReplaySubject
-            } else {
-                return isActiveStreamRxSubject
-            }
-        }
-        set {
-            if let val = newValue as? PublishSubject<Bool> {
-                isActiveStreamSubject = val
-                isActiveStreamSubjectKind = 0
-            } else if let val = newValue as? BehaviorSubject<Bool> {
-                isActiveStreamBehaviorSubject = val
-                isActiveStreamSubjectKind = 1
-            } else if let val = newValue as? ReplaySubject<Bool> {
-                isActiveStreamReplaySubject = val
-                isActiveStreamSubjectKind = 2
-            } else {
-                isActiveStreamRxSubject = newValue
-                isActiveStreamSubjectKind = 3
-            }
-        }
-    }
-var activateCallCount = 0
-public var activateHandler: (() -> ())?
-public func activate()  {
-        activateCallCount += 1
-    
-        if let activateHandler = activateHandler {
-            activateHandler()
-        }
-        
-    }
-var deactivateCallCount = 0
-public var deactivateHandler: (() -> ())?
-public func deactivate()  {
-        deactivateCallCount += 1
-    
-        if let deactivateHandler = deactivateHandler {
-            deactivateHandler()
-        }
-        
-    }
-var closeModalCallCount = 0
-public var closeModalHandler: (() -> ())?
-public func closeModal()  {
-        closeModalCallCount += 1
-    
-        if let closeModalHandler = closeModalHandler {
-            closeModalHandler()
-        }
-        
-    }
-var attachEatsWebCallCount = 0
-public var attachEatsWebHandler: ((ViewableRouting) -> ())?
-public func attachEatsWeb(eatsWebRouter: ViewableRouting)  {
-        attachEatsWebCallCount += 1
-    
-        if let attachEatsWebHandler = attachEatsWebHandler {
-            attachEatsWebHandler(eatsWebRouter)
-        }
-        
-    }
-var detachEatsWebCallCount = 0
-public var detachEatsWebHandler: (() -> ())?
-public func detachEatsWeb()  {
-        detachEatsWebCallCount += 1
-    
-        if let detachEatsWebHandler = detachEatsWebHandler {
-            detachEatsWebHandler()
-        }
-        
-    }
-var onTripCallCount = 0
-public var onTripHandler: (() -> (Observable<(RideActionableItem, Bool)>))?
-public func onTrip() -> Observable<(RideActionableItem, Bool)> {
-        onTripCallCount += 1
-    
-        if let onTripHandler = onTripHandler {
-            return onTripHandler()
-        }
-        return Observable.empty()
-    }
-var waitForRequestCallCount = 0
-public var waitForRequestHandler: (() -> (Observable<(RequestActionableItem, ())>))?
-public func waitForRequest() -> Observable<(RequestActionableItem, ())> {
-        waitForRequestCallCount += 1
-    
-        if let waitForRequestHandler = waitForRequestHandler {
-            return waitForRequestHandler()
-        }
-        return Observable.empty()
-    }
-var waitForTripCallCount = 0
-public var waitForTripHandler: (() -> (Observable<(TripActionableItem, ())>))?
-public func waitForTrip() -> Observable<(TripActionableItem, ())> {
-        waitForTripCallCount += 1
-    
-        if let waitForTripHandler = waitForTripHandler {
-            return waitForTripHandler()
-        }
-        return Observable.empty()
     }
 }
 
@@ -19732,26 +11193,6 @@ class ConfirmationPresentableMock: ConfirmationPresentable {
         }
         
     }
-var canShowContentCallCount = 0
-public var canShowContentHandler: ((ProductOptionsItemButtonViewControllable, ProductOptionsItemContentViewControllable) -> ())?
-public func canShowContent(buttonViewController: ProductOptionsItemButtonViewControllable, contentViewController: ProductOptionsItemContentViewControllable)  {
-        canShowContentCallCount += 1
-    
-        if let canShowContentHandler = canShowContentHandler {
-            canShowContentHandler(buttonViewController, contentViewController)
-        }
-        
-    }
-var canDismissContentCallCount = 0
-public var canDismissContentHandler: ((ProductOptionsItemButtonViewControllable, ProductOptionsItemContentViewControllable) -> ())?
-public func canDismissContent(buttonViewController: ProductOptionsItemButtonViewControllable, contentViewController: ProductOptionsItemContentViewControllable)  {
-        canDismissContentCallCount += 1
-    
-        if let canDismissContentHandler = canDismissContentHandler {
-            canDismissContentHandler(buttonViewController, contentViewController)
-        }
-        
-    }
 }
 
 public class ProductSelectionTooltipContextProvidingMock: ProductSelectionTooltipContextProviding {
@@ -19778,9 +11219,9 @@ public class ProductSelectionTooltipContextProvidingMock: ProductSelectionToolti
 class RideViewControllableMock: RideViewControllable {
 
     
-    init() {}
-    init(uiviewController: UIViewController = UIViewController()) {
-        self.uiviewController = uiviewController
+
+    init() {
+
     }
         
     var embedViewControllerCallCount = 0
@@ -19823,27 +11264,6 @@ class RideViewControllableMock: RideViewControllable {
     
         if let dismissModalHandler = dismissModalHandler {
             dismissModalHandler(animated, completion)
-        }
-        
-    }
-var uiviewControllerSetCallCount = 0
-var underlyingUiviewController: UIViewController = UIViewController()
-public var uiviewController: UIViewController {
-        get {
-            return underlyingUiviewController
-        }
-        set {
-            underlyingUiviewController = newValue
-            uiviewControllerSetCallCount += 1
-        }
-    }
-var transitionFromViewControllerCallCount = 0
-public var transitionFromViewControllerHandler: ((UIViewController?, UIViewController?, UIViewControllerAnimatedTransitioning?, TransitionContext, CachedExperimenting?) -> ())?
-public func transitionFromViewController(_ fromViewController: UIViewController?, toViewController: UIViewController?, animator: UIViewControllerAnimatedTransitioning?, context: TransitionContext, cachedExperiments: CachedExperimenting?)  {
-        transitionFromViewControllerCallCount += 1
-    
-        if let transitionFromViewControllerHandler = transitionFromViewControllerHandler {
-            transitionFromViewControllerHandler(fromViewController, toViewController, animator, context, cachedExperiments)
         }
         
     }
@@ -20774,106 +12194,7 @@ class ProductViewModelUpdatableMock: ProductViewModelUpdatable {
     init() {
 
     }
-    var updateFareViewModelCallCount = 0
-public var updateFareViewModelHandler: ((ProductCellFareViewModel?, ProductItemId) -> ())?
-public func updateFareViewModel(_ viewModel: ProductCellFareViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateFareViewModelCallCount += 1
     
-        if let updateFareViewModelHandler = updateFareViewModelHandler {
-            updateFareViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateCapacityViewModelCallCount = 0
-public var updateCapacityViewModelHandler: ((ProductCellCapacityViewModel?, ProductItemId) -> ())?
-public func updateCapacityViewModel(_ viewModel: ProductCellCapacityViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateCapacityViewModelCallCount += 1
-    
-        if let updateCapacityViewModelHandler = updateCapacityViewModelHandler {
-            updateCapacityViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updatePromoViewModelCallCount = 0
-public var updatePromoViewModelHandler: ((ProductCellPromoViewModel?, ProductItemId) -> ())?
-public func updatePromoViewModel(_ viewModel: ProductCellPromoViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updatePromoViewModelCallCount += 1
-    
-        if let updatePromoViewModelHandler = updatePromoViewModelHandler {
-            updatePromoViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateEtdViewModelCallCount = 0
-public var updateEtdViewModelHandler: ((ProductCellEtdViewModel?, ProductItemId) -> ())?
-public func updateEtdViewModel(_ viewModel: ProductCellEtdViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateEtdViewModelCallCount += 1
-    
-        if let updateEtdViewModelHandler = updateEtdViewModelHandler {
-            updateEtdViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateTitleViewModelCallCount = 0
-public var updateTitleViewModelHandler: ((ProductCellTitleViewModel?, ProductItemId) -> ())?
-public func updateTitleViewModel(_ viewModel: ProductCellTitleViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateTitleViewModelCallCount += 1
-    
-        if let updateTitleViewModelHandler = updateTitleViewModelHandler {
-            updateTitleViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateDescriptionViewModelCallCount = 0
-public var updateDescriptionViewModelHandler: ((ProductCellDescriptionViewModel?, ProductItemId) -> ())?
-public func updateDescriptionViewModel(_ viewModel: ProductCellDescriptionViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateDescriptionViewModelCallCount += 1
-    
-        if let updateDescriptionViewModelHandler = updateDescriptionViewModelHandler {
-            updateDescriptionViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateSupplementaryViewModelCallCount = 0
-public var updateSupplementaryViewModelHandler: ((ProductCellSupplementaryViewModel?, ProductItemId) -> ())?
-public func updateSupplementaryViewModel(_ viewModel: ProductCellSupplementaryViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateSupplementaryViewModelCallCount += 1
-    
-        if let updateSupplementaryViewModelHandler = updateSupplementaryViewModelHandler {
-            updateSupplementaryViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateIconViewModelCallCount = 0
-public var updateIconViewModelHandler: ((ProductCellIconViewModel?, ProductItemId) -> ())?
-public func updateIconViewModel(_ viewModel: ProductCellIconViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateIconViewModelCallCount += 1
-    
-        if let updateIconViewModelHandler = updateIconViewModelHandler {
-            updateIconViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateRecommendationViewModelCallCount = 0
-public var updateRecommendationViewModelHandler: ((ProductCellRecommendationViewModel?, ProductItemId) -> ())?
-public func updateRecommendationViewModel(_ viewModel: ProductCellRecommendationViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateRecommendationViewModelCallCount += 1
-    
-        if let updateRecommendationViewModelHandler = updateRecommendationViewModelHandler {
-            updateRecommendationViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
-var updateFareExplainerViewModelCallCount = 0
-public var updateFareExplainerViewModelHandler: ((ProductCellFareExplainerViewModel?, ProductItemId) -> ())?
-public func updateFareExplainerViewModel(_ viewModel: ProductCellFareExplainerViewModel?, forProductItemId productItemId: ProductItemId)  {
-        updateFareExplainerViewModelCallCount += 1
-    
-        if let updateFareExplainerViewModelHandler = updateFareExplainerViewModelHandler {
-            updateFareExplainerViewModelHandler(viewModel, productItemId)
-        }
-        
-    }
 }
 
 class TripInteractorListenerMock: TripInteractorListener {

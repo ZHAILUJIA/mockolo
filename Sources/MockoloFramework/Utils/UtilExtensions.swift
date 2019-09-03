@@ -118,6 +118,16 @@ extension String {
     var displayableForType: String {
         return displayableComponents.map{$0 == .unknownVal ? "" : $0.capitlizeFirstLetter}.joined()
     }
+    
+    func extractString(offset: Int64, length: Int64) -> String {
+        let utf = self.utf8
+        let start = utf.index(utf.startIndex, offsetBy: Int(offset))
+        if let end = utf.index(utf.startIndex, offsetBy: Int(offset + length), limitedBy: utf.endIndex) {
+            let sub = self[start..<end]
+            return String(sub)
+        }
+        return ""
+    }
 }
 
 extension Data {
